@@ -1,0 +1,8310 @@
+[
+  {
+    "id": "one-pot-rigatoni-champignons",
+    "nom": "One-pot rigatoni champignons & lardons",
+    "tempsMin": 25,
+    "tags": [
+      "rapide",
+      "gourmand"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.33,
+    "kcal": 650,
+    "macros": {
+      "proteines": 28,
+      "glucides": 60,
+      "lipides": 38
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Rigatoni",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Lardons fumés",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.75
+      },
+      {
+        "nom": "Champignons de Paris",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Bouillon de volaille",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Parmesan râpé",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      }
+    ],
+    "etapes": [
+      "Fais revenir les lardons et l'oignon émincé dans une grande poêle.",
+      "Ajoute les champignons tranchés, laisse dorer 5 min.",
+      "Verse les pâtes, le bouillon et de l'eau à hauteur, cuis 12 min à couvert.",
+      "Incorpore la crème, laisse réduire 2 min.",
+      "Sers avec le parmesan râpé."
+    ]
+  },
+  {
+    "id": "pates-crémeuses-epinards",
+    "nom": "Pâtes crémeuses épinards & chèvre",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.21,
+    "kcal": 590,
+    "macros": {
+      "proteines": 20,
+      "glucides": 62,
+      "lipides": 30
+    },
+    "emoji": "🥬",
+    "ingredients": [
+      {
+        "nom": "Tagliatelles",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Épinards frais",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Bûche de chèvre",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Noix",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Cuis les tagliatelles dans l'eau bouillante salée.",
+      "Fais tomber les épinards à l'huile avec l'ail.",
+      "Ajoute la crème et le chèvre émietté, mélange jusqu'à fondre.",
+      "Égoutte les pâtes, mélange à la sauce.",
+      "Parsème de noix concassées."
+    ]
+  },
+  {
+    "id": "spaghetti-aglio-olio",
+    "nom": "Spaghetti aglio e olio piment",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.34,
+    "kcal": 520,
+    "macros": {
+      "proteines": 14,
+      "glucides": 70,
+      "lipides": 20
+    },
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "nom": "Spaghetti",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Piment séché",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Pignons de pin",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      }
+    ],
+    "etapes": [
+      "Cuis les spaghetti al dente.",
+      "Fais blondir l'ail émincé et le piment dans l'huile.",
+      "Torréfie chapelure et pignons à sec dans une poêle.",
+      "Mélange les pâtes à l'huile parfumée et un peu d'eau de cuisson.",
+      "Sers avec persil, pignons et chapelure croustillante."
+    ]
+  },
+  {
+    "id": "penne-arrabiata",
+    "nom": "Penne all'arrabiata",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.22,
+    "kcal": 480,
+    "macros": {
+      "proteines": 15,
+      "glucides": 72,
+      "lipides": 12
+    },
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "nom": "Penne",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Piment",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Basilic",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon, ail et piment dans l'huile.",
+      "Ajoute les tomates, mijote 12 min.",
+      "Cuis les penne al dente.",
+      "Mélange pâtes et sauce.",
+      "Termine avec le basilic frais."
+    ]
+  },
+  {
+    "id": "mac-and-cheese",
+    "nom": "Mac and cheese express",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.37,
+    "kcal": 700,
+    "macros": {
+      "proteines": 26,
+      "glucides": 64,
+      "lipides": 36
+    },
+    "emoji": "🧀",
+    "ingredients": [
+      {
+        "nom": "Macaroni",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Cheddar",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 120,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Farine",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      }
+    ],
+    "etapes": [
+      "Cuis les macaroni.",
+      "Fais un roux beurre-farine, verse le lait en fouettant.",
+      "Ajoute le cheddar, remue jusqu'à fondre, muscade.",
+      "Mélange les pâtes à la sauce.",
+      "Sers bien crémeux."
+    ]
+  },
+  {
+    "id": "gnocchi-poelees-tomates",
+    "nom": "Gnocchi poêlés tomates & mozza",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.92,
+    "kcal": 560,
+    "macros": {
+      "proteines": 18,
+      "glucides": 66,
+      "lipides": 22
+    },
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "nom": "Gnocchi",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Tomates cerises",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Mozzarella",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Basilic",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Poêle les gnocchi dans l'huile jusqu'à dorer.",
+      "Ajoute les tomates cerises et l'ail, laisse fondre 5 min.",
+      "Coupe la mozzarella, dépose-la dessus, couvre 2 min.",
+      "Parsème de basilic.",
+      "Sers immédiatement."
+    ]
+  },
+  {
+    "id": "pad-thai-poulet",
+    "nom": "Pad thaï au poulet",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "fruits à coque",
+      "oeuf",
+      "soja"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.59,
+    "kcal": 620,
+    "macros": {
+      "proteines": 34,
+      "glucides": 58,
+      "lipides": 22
+    },
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "nom": "Nouilles de riz",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Cacahuètes",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.22
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Citron vert",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon nouveau",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Réhydrate les nouilles de riz.",
+      "Saisis le poulet, réserve.",
+      "Brouille l'œuf dans le wok, ajoute carotte râpée.",
+      "Ajoute nouilles, poulet et sauce soja, saute vif.",
+      "Sers avec cacahuètes, oignon nouveau et citron vert."
+    ]
+  },
+  {
+    "id": "nouilles-sautees-legumes",
+    "nom": "Nouilles sautées aux légumes",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten",
+      "soja"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.45,
+    "kcal": 460,
+    "macros": {
+      "proteines": 14,
+      "glucides": 68,
+      "lipides": 14
+    },
+    "emoji": "🥢",
+    "ingredients": [
+      {
+        "nom": "Nouilles chinoises",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Chou chinois",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Huile de sésame",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Cuis les nouilles, égoutte.",
+      "Saute les légumes émincés au wok à feu vif.",
+      "Ajoute gingembre et sauce soja.",
+      "Incorpore les nouilles, mélange.",
+      "Termine avec l'huile de sésame."
+    ]
+  },
+  {
+    "id": "chili-sin-carne",
+    "nom": "Chili sin carne",
+    "tempsMin": 30,
+    "tags": [
+      "protéiné",
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.83,
+    "kcal": 430,
+    "macros": {
+      "proteines": 20,
+      "glucides": 58,
+      "lipides": 10
+    },
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "nom": "Haricots rouges",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Maïs",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon et poivron.",
+      "Ajoute tomates, haricots, maïs et cumin.",
+      "Mijote 20 min à feu doux.",
+      "Cuis le riz en parallèle.",
+      "Sers le chili sur le riz."
+    ]
+  },
+  {
+    "id": "dahl-lentilles-corail",
+    "nom": "Dahl de lentilles corail au lait de coco",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.63,
+    "kcal": 470,
+    "macros": {
+      "proteines": 19,
+      "glucides": 60,
+      "lipides": 16
+    },
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "nom": "Lentilles corail",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Lait de coco",
+        "qteParPersonne": 80,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Curry",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Riz basmati",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.22
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon, gingembre et curry.",
+      "Ajoute lentilles, tomate et lait de coco, couvre d'eau.",
+      "Mijote 20 min jusqu'à consistance crémeuse.",
+      "Cuis le riz basmati.",
+      "Sers le dahl parsemé de coriandre."
+    ]
+  },
+  {
+    "id": "curry-pois-chiches-epinards",
+    "nom": "Curry pois chiches & épinards",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.89,
+    "kcal": 450,
+    "macros": {
+      "proteines": 18,
+      "glucides": 55,
+      "lipides": 15
+    },
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Lait de coco",
+        "qteParPersonne": 70,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Curry",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      }
+    ],
+    "etapes": [
+      "Fais revenir l'oignon et le curry.",
+      "Ajoute tomate, pois chiches et lait de coco.",
+      "Mijote 12 min, ajoute les épinards en fin de cuisson.",
+      "Cuis le riz.",
+      "Sers le curry sur le riz."
+    ]
+  },
+  {
+    "id": "risotto-champignons",
+    "nom": "Risotto aux champignons",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.78,
+    "kcal": 540,
+    "macros": {
+      "proteines": 15,
+      "glucides": 70,
+      "lipides": 18
+    },
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "nom": "Riz arborio",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Vin blanc",
+        "qteParPersonne": 30,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Bouillon de légumes",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Fais revenir l'oignon, ajoute le riz et nacre-le.",
+      "Déglace au vin blanc.",
+      "Ajoute le bouillon louche par louche en remuant.",
+      "Incorpore les champignons poêlés.",
+      "Termine hors du feu avec beurre et parmesan."
+    ]
+  },
+  {
+    "id": "risotto-courgette-citron",
+    "nom": "Risotto courgette & citron",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.63,
+    "kcal": 500,
+    "macros": {
+      "proteines": 14,
+      "glucides": 68,
+      "lipides": 16
+    },
+    "emoji": "🍋",
+    "ingredients": [
+      {
+        "nom": "Riz arborio",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Bouillon de légumes",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Nacre le riz avec l'oignon dans l'huile.",
+      "Ajoute le bouillon louche par louche.",
+      "À mi-cuisson, incorpore la courgette en dés.",
+      "Ajoute le zeste et jus de citron.",
+      "Termine avec le parmesan."
+    ]
+  },
+  {
+    "id": "poulet-curry-coco",
+    "nom": "Poulet au curry coco",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "protéiné",
+      "du monde"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.38,
+    "kcal": 560,
+    "macros": {
+      "proteines": 38,
+      "glucides": 40,
+      "lipides": 24
+    },
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.3
+      },
+      {
+        "nom": "Lait de coco",
+        "qteParPersonne": 80,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Curry",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Riz basmati",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.22
+      }
+    ],
+    "etapes": [
+      "Saisis le poulet, réserve.",
+      "Fais revenir oignon, poivron et curry.",
+      "Ajoute le lait de coco et le poulet, mijote 10 min.",
+      "Cuis le riz.",
+      "Sers le poulet nappé de sauce sur le riz."
+    ]
+  },
+  {
+    "id": "poulet-basquaise",
+    "nom": "Poulet basquaise",
+    "tempsMin": 35,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.34,
+    "kcal": 520,
+    "macros": {
+      "proteines": 36,
+      "glucides": 38,
+      "lipides": 20
+    },
+    "emoji": "🫑",
+    "ingredients": [
+      {
+        "nom": "Cuisse de poulet",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Piment d'Espelette",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Dore les cuisses de poulet dans une cocotte.",
+      "Ajoute oignon, poivrons et ail.",
+      "Verse les tomates et le piment, couvre.",
+      "Mijote 25 min à feu doux.",
+      "Sers avec le riz."
+    ]
+  },
+  {
+    "id": "poulet-teriyaki",
+    "nom": "Poulet teriyaki & riz",
+    "tempsMin": 25,
+    "tags": [
+      "protéiné",
+      "du monde",
+      "gourmand"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.08,
+    "kcal": 590,
+    "macros": {
+      "proteines": 40,
+      "glucides": 55,
+      "lipides": 16
+    },
+    "emoji": "🍱",
+    "ingredients": [
+      {
+        "nom": "Filet de poulet",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.3
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 20,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Miel",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Sésame",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Oignon nouveau",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Coupe le poulet en dés, saisis-le.",
+      "Ajoute soja, miel et gingembre, laisse caraméliser.",
+      "Cuis le riz.",
+      "Nappe le poulet de sauce brillante.",
+      "Sers avec sésame et oignon nouveau."
+    ]
+  },
+  {
+    "id": "emince-poulet-citron",
+    "nom": "Émincé de poulet citron & thym",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "healthy"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.14,
+    "kcal": 420,
+    "macros": {
+      "proteines": 42,
+      "glucides": 12,
+      "lipides": 22
+    },
+    "emoji": "🍋",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Thym",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Saisis le poulet à feu vif.",
+      "Ajoute ail, thym et jus de citron.",
+      "Poêle la courgette en rondelles à côté.",
+      "Mélange le tout 3 min.",
+      "Sers bien doré."
+    ]
+  },
+  {
+    "id": "escalope-milanaise",
+    "nom": "Escalope milanaise & spaghetti",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "oeuf",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.62,
+    "kcal": 720,
+    "macros": {
+      "proteines": 42,
+      "glucides": 62,
+      "lipides": 30
+    },
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "nom": "Escalope de poulet",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.3
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Spaghetti",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Panne l'escalope: farine, œuf, chapelure.",
+      "Fais-la dorer à la poêle.",
+      "Cuis les spaghetti et réchauffe la sauce tomate.",
+      "Sers l'escalope sur les pâtes.",
+      "Parsème de parmesan."
+    ]
+  },
+  {
+    "id": "boeuf-bourguignon-express",
+    "nom": "Bœuf façon bourguignon express",
+    "tempsMin": 35,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.88,
+    "kcal": 560,
+    "macros": {
+      "proteines": 38,
+      "glucides": 28,
+      "lipides": 26
+    },
+    "emoji": "🥩",
+    "ingredients": [
+      {
+        "nom": "Bœuf à mijoter",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.6
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Vin rouge",
+        "qteParPersonne": 40,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Pommes de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Saisis le bœuf en morceaux.",
+      "Ajoute oignon, carotte et champignons.",
+      "Déglace au vin, ajoute le bouillon.",
+      "Mijote 25 min à couvert.",
+      "Sers avec des pommes de terre vapeur."
+    ]
+  },
+  {
+    "id": "boeuf-saute-brocoli",
+    "nom": "Bœuf sauté au brocoli",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "du monde"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.51,
+    "kcal": 480,
+    "macros": {
+      "proteines": 36,
+      "glucides": 30,
+      "lipides": 22
+    },
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "nom": "Bœuf émincé",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.5
+      },
+      {
+        "nom": "Brocoli",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 18,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Huile de sésame",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Saisis le bœuf à feu vif, réserve.",
+      "Saute le brocoli avec ail et gingembre.",
+      "Remets le bœuf, ajoute la sauce soja.",
+      "Cuis le riz.",
+      "Sers avec un filet d'huile de sésame."
+    ]
+  },
+  {
+    "id": "saute-porc-caramel",
+    "nom": "Sauté de porc au caramel",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.75,
+    "kcal": 560,
+    "macros": {
+      "proteines": 34,
+      "glucides": 48,
+      "lipides": 22
+    },
+    "emoji": "🍯",
+    "ingredients": [
+      {
+        "nom": "Sauté de porc",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 18,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Sucre",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Oignon nouveau",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Fais un caramel avec le sucre.",
+      "Ajoute le porc, laisse enrober.",
+      "Verse la sauce soja et l'ail, mijote 12 min.",
+      "Cuis le riz.",
+      "Sers parsemé d'oignon nouveau."
+    ]
+  },
+  {
+    "id": "cotes-porc-moutarde",
+    "nom": "Côtes de porc à la moutarde",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait",
+      "moutarde"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.58,
+    "kcal": 580,
+    "macros": {
+      "proteines": 38,
+      "glucides": 24,
+      "lipides": 34
+    },
+    "emoji": "🐖",
+    "ingredients": [
+      {
+        "nom": "Côte de porc",
+        "qteParPersonne": 140,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Moutarde",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Pommes de terre",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Échalote",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Saisis les côtes de porc, réserve.",
+      "Fais revenir échalote et champignons.",
+      "Ajoute moutarde et crème, laisse épaissir.",
+      "Remets les côtes dans la sauce.",
+      "Sers avec pommes de terre sautées."
+    ]
+  },
+  {
+    "id": "saucisses-lentilles",
+    "nom": "Saucisses & lentilles mijotées",
+    "tempsMin": 35,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.12,
+    "kcal": 620,
+    "macros": {
+      "proteines": 34,
+      "glucides": 46,
+      "lipides": 30
+    },
+    "emoji": "🌭",
+    "ingredients": [
+      {
+        "nom": "Saucisse de Toulouse",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Lentilles vertes",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Lardons",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Thym",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Fais revenir lardons, oignon et carotte.",
+      "Ajoute les lentilles et le bouillon, couvre d'eau.",
+      "Mijote 25 min.",
+      "Poêle les saucisses.",
+      "Sers les saucisses sur les lentilles."
+    ]
+  },
+  {
+    "id": "hachis-parmentier",
+    "nom": "Hachis parmentier maison",
+    "tempsMin": 40,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.42,
+    "kcal": 640,
+    "macros": {
+      "proteines": 30,
+      "glucides": 50,
+      "lipides": 30
+    },
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Pommes de terre",
+        "qteParPersonne": 200,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 60,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.07
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Gruyère râpé",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      }
+    ],
+    "etapes": [
+      "Cuis les pommes de terre, écrase-les avec lait et beurre.",
+      "Fais revenir oignon et bœuf haché avec la tomate.",
+      "Dispose la viande dans un plat, couvre de purée.",
+      "Parsème de gruyère.",
+      "Enfourne 20 min à 200°C."
+    ]
+  },
+  {
+    "id": "gratin-dauphinois-jambon",
+    "nom": "Gratin de pâtes jambon",
+    "tempsMin": 35,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.91,
+    "kcal": 680,
+    "macros": {
+      "proteines": 30,
+      "glucides": 60,
+      "lipides": 32
+    },
+    "emoji": "🧀",
+    "ingredients": [
+      {
+        "nom": "Coquillettes",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Jambon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 60,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.07
+      },
+      {
+        "nom": "Gruyère râpé",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      }
+    ],
+    "etapes": [
+      "Cuis les coquillettes al dente.",
+      "Mélange-les avec crème, lait, jambon en dés et muscade.",
+      "Verse dans un plat à gratin.",
+      "Couvre de gruyère.",
+      "Enfourne 18 min à 200°C."
+    ]
+  },
+  {
+    "id": "saumon-teriyaki-four",
+    "nom": "Saumon teriyaki au four",
+    "tempsMin": 25,
+    "tags": [
+      "protéiné",
+      "du monde",
+      "healthy"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson",
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 3.11,
+    "kcal": 540,
+    "macros": {
+      "proteines": 38,
+      "glucides": 30,
+      "lipides": 28
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Pavé de saumon",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 2.2
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 18,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Miel",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Brocoli",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Sésame",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Mélange soja et miel, badigeonne le saumon.",
+      "Enfourne 15 min à 200°C.",
+      "Cuis le riz et vapeur le brocoli.",
+      "Nappe le saumon du jus.",
+      "Parsème de sésame."
+    ]
+  },
+  {
+    "id": "pavé-saumon-poele",
+    "nom": "Pavé de saumon poêlé & épinards",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "healthy"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "poisson",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 3.27,
+    "kcal": 500,
+    "macros": {
+      "proteines": 36,
+      "glucides": 12,
+      "lipides": 34
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Pavé de saumon",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 2.2
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Poêle le saumon côté peau 5 min.",
+      "Retourne-le 2 min, réserve.",
+      "Fais tomber les épinards avec l'ail.",
+      "Ajoute la crème.",
+      "Sers le saumon sur les épinards avec du citron."
+    ]
+  },
+  {
+    "id": "cabillaud-tomates-olives",
+    "nom": "Cabillaud tomates & olives",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 3.15,
+    "kcal": 400,
+    "macros": {
+      "proteines": 34,
+      "glucides": 20,
+      "lipides": 16
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Dos de cabillaud",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 2
+      },
+      {
+        "nom": "Tomates cerises",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Olives noires",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Pommes de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Poêle les tomates cerises avec l'ail.",
+      "Ajoute les olives.",
+      "Dépose le cabillaud, couvre 8 min.",
+      "Cuis les pommes de terre vapeur.",
+      "Sers le poisson nappé de sauce."
+    ]
+  },
+  {
+    "id": "colin-lentilles-corail",
+    "nom": "Colin & purée de lentilles corail",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.46,
+    "kcal": 430,
+    "macros": {
+      "proteines": 38,
+      "glucides": 40,
+      "lipides": 12
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Filet de colin",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.6
+      },
+      {
+        "nom": "Lentilles corail",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.36
+      },
+      {
+        "nom": "Lait de coco",
+        "qteParPersonne": 50,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.22
+      },
+      {
+        "nom": "Curry",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis les lentilles avec oignon et curry.",
+      "Ajoute le lait de coco, mixe grossièrement.",
+      "Poêle le colin 6 min.",
+      "Dresse le poisson sur la purée.",
+      "Termine avec un trait de citron."
+    ]
+  },
+  {
+    "id": "crevettes-ail-persil",
+    "nom": "Crevettes ail & persil, riz",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "crustacés"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.48,
+    "kcal": 420,
+    "macros": {
+      "proteines": 30,
+      "glucides": 45,
+      "lipides": 12
+    },
+    "emoji": "🍤",
+    "ingredients": [
+      {
+        "nom": "Crevettes",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.8
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Cuis le riz.",
+      "Saute les crevettes à l'ail dans l'huile chaude.",
+      "Ajoute persil et jus de citron.",
+      "Laisse 2 min à feu vif.",
+      "Sers sur le riz."
+    ]
+  },
+  {
+    "id": "risotto-crevettes",
+    "nom": "Risotto aux crevettes",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "crustacés",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.66,
+    "kcal": 560,
+    "macros": {
+      "proteines": 28,
+      "glucides": 62,
+      "lipides": 18
+    },
+    "emoji": "🍤",
+    "ingredients": [
+      {
+        "nom": "Riz arborio",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Crevettes",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.5
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Vin blanc",
+        "qteParPersonne": 30,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Nacre le riz avec l'oignon.",
+      "Déglace au vin blanc.",
+      "Ajoute le bouillon louche par louche.",
+      "Incorpore les crevettes en fin de cuisson.",
+      "Termine avec beurre et parmesan."
+    ]
+  },
+  {
+    "id": "tacos-poisson",
+    "nom": "Tacos de poisson pané",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien"
+    ],
+    "allergenes": [
+      "poisson",
+      "gluten"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.72,
+    "kcal": 560,
+    "macros": {
+      "proteines": 26,
+      "glucides": 58,
+      "lipides": 22
+    },
+    "emoji": "🌮",
+    "ingredients": [
+      {
+        "nom": "Filet de poisson blanc",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Tortillas",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Chou rouge",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Yaourt",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Citron vert",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Panne le poisson dans la chapelure.",
+      "Cuis 12 min à l'air fryer à 200°C.",
+      "Prépare une sauce yaourt-citron vert.",
+      "Garnis les tortillas de chou et poisson.",
+      "Ajoute coriandre et sauce."
+    ]
+  },
+  {
+    "id": "tarte-thon-tomate",
+    "nom": "Tarte thon & tomate",
+    "tempsMin": 35,
+    "tags": [
+      "famille",
+      "gourmand"
+    ],
+    "regimes": [
+      "pescetarien"
+    ],
+    "allergenes": [
+      "poisson",
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.4,
+    "kcal": 600,
+    "macros": {
+      "proteines": 24,
+      "glucides": 52,
+      "lipides": 30
+    },
+    "emoji": "🥧",
+    "ingredients": [
+      {
+        "nom": "Pâte brisée",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Thon en boîte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Moutarde",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.32
+      }
+    ],
+    "etapes": [
+      "Étale la pâte dans un moule.",
+      "Tartine de moutarde, ajoute thon et tomates.",
+      "Bats œuf et crème, verse dessus.",
+      "Parsème de gruyère.",
+      "Enfourne 25 min à 200°C."
+    ]
+  },
+  {
+    "id": "buddha-bowl-pois-chiches",
+    "nom": "Buddha bowl pois chiches rôtis",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.09,
+    "kcal": 480,
+    "macros": {
+      "proteines": 18,
+      "glucides": 58,
+      "lipides": 18
+    },
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Quinoa",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Avocat",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Tahini",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Rôtis les pois chiches épicés 12 min à l'air fryer.",
+      "Cuis le quinoa.",
+      "Râpe la carotte, tranche l'avocat.",
+      "Compose le bowl.",
+      "Nappe de sauce tahini-citron."
+    ]
+  },
+  {
+    "id": "omelette-legumes",
+    "nom": "Omelette aux légumes",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "oeuf",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.69,
+    "kcal": 380,
+    "macros": {
+      "proteines": 24,
+      "glucides": 8,
+      "lipides": 26
+    },
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 3,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.84
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.09
+      },
+      {
+        "nom": "Fromage râpé",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Fais revenir poivron et oignon.",
+      "Bats les œufs, verse-les.",
+      "Ajoute le fromage et le persil.",
+      "Plie l'omelette.",
+      "Sers baveuse."
+    ]
+  },
+  {
+    "id": "frittata-courgette",
+    "nom": "Frittata courgette & feta",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "oeuf",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.04,
+    "kcal": 400,
+    "macros": {
+      "proteines": 24,
+      "glucides": 12,
+      "lipides": 28
+    },
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 3,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.84
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.36
+      },
+      {
+        "nom": "Feta",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.09
+      },
+      {
+        "nom": "Menthe",
+        "qteParPersonne": 4,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Poêle la courgette et l'oignon.",
+      "Bats les œufs, ajoute la feta émiettée.",
+      "Verse sur les légumes dans un plat.",
+      "Enfourne 15 min à 190°C.",
+      "Parsème de menthe."
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "nom": "Shakshuka aux œufs",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.94,
+    "kcal": 380,
+    "macros": {
+      "proteines": 20,
+      "glucides": 26,
+      "lipides": 20
+    },
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 140,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Pain",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon, poivron et ail.",
+      "Ajoute tomates et cumin, mijote 10 min.",
+      "Casse les œufs dans la sauce.",
+      "Couvre jusqu'à cuisson des blancs.",
+      "Sers avec du pain."
+    ]
+  },
+  {
+    "id": "soupe-legumes-vermicelles",
+    "nom": "Soupe de légumes & vermicelles",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.35,
+    "kcal": 300,
+    "macros": {
+      "proteines": 9,
+      "glucides": 52,
+      "lipides": 6
+    },
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Poireau",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.19
+      },
+      {
+        "nom": "Vermicelles",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Céleri",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Émince tous les légumes.",
+      "Fais-les revenir 5 min.",
+      "Couvre d'eau avec le bouillon, mijote 18 min.",
+      "Ajoute les vermicelles 5 min.",
+      "Sers bien chaud."
+    ]
+  },
+  {
+    "id": "soupe-potiron",
+    "nom": "Velouté de potiron",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.47,
+    "kcal": 320,
+    "macros": {
+      "proteines": 7,
+      "glucides": 40,
+      "lipides": 14
+    },
+    "emoji": "🎃",
+    "ingredients": [
+      {
+        "nom": "Potiron",
+        "qteParPersonne": 200,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.17
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Graines de courge",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.2
+      }
+    ],
+    "etapes": [
+      "Fais revenir l'oignon.",
+      "Ajoute potiron et pomme de terre en dés.",
+      "Couvre de bouillon, mijote 20 min.",
+      "Mixe avec la crème et la muscade.",
+      "Sers avec des graines de courge."
+    ]
+  },
+  {
+    "id": "quiche-lorraine",
+    "nom": "Quiche lorraine",
+    "tempsMin": 40,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.66,
+    "kcal": 660,
+    "macros": {
+      "proteines": 24,
+      "glucides": 44,
+      "lipides": 40
+    },
+    "emoji": "🥧",
+    "ingredients": [
+      {
+        "nom": "Pâte brisée",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Lardons",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.75
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 40,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.4
+      }
+    ],
+    "etapes": [
+      "Étale la pâte dans un moule.",
+      "Répartis les lardons dorés.",
+      "Bats œufs, crème et lait.",
+      "Verse l'appareil, ajoute le gruyère.",
+      "Enfourne 30 min à 190°C."
+    ]
+  },
+  {
+    "id": "galettes-sarrasin-oeuf",
+    "nom": "Galettes de sarrasin œuf-fromage",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "oeuf",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.17,
+    "kcal": 450,
+    "macros": {
+      "proteines": 20,
+      "glucides": 40,
+      "lipides": 24
+    },
+    "emoji": "🥞",
+    "ingredients": [
+      {
+        "nom": "Galette de sarrasin",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Réchauffe les galettes au beurre.",
+      "Casse un œuf sur chaque galette.",
+      "Ajoute fromage et champignons poêlés.",
+      "Replie les bords.",
+      "Sers dès que l'œuf est pris."
+    ]
+  },
+  {
+    "id": "croque-monsieur",
+    "nom": "Croque-monsieur gratiné",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.66,
+    "kcal": 560,
+    "macros": {
+      "proteines": 26,
+      "glucides": 42,
+      "lipides": 30
+    },
+    "emoji": "🥪",
+    "ingredients": [
+      {
+        "nom": "Pain de mie",
+        "qteParPersonne": 2,
+        "unite": "tranches",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Jambon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Béchamel",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Beurre le pain de mie.",
+      "Garnis de jambon et fromage.",
+      "Nappe de béchamel dessus.",
+      "Enfourne 10 min à 200°C.",
+      "Sers doré et fondant."
+    ]
+  },
+  {
+    "id": "pizza-margherita",
+    "nom": "Pizza margherita maison",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.65,
+    "kcal": 640,
+    "macros": {
+      "proteines": 24,
+      "glucides": 74,
+      "lipides": 24
+    },
+    "emoji": "🍕",
+    "ingredients": [
+      {
+        "nom": "Pâte à pizza",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Sauce tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Mozzarella",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.65
+      },
+      {
+        "nom": "Basilic",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Étale la pâte.",
+      "Tartine de sauce tomate.",
+      "Répartis la mozzarella.",
+      "Enfourne 12 min à 240°C.",
+      "Ajoute basilic et huile d'olive."
+    ]
+  },
+  {
+    "id": "wrap-falafel",
+    "nom": "Wrap falafel & houmous",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten",
+      "sésame"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2,
+    "kcal": 520,
+    "macros": {
+      "proteines": 18,
+      "glucides": 62,
+      "lipides": 20
+    },
+    "emoji": "🌯",
+    "ingredients": [
+      {
+        "nom": "Falafels",
+        "qteParPersonne": 4,
+        "unite": "u",
+        "rayon": "Surgelés",
+        "prixParPersonne": 0.8
+      },
+      {
+        "nom": "Tortilla",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Houmous",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Concombre",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      }
+    ],
+    "etapes": [
+      "Cuis les falafels 10 min à l'air fryer.",
+      "Tartine la tortilla de houmous.",
+      "Ajoute salade, tomate et concombre.",
+      "Dépose les falafels.",
+      "Roule serré."
+    ]
+  },
+  {
+    "id": "burger-vegetarien",
+    "nom": "Burger végétarien haricots",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 1.61,
+    "kcal": 600,
+    "macros": {
+      "proteines": 22,
+      "glucides": 62,
+      "lipides": 26
+    },
+    "emoji": "🍔",
+    "ingredients": [
+      {
+        "nom": "Pain burger",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Haricots rouges",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Cheddar",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Écrase les haricots avec la chapelure, forme un steak.",
+      "Cuis 12 min à l'air fryer.",
+      "Ajoute le cheddar 2 min pour fondre.",
+      "Garnis le pain de salade, tomate, oignon.",
+      "Dépose le steak et referme."
+    ]
+  },
+  {
+    "id": "gratin-courgettes",
+    "nom": "Gratin de courgettes",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.02,
+    "kcal": 420,
+    "macros": {
+      "proteines": 18,
+      "glucides": 20,
+      "lipides": 28
+    },
+    "emoji": "🥒",
+    "ingredients": [
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 200,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.8
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      }
+    ],
+    "etapes": [
+      "Poêle les courgettes en rondelles.",
+      "Bats œuf, crème et muscade.",
+      "Mélange courgettes et appareil dans un plat.",
+      "Couvre de gruyère.",
+      "Enfourne 25 min à 200°C."
+    ]
+  },
+  {
+    "id": "tian-provencal",
+    "nom": "Tian provençal & boulgour",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.68,
+    "kcal": 380,
+    "macros": {
+      "proteines": 10,
+      "glucides": 58,
+      "lipides": 12
+    },
+    "emoji": "🍆",
+    "ingredients": [
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.36
+      },
+      {
+        "nom": "Aubergine",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Boulgour",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Herbes de Provence",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Tranche les légumes finement.",
+      "Range-les en rosace dans un plat.",
+      "Arrose d'huile et d'herbes.",
+      "Enfourne 30 min à 200°C.",
+      "Sers avec le boulgour cuit."
+    ]
+  },
+  {
+    "id": "ratatouille-riz",
+    "nom": "Ratatouille & riz",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.95,
+    "kcal": 360,
+    "macros": {
+      "proteines": 8,
+      "glucides": 60,
+      "lipides": 10
+    },
+    "emoji": "🍆",
+    "ingredients": [
+      {
+        "nom": "Aubergine",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.36
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Coupe tous les légumes en dés.",
+      "Fais revenir l'oignon puis le poivron.",
+      "Ajoute aubergine, courgette et tomate.",
+      "Mijote 30 min à feu doux.",
+      "Sers avec le riz."
+    ]
+  },
+  {
+    "id": "poelée-legumes-feta",
+    "nom": "Poêlée de légumes & feta",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.01,
+    "kcal": 360,
+    "macros": {
+      "proteines": 14,
+      "glucides": 30,
+      "lipides": 20
+    },
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Tomates cerises",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Feta",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Saute courgette et poivron.",
+      "Ajoute tomates cerises et pois chiches.",
+      "Laisse dorer 5 min.",
+      "Émiette la feta dessus.",
+      "Sers tiède."
+    ]
+  },
+  {
+    "id": "salade-cesar",
+    "nom": "Salade César au poulet",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "healthy"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf",
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.32,
+    "kcal": 480,
+    "macros": {
+      "proteines": 34,
+      "glucides": 24,
+      "lipides": 28
+    },
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Salade romaine",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Croûtons",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Sauce César",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Saisis le poulet, coupe-le en lamelles.",
+      "Lave et coupe la salade.",
+      "Mélange salade, croûtons et sauce.",
+      "Ajoute le poulet.",
+      "Parsème de parmesan."
+    ]
+  },
+  {
+    "id": "salade-lentilles-chevre",
+    "nom": "Salade tiède lentilles & chèvre",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.92,
+    "kcal": 420,
+    "macros": {
+      "proteines": 20,
+      "glucides": 42,
+      "lipides": 18
+    },
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "nom": "Lentilles vertes",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Chèvre frais",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Oignon rouge",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Noix",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Vinaigrette",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Roquette",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Cuis les lentilles 20 min.",
+      "Prépare la vinaigrette.",
+      "Mélange lentilles tièdes, tomate et oignon.",
+      "Ajoute roquette et chèvre.",
+      "Parsème de noix."
+    ]
+  },
+  {
+    "id": "wok-poulet-cajou",
+    "nom": "Wok de poulet aux noix de cajou",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "fruits à coque",
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.47,
+    "kcal": 570,
+    "macros": {
+      "proteines": 38,
+      "glucides": 44,
+      "lipides": 24
+    },
+    "emoji": "🥜",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Noix de cajou",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Saisis le poulet au wok.",
+      "Ajoute poivron, oignon et gingembre.",
+      "Verse la sauce soja.",
+      "Ajoute les noix de cajou.",
+      "Sers avec le riz."
+    ]
+  },
+  {
+    "id": "boeuf-bolognaise",
+    "nom": "Spaghetti bolognaise",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.13,
+    "kcal": 640,
+    "macros": {
+      "proteines": 34,
+      "glucides": 62,
+      "lipides": 24
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Spaghetti",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon, carotte et ail.",
+      "Ajoute le bœuf haché, fais colorer.",
+      "Verse les tomates, mijote 20 min.",
+      "Cuis les spaghetti.",
+      "Nappe les pâtes de sauce."
+    ]
+  },
+  {
+    "id": "lasagnes-bolognaise",
+    "nom": "Lasagnes à la bolognaise",
+    "tempsMin": 45,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.71,
+    "kcal": 720,
+    "macros": {
+      "proteines": 34,
+      "glucides": 60,
+      "lipides": 34
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Feuilles de lasagne",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Béchamel",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 5,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Prépare une sauce bolognaise.",
+      "Alterne lasagnes, bolognaise et béchamel.",
+      "Termine par béchamel et gruyère.",
+      "Enfourne 30 min à 190°C.",
+      "Laisse reposer avant de servir."
+    ]
+  },
+  {
+    "id": "tortilla-espagnole",
+    "nom": "Tortilla española",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.52,
+    "kcal": 460,
+    "macros": {
+      "proteines": 18,
+      "glucides": 34,
+      "lipides": 26
+    },
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 160,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 3,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.84
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Sel",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.01
+      }
+    ],
+    "etapes": [
+      "Coupe les pommes de terre fines, confis-les à l'huile.",
+      "Ajoute l'oignon.",
+      "Bats les œufs, mélange aux pommes de terre.",
+      "Cuis la tortilla des deux côtés.",
+      "Sers tiède."
+    ]
+  },
+  {
+    "id": "chakchouka-merguez",
+    "nom": "Poêlée merguez & semoule",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.2,
+    "kcal": 620,
+    "macros": {
+      "proteines": 28,
+      "glucides": 52,
+      "lipides": 32
+    },
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "nom": "Merguez",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Semoule",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      }
+    ],
+    "etapes": [
+      "Poêle les merguez, réserve.",
+      "Fais revenir les légumes avec le cumin.",
+      "Prépare la semoule.",
+      "Remets les merguez avec les légumes.",
+      "Sers sur la semoule."
+    ]
+  },
+  {
+    "id": "couscous-legumes",
+    "nom": "Couscous de légumes",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.47,
+    "kcal": 440,
+    "macros": {
+      "proteines": 14,
+      "glucides": 74,
+      "lipides": 8
+    },
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "nom": "Semoule",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Navet",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Épices ras el hanout",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Fais mijoter les légumes avec les épices.",
+      "Ajoute les pois chiches.",
+      "Prépare la semoule à part.",
+      "Laisse mijoter 25 min.",
+      "Sers les légumes sur la semoule."
+    ]
+  },
+  {
+    "id": "gaufres-salees-legumes",
+    "nom": "Gaufres salées & salade",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.31,
+    "kcal": 500,
+    "macros": {
+      "proteines": 18,
+      "glucides": 46,
+      "lipides": 26
+    },
+    "emoji": "🧇",
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 80,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Levure",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Prépare une pâte à gaufres avec le fromage.",
+      "Cuis dans le gaufrier.",
+      "Assaisonne la salade.",
+      "Sers les gaufres chaudes.",
+      "Accompagne de salade."
+    ]
+  },
+  {
+    "id": "pancakes-oeufs-bacon",
+    "nom": "Brunch pancakes œufs & bacon",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.8,
+    "kcal": 620,
+    "macros": {
+      "proteines": 28,
+      "glucides": 54,
+      "lipides": 32
+    },
+    "emoji": "🥞",
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 80,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Bacon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Sirop d'érable",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Levure",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Prépare la pâte à pancakes.",
+      "Cuis les pancakes à la poêle.",
+      "Poêle le bacon et les œufs.",
+      "Dresse pancakes, œufs et bacon.",
+      "Arrose de sirop d'érable."
+    ]
+  },
+  {
+    "id": "nems-riz-cantonais",
+    "nom": "Riz cantonais express",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "oeuf",
+      "soja",
+      "gluten",
+      "crustacés"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.99,
+    "kcal": 520,
+    "macros": {
+      "proteines": 22,
+      "glucides": 62,
+      "lipides": 18
+    },
+    "emoji": "🍚",
+    "ingredients": [
+      {
+        "nom": "Riz",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Jambon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Petits pois",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Surgelés",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Crevettes",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 12,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Oignon nouveau",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis le riz, laisse refroidir.",
+      "Brouille l'œuf au wok.",
+      "Ajoute jambon, petits pois et crevettes.",
+      "Incorpore le riz et la sauce soja.",
+      "Sers avec oignon nouveau."
+    ]
+  },
+  {
+    "id": "gratin-chou-fleur",
+    "nom": "Gratin de chou-fleur",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.79,
+    "kcal": 400,
+    "macros": {
+      "proteines": 16,
+      "glucides": 24,
+      "lipides": 24
+    },
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "nom": "Chou-fleur",
+        "qteParPersonne": 200,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Béchamel",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Cuis le chou-fleur en bouquets.",
+      "Prépare une béchamel muscadée.",
+      "Dispose le chou-fleur dans un plat, nappe de béchamel.",
+      "Parsème de gruyère.",
+      "Enfourne 20 min à 200°C."
+    ]
+  },
+  {
+    "id": "parmentier-canard",
+    "nom": "Parmentier de canard",
+    "tempsMin": 40,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.42,
+    "kcal": 680,
+    "macros": {
+      "proteines": 30,
+      "glucides": 48,
+      "lipides": 38
+    },
+    "emoji": "🦆",
+    "ingredients": [
+      {
+        "nom": "Confit de canard effiloché",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.6
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 200,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 50,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Prépare une purée avec lait et beurre.",
+      "Effiloche le canard, mélange à l'oignon.",
+      "Dispose le canard dans un plat, couvre de purée.",
+      "Enfourne 20 min à 200°C.",
+      "Parsème de persil."
+    ]
+  },
+  {
+    "id": "blanquette-veau-express",
+    "nom": "Blanquette de veau express",
+    "tempsMin": 40,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.87,
+    "kcal": 580,
+    "macros": {
+      "proteines": 34,
+      "glucides": 30,
+      "lipides": 30
+    },
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "nom": "Sauté de veau",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.7
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Fais revenir le veau sans colorer.",
+      "Ajoute carotte, oignon et bouillon, mijote 25 min.",
+      "Ajoute les champignons.",
+      "Incorpore la crème hors du feu.",
+      "Sers avec le riz."
+    ]
+  },
+  {
+    "id": "poulet-roti-legumes",
+    "nom": "Poulet rôti & légumes racines",
+    "tempsMin": 45,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.02,
+    "kcal": 560,
+    "macros": {
+      "proteines": 40,
+      "glucides": 32,
+      "lipides": 26
+    },
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "nom": "Cuisse de poulet",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Thym",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Dispose poulet et légumes dans un plat.",
+      "Arrose d'huile, ail et thym.",
+      "Enfourne 35 min à 200°C.",
+      "Retourne à mi-cuisson.",
+      "Sers bien doré."
+    ]
+  },
+  {
+    "id": "cordon-bleu-puree",
+    "nom": "Cordon bleu & purée",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.06,
+    "kcal": 660,
+    "macros": {
+      "proteines": 36,
+      "glucides": 48,
+      "lipides": 32
+    },
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "nom": "Cordon bleu",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Surgelés",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 180,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Lait",
+        "qteParPersonne": 50,
+        "unite": "ml",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Petits pois",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Surgelés",
+        "prixParPersonne": 0.3
+      }
+    ],
+    "etapes": [
+      "Cuis le cordon bleu 12 min à l'air fryer.",
+      "Prépare une purée lait-beurre.",
+      "Réchauffe les petits pois.",
+      "Dresse cordon bleu, purée et pois.",
+      "Sers chaud."
+    ]
+  },
+  {
+    "id": "nuggets-maison-frites",
+    "nom": "Nuggets maison & frites",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "oeuf"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.03,
+    "kcal": 640,
+    "macros": {
+      "proteines": 32,
+      "glucides": 58,
+      "lipides": 28
+    },
+    "emoji": "🍟",
+    "ingredients": [
+      {
+        "nom": "Filet de poulet",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 160,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Farine",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Coupe le poulet en morceaux, panne-les.",
+      "Taille les pommes de terre en frites.",
+      "Cuis les frites 18 min à l'air fryer.",
+      "Cuis les nuggets 12 min.",
+      "Sers ensemble."
+    ]
+  },
+  {
+    "id": "brochettes-poulet-airfryer",
+    "nom": "Brochettes de poulet marinées",
+    "tempsMin": 25,
+    "tags": [
+      "protéiné",
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.32,
+    "kcal": 440,
+    "macros": {
+      "proteines": 42,
+      "glucides": 16,
+      "lipides": 22
+    },
+    "emoji": "🍢",
+    "ingredients": [
+      {
+        "nom": "Filet de poulet",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Paprika",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Marine le poulet avec paprika, huile et citron.",
+      "Monte les brochettes avec poivron et oignon.",
+      "Cuis 15 min à l'air fryer à 200°C.",
+      "Cuis le riz.",
+      "Sers les brochettes sur le riz."
+    ]
+  },
+  {
+    "id": "legumes-rotis-airfryer",
+    "nom": "Légumes rôtis & halloumi",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.19,
+    "kcal": 420,
+    "macros": {
+      "proteines": 20,
+      "glucides": 30,
+      "lipides": 24
+    },
+    "emoji": "🧆",
+    "ingredients": [
+      {
+        "nom": "Halloumi",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Oignon rouge",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Paprika",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      }
+    ],
+    "etapes": [
+      "Coupe les légumes en morceaux.",
+      "Mélange avec huile et paprika.",
+      "Cuis 15 min à l'air fryer.",
+      "Ajoute le halloumi tranché 5 min.",
+      "Sers avec les pois chiches."
+    ]
+  },
+  {
+    "id": "croquettes-pomme-terre",
+    "nom": "Croquettes de pomme de terre & salade",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 1.58,
+    "kcal": 520,
+    "macros": {
+      "proteines": 16,
+      "glucides": 56,
+      "lipides": 24
+    },
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 180,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Farine",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Vinaigrette",
+        "qteParPersonne": 12,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Écrase les pommes de terre cuites avec le fromage.",
+      "Forme des croquettes, panne-les.",
+      "Cuis 15 min à l'air fryer.",
+      "Assaisonne la salade.",
+      "Sers croquettes et salade."
+    ]
+  },
+  {
+    "id": "poivrons-farcis",
+    "nom": "Poivrons farcis riz & bœuf",
+    "tempsMin": 45,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.02,
+    "kcal": 520,
+    "macros": {
+      "proteines": 26,
+      "glucides": 48,
+      "lipides": 22
+    },
+    "emoji": "🫑",
+    "ingredients": [
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Cuis le riz à moitié.",
+      "Fais revenir bœuf, oignon et tomate.",
+      "Mélange riz et viande.",
+      "Farcis les poivrons évidés.",
+      "Enfourne 30 min à 190°C."
+    ]
+  },
+  {
+    "id": "aubergines-farcies",
+    "nom": "Aubergines farcies végé",
+    "tempsMin": 45,
+    "tags": [
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.08,
+    "kcal": 420,
+    "macros": {
+      "proteines": 14,
+      "glucides": 40,
+      "lipides": 20
+    },
+    "emoji": "🍆",
+    "ingredients": [
+      {
+        "nom": "Aubergine",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Boulgour",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Feta",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Pignons",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Évide les aubergines, réserve la chair.",
+      "Fais revenir chair, oignon, tomate et boulgour.",
+      "Farcis les aubergines.",
+      "Ajoute feta et pignons.",
+      "Enfourne 30 min à 200°C."
+    ]
+  },
+  {
+    "id": "soupe-thai-coco",
+    "nom": "Soupe thaï coco & crevettes",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "crustacés"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.86,
+    "kcal": 420,
+    "macros": {
+      "proteines": 26,
+      "glucides": 30,
+      "lipides": 22
+    },
+    "emoji": "🍜",
+    "ingredients": [
+      {
+        "nom": "Crevettes",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.5
+      },
+      {
+        "nom": "Lait de coco",
+        "qteParPersonne": 100,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Nouilles de riz",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Citronnelle",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Chauffe le lait de coco avec citronnelle et gingembre.",
+      "Ajoute les champignons.",
+      "Incorpore nouilles et crevettes.",
+      "Laisse cuire 6 min.",
+      "Sers avec coriandre."
+    ]
+  },
+  {
+    "id": "moules-frites",
+    "nom": "Moules marinières & frites",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien"
+    ],
+    "allergenes": [
+      "mollusques",
+      "lait"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 2.49,
+    "kcal": 560,
+    "macros": {
+      "proteines": 28,
+      "glucides": 52,
+      "lipides": 22
+    },
+    "emoji": "🦪",
+    "ingredients": [
+      {
+        "nom": "Moules",
+        "qteParPersonne": 250,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.5
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 160,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.34
+      },
+      {
+        "nom": "Échalote",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Vin blanc",
+        "qteParPersonne": 40,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Coupe les frites, cuis 18 min à l'air fryer.",
+      "Fais suer l'échalote au beurre.",
+      "Ajoute les moules et le vin blanc, couvre.",
+      "Cuis jusqu'à ouverture des moules.",
+      "Parsème de persil, sers avec les frites."
+    ]
+  },
+  {
+    "id": "sardines-grillees-ratat",
+    "nom": "Sardines grillées & ratatouille",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.39,
+    "kcal": 460,
+    "macros": {
+      "proteines": 30,
+      "glucides": 24,
+      "lipides": 26
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Sardines",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1
+      },
+      {
+        "nom": "Aubergine",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.31
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Prépare une ratatouille avec les légumes.",
+      "Assaisonne les sardines.",
+      "Grille-les à la poêle 3 min par face.",
+      "Dresse les sardines sur la ratatouille.",
+      "Arrose d'un filet d'huile."
+    ]
+  },
+  {
+    "id": "thon-mi-cuit-sesame",
+    "nom": "Thon mi-cuit au sésame & wok",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson",
+      "soja",
+      "sésame",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 3.27,
+    "kcal": 480,
+    "macros": {
+      "proteines": 38,
+      "glucides": 28,
+      "lipides": 22
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Steak de thon",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 2.1
+      },
+      {
+        "nom": "Sésame",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Pak choï",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Nouilles",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Enrobe le thon de sésame.",
+      "Saisis-le 1 min par face.",
+      "Saute le pak choï avec le gingembre.",
+      "Cuis les nouilles, ajoute la sauce soja.",
+      "Tranche le thon, sers sur les nouilles."
+    ]
+  },
+  {
+    "id": "quiche-poireaux",
+    "nom": "Quiche aux poireaux",
+    "tempsMin": 45,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.44,
+    "kcal": 580,
+    "macros": {
+      "proteines": 20,
+      "glucides": 44,
+      "lipides": 34
+    },
+    "emoji": "🥧",
+    "ingredients": [
+      {
+        "nom": "Pâte brisée",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Poireau",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Fais fondre les poireaux au beurre.",
+      "Étale la pâte, répartis les poireaux.",
+      "Bats œufs et crème, verse dessus.",
+      "Parsème de gruyère.",
+      "Enfourne 30 min à 190°C."
+    ]
+  },
+  {
+    "id": "boulettes-boeuf-tomate",
+    "nom": "Boulettes de bœuf sauce tomate",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "famille",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten",
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.21,
+    "kcal": 620,
+    "macros": {
+      "proteines": 34,
+      "glucides": 58,
+      "lipides": 26
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Spaghetti",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Chapelure",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      }
+    ],
+    "etapes": [
+      "Mélange bœuf, chapelure et œuf, forme des boulettes.",
+      "Dore-les à la poêle.",
+      "Ajoute tomates, oignon et ail, mijote 15 min.",
+      "Cuis les spaghetti.",
+      "Sers boulettes et sauce sur les pâtes."
+    ]
+  },
+  {
+    "id": "kebab-maison",
+    "nom": "Kebab maison poulet",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.58,
+    "kcal": 620,
+    "macros": {
+      "proteines": 34,
+      "glucides": 56,
+      "lipides": 26
+    },
+    "emoji": "🥙",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.2
+      },
+      {
+        "nom": "Pain pita",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Sauce blanche",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Frites",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Surgelés",
+        "prixParPersonne": 0.3
+      }
+    ],
+    "etapes": [
+      "Marine et saisis le poulet épicé.",
+      "Réchauffe le pain pita.",
+      "Cuis les frites.",
+      "Garnis le pita de salade, tomate, poulet.",
+      "Ajoute frites et sauce blanche."
+    ]
+  },
+  {
+    "id": "chili-con-carne",
+    "nom": "Chili con carne",
+    "tempsMin": 35,
+    "tags": [
+      "protéiné",
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.46,
+    "kcal": 560,
+    "macros": {
+      "proteines": 32,
+      "glucides": 52,
+      "lipides": 20
+    },
+    "emoji": "🌶️",
+    "ingredients": [
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1
+      },
+      {
+        "nom": "Haricots rouges",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.18
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon et poivron.",
+      "Ajoute le bœuf, fais colorer.",
+      "Verse tomates, haricots et cumin.",
+      "Mijote 20 min.",
+      "Sers avec le riz."
+    ]
+  },
+  {
+    "id": "gratin-ravioles",
+    "nom": "Gratin de ravioles",
+    "tempsMin": 25,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.36,
+    "kcal": 620,
+    "macros": {
+      "proteines": 24,
+      "glucides": 52,
+      "lipides": 34
+    },
+    "emoji": "🧀",
+    "ingredients": [
+      {
+        "nom": "Ravioles",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      }
+    ],
+    "etapes": [
+      "Répartis les ravioles dans un plat.",
+      "Ajoute les épinards.",
+      "Nappe de crème muscadée.",
+      "Couvre de gruyère.",
+      "Enfourne 15 min à 200°C."
+    ]
+  },
+  {
+    "id": "polenta-cremeuse-champi",
+    "nom": "Polenta crémeuse aux champignons",
+    "tempsMin": 25,
+    "tags": [
+      "gourmand",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.53,
+    "kcal": 480,
+    "macros": {
+      "proteines": 14,
+      "glucides": 56,
+      "lipides": 20
+    },
+    "emoji": "🌽",
+    "ingredients": [
+      {
+        "nom": "Polenta",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Champignons",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Cuis la polenta dans l'eau bouillante salée.",
+      "Incorpore beurre et parmesan.",
+      "Poêle les champignons avec l'ail.",
+      "Dresse la polenta, ajoute les champignons.",
+      "Parsème de persil."
+    ]
+  },
+  {
+    "id": "oeufs-cocotte",
+    "nom": "Œufs cocotte épinards",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "oeuf",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.88,
+    "kcal": 340,
+    "macros": {
+      "proteines": 18,
+      "glucides": 8,
+      "lipides": 26
+    },
+    "emoji": "🥚",
+    "ingredients": [
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.56
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.32
+      },
+      {
+        "nom": "Muscade",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.03
+      },
+      {
+        "nom": "Pain",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Fais tomber les épinards.",
+      "Répartis-les dans des ramequins.",
+      "Ajoute crème, œuf et gruyère.",
+      "Enfourne 12 min à 190°C.",
+      "Sers avec des mouillettes de pain."
+    ]
+  },
+  {
+    "id": "soba-cacahuete",
+    "nom": "Nouilles soba sauce cacahuète",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde",
+      "healthy"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "fruits à coque",
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.42,
+    "kcal": 500,
+    "macros": {
+      "proteines": 16,
+      "glucides": 62,
+      "lipides": 20
+    },
+    "emoji": "🥜",
+    "ingredients": [
+      {
+        "nom": "Nouilles soba",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Beurre de cacahuète",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Chou",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Citron vert",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Gingembre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Cuis les nouilles soba.",
+      "Mélange cacahuète, soja, citron et gingembre.",
+      "Râpe carotte et chou.",
+      "Mélange nouilles, légumes et sauce.",
+      "Sers tiède ou froid."
+    ]
+  },
+  {
+    "id": "tofu-general-tao",
+    "nom": "Tofu croustillant sauce aigre-douce",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 1.72,
+    "kcal": 500,
+    "macros": {
+      "proteines": 22,
+      "glucides": 58,
+      "lipides": 18
+    },
+    "emoji": "🍱",
+    "ingredients": [
+      {
+        "nom": "Tofu ferme",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Maïzena",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 15,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Ketchup",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.05
+      }
+    ],
+    "etapes": [
+      "Coupe le tofu, enrobe-le de maïzena.",
+      "Cuis 15 min à l'air fryer.",
+      "Prépare une sauce soja-ketchup-ail.",
+      "Enrobe le tofu de sauce.",
+      "Sers sur le riz avec le poivron."
+    ]
+  },
+  {
+    "id": "boulettes-veg-boulgour",
+    "nom": "Boulettes végé & boulgour",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "airfryer"
+    ],
+    "prixParPersonne": 1.32,
+    "kcal": 460,
+    "macros": {
+      "proteines": 18,
+      "glucides": 62,
+      "lipides": 14
+    },
+    "emoji": "🧆",
+    "ingredients": [
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.4
+      },
+      {
+        "nom": "Boulgour",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Mixe pois chiches, oignon, cumin et persil.",
+      "Forme des boulettes.",
+      "Cuis 14 min à l'air fryer.",
+      "Cuis le boulgour.",
+      "Sers avec une salade de tomate."
+    ]
+  },
+  {
+    "id": "crumble-legumes",
+    "nom": "Crumble de légumes d'automne",
+    "tempsMin": 40,
+    "tags": [
+      "healthy",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.68,
+    "kcal": 460,
+    "macros": {
+      "proteines": 12,
+      "glucides": 44,
+      "lipides": 26
+    },
+    "emoji": "🥧",
+    "ingredients": [
+      {
+        "nom": "Courge butternut",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Farine",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Noisettes",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      }
+    ],
+    "etapes": [
+      "Fais revenir courge, carotte et oignon.",
+      "Prépare un crumble farine-beurre-parmesan.",
+      "Dispose les légumes dans un plat.",
+      "Couvre de crumble et noisettes.",
+      "Enfourne 25 min à 200°C."
+    ]
+  },
+  {
+    "id": "wrap-poulet-cesar",
+    "nom": "Wrap poulet César",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "protéiné",
+      "gourmand"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "oeuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.29,
+    "kcal": 540,
+    "macros": {
+      "proteines": 32,
+      "glucides": 46,
+      "lipides": 24
+    },
+    "emoji": "🌯",
+    "ingredients": [
+      {
+        "nom": "Émincé de poulet",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.1
+      },
+      {
+        "nom": "Tortilla",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Sauce César",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      }
+    ],
+    "etapes": [
+      "Saisis le poulet.",
+      "Tartine la tortilla de sauce César.",
+      "Ajoute salade, tomate et poulet.",
+      "Parsème de parmesan.",
+      "Roule bien serré."
+    ]
+  },
+  {
+    "id": "pates-thon-citron",
+    "nom": "Pâtes au thon & citron",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten",
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.78,
+    "kcal": 540,
+    "macros": {
+      "proteines": 28,
+      "glucides": 64,
+      "lipides": 16
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Spaghetti",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Thon en boîte",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.8
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Câpres",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis les spaghetti.",
+      "Fais chauffer ail, thon et câpres à l'huile.",
+      "Ajoute le jus de citron.",
+      "Mélange aux pâtes avec un peu d'eau de cuisson.",
+      "Parsème de persil."
+    ]
+  },
+  {
+    "id": "salade-quinoa-feta",
+    "nom": "Salade de quinoa feta & concombre",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "healthy",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.87,
+    "kcal": 420,
+    "macros": {
+      "proteines": 16,
+      "glucides": 48,
+      "lipides": 18
+    },
+    "emoji": "🥗",
+    "ingredients": [
+      {
+        "nom": "Quinoa",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.52
+      },
+      {
+        "nom": "Feta",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Concombre",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.22
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Oignon rouge",
+        "qteParPersonne": 25,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Menthe",
+        "qteParPersonne": 4,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis le quinoa, laisse refroidir.",
+      "Coupe concombre, tomate et oignon.",
+      "Mélange le tout.",
+      "Ajoute feta et menthe.",
+      "Assaisonne d'huile d'olive."
+    ]
+  },
+  {
+    "id": "burrito-bowl",
+    "nom": "Burrito bowl haricots & avocat",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.89,
+    "kcal": 520,
+    "macros": {
+      "proteines": 18,
+      "glucides": 66,
+      "lipides": 18
+    },
+    "emoji": "🥑",
+    "ingredients": [
+      {
+        "nom": "Riz",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Haricots noirs",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Maïs",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Avocat",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Citron vert",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis le riz.",
+      "Réchauffe haricots et maïs avec des épices.",
+      "Prépare une salsa tomate-citron-coriandre.",
+      "Compose le bowl.",
+      "Ajoute l'avocat tranché."
+    ]
+  },
+  {
+    "id": "orecchiette-brocoli",
+    "nom": "Orecchiette brocoli & anchois",
+    "tempsMin": 25,
+    "tags": [
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.66,
+    "kcal": 520,
+    "macros": {
+      "proteines": 18,
+      "glucides": 66,
+      "lipides": 18
+    },
+    "emoji": "🥦",
+    "ingredients": [
+      {
+        "nom": "Orecchiette",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Brocoli",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Anchois",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Piment",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Parmesan",
+        "qteParPersonne": 15,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis les pâtes avec le brocoli.",
+      "Fais fondre ail, anchois et piment à l'huile.",
+      "Écrase le brocoli dans la sauce.",
+      "Mélange aux pâtes.",
+      "Sers avec du parmesan."
+    ]
+  },
+  {
+    "id": "pot-au-feu-express",
+    "nom": "Pot-au-feu express",
+    "tempsMin": 45,
+    "tags": [
+      "healthy",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.49,
+    "kcal": 480,
+    "macros": {
+      "proteines": 34,
+      "glucides": 34,
+      "lipides": 18
+    },
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "nom": "Bœuf à pot-au-feu",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Poireau",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Navet",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.22
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Thym",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      }
+    ],
+    "etapes": [
+      "Porte le bouillon à ébullition avec le bœuf.",
+      "Ajoute les légumes en morceaux.",
+      "Mijote 35 min.",
+      "Vérifie l'assaisonnement.",
+      "Sers bien chaud."
+    ]
+  },
+  {
+    "id": "keftas-agneau-semoule",
+    "nom": "Keftas d'agneau & semoule",
+    "tempsMin": 30,
+    "tags": [
+      "gourmand",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.35,
+    "kcal": 620,
+    "macros": {
+      "proteines": 30,
+      "glucides": 50,
+      "lipides": 30
+    },
+    "emoji": "🍢",
+    "ingredients": [
+      {
+        "nom": "Agneau haché",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.4
+      },
+      {
+        "nom": "Semoule",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.14
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      }
+    ],
+    "etapes": [
+      "Mélange agneau, oignon, cumin et coriandre.",
+      "Forme des keftas.",
+      "Poêle-les avec la courgette.",
+      "Prépare la semoule.",
+      "Sers les keftas sur la semoule."
+    ]
+  },
+  {
+    "id": "saumon-pates-crémeuses",
+    "nom": "Pâtes crémeuses au saumon",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "poisson"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.42,
+    "kcal": 660,
+    "macros": {
+      "proteines": 30,
+      "glucides": 62,
+      "lipides": 30
+    },
+    "emoji": "🍝",
+    "ingredients": [
+      {
+        "nom": "Tagliatelles",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Saumon fumé",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.3
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Aneth",
+        "qteParPersonne": 4,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Échalote",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Cuis les tagliatelles.",
+      "Fais suer l'échalote.",
+      "Ajoute la crème et le saumon coupé.",
+      "Incorpore citron et aneth.",
+      "Mélange aux pâtes."
+    ]
+  },
+  {
+    "id": "gnocchi-gorgonzola",
+    "nom": "Gnocchi au gorgonzola",
+    "tempsMin": 15,
+    "tags": [
+      "rapide",
+      "gourmand"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.1,
+    "kcal": 620,
+    "macros": {
+      "proteines": 20,
+      "glucides": 68,
+      "lipides": 28
+    },
+    "emoji": "🧀",
+    "ingredients": [
+      {
+        "nom": "Gnocchi",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Gorgonzola",
+        "qteParPersonne": 45,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Crème fraîche",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Noix",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Épinards",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Cuis les gnocchi dans l'eau bouillante.",
+      "Fais fondre gorgonzola et crème.",
+      "Ajoute les épinards.",
+      "Mélange les gnocchi à la sauce.",
+      "Parsème de noix."
+    ]
+  },
+  {
+    "id": "dorade-four-legumes",
+    "nom": "Dorade au four & légumes",
+    "tempsMin": 35,
+    "tags": [
+      "healthy",
+      "gourmand",
+      "protéiné"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-gluten",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "poisson"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.8,
+    "kcal": 460,
+    "macros": {
+      "proteines": 36,
+      "glucides": 26,
+      "lipides": 20
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Dorade",
+        "qteParPersonne": 140,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.9
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.3,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Thym",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Dispose la dorade et les légumes dans un plat.",
+      "Arrose d'huile, ail, thym et citron.",
+      "Enfourne 25 min à 200°C.",
+      "Arrose du jus à mi-cuisson.",
+      "Sers bien chaud."
+    ]
+  },
+  {
+    "id": "velouté-carotte-cumin",
+    "nom": "Velouté carotte-cumin & croûtons",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "rapide"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.33,
+    "kcal": 300,
+    "macros": {
+      "proteines": 7,
+      "glucides": 44,
+      "lipides": 10
+    },
+    "emoji": "🥕",
+    "ingredients": [
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 180,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Bouillon",
+        "qteParPersonne": 1,
+        "unite": "cube",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Croûtons",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Graines de courge",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Épicerie sucrée",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Fais revenir oignon et cumin.",
+      "Ajoute carotte et pomme de terre.",
+      "Couvre de bouillon, mijote 20 min.",
+      "Mixe finement.",
+      "Sers avec des croûtons."
+    ]
+  },
+  {
+    "id": "galette-pomme-terre-jambon",
+    "nom": "Galette de pomme de terre & jambon",
+    "tempsMin": 25,
+    "tags": [
+      "rapide",
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.96,
+    "kcal": 520,
+    "macros": {
+      "proteines": 22,
+      "glucides": 44,
+      "lipides": 28
+    },
+    "emoji": "🥔",
+    "ingredients": [
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 180,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.38
+      },
+      {
+        "nom": "Jambon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.09
+      },
+      {
+        "nom": "Huile",
+        "qteParPersonne": 8,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Râpe les pommes de terre, essore-les.",
+      "Mélange avec œuf, jambon et fromage.",
+      "Forme une galette à la poêle.",
+      "Cuis 6 min par face.",
+      "Sers bien dorée."
+    ]
+  },
+  {
+    "id": "tarte-tomate-moutarde",
+    "nom": "Tarte tomate-moutarde & salade",
+    "tempsMin": 35,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [
+      "vegetarien"
+    ],
+    "allergenes": [
+      "gluten",
+      "lait",
+      "moutarde"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 1.74,
+    "kcal": 520,
+    "macros": {
+      "proteines": 14,
+      "glucides": 48,
+      "lipides": 30
+    },
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "nom": "Pâte feuilletée",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boulangerie",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.45
+      },
+      {
+        "nom": "Moutarde",
+        "qteParPersonne": 12,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Emmental",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.42
+      },
+      {
+        "nom": "Herbes de Provence",
+        "qteParPersonne": 1,
+        "unite": "pincée",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Salade",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.25
+      }
+    ],
+    "etapes": [
+      "Étale la pâte, tartine de moutarde.",
+      "Range les tranches de tomate.",
+      "Parsème de fromage et d'herbes.",
+      "Enfourne 25 min à 200°C.",
+      "Sers avec la salade."
+    ]
+  },
+  {
+    "id": "riz-saute-kimchi",
+    "nom": "Riz sauté au kimchi & œuf",
+    "tempsMin": 20,
+    "tags": [
+      "rapide",
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "vegetarien",
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "oeuf",
+      "soja",
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.45,
+    "kcal": 480,
+    "macros": {
+      "proteines": 16,
+      "glucides": 62,
+      "lipides": 16
+    },
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "nom": "Riz",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Kimchi",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.55
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 1,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.28
+      },
+      {
+        "nom": "Oignon nouveau",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Sauce soja",
+        "qteParPersonne": 12,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Huile de sésame",
+        "qteParPersonne": 6,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      }
+    ],
+    "etapes": [
+      "Fais sauter le riz froid à feu vif.",
+      "Ajoute le kimchi et la sauce soja.",
+      "Pousse sur le côté, cuis un œuf au plat.",
+      "Ajoute l'huile de sésame.",
+      "Sers l'œuf sur le riz avec l'oignon nouveau."
+    ]
+  },
+  {
+    "id": "gratin-endives-jambon",
+    "nom": "Gratin d'endives au jambon",
+    "tempsMin": 40,
+    "tags": [
+      "gourmand",
+      "famille"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "lait",
+      "gluten"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 2.48,
+    "kcal": 520,
+    "macros": {
+      "proteines": 28,
+      "glucides": 24,
+      "lipides": 32
+    },
+    "emoji": "🧀",
+    "ingredients": [
+      {
+        "nom": "Endives",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.7
+      },
+      {
+        "nom": "Jambon",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.72
+      },
+      {
+        "nom": "Béchamel",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Gruyère",
+        "qteParPersonne": 30,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.48
+      },
+      {
+        "nom": "Beurre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Braise les endives au beurre.",
+      "Enroule chaque endive dans une tranche de jambon.",
+      "Dispose dans un plat, nappe de béchamel.",
+      "Couvre de gruyère.",
+      "Enfourne 25 min à 200°C."
+    ]
+  }
+]

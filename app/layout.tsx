@@ -5,14 +5,16 @@ import { MiamProvider } from "@/context/MiamContext";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
+const prefix = process.env.GITHUB_PAGES === "true" ? "/App-graille" : "";
+
 export const metadata: Metadata = {
   title: "Miam — ton plan de repas de la semaine",
   description:
     "Miam prépare ton menu de la semaine selon ton budget, tes goûts et ton magasin, et te sort la liste de courses. 100% gratuit.",
-  manifest: "/manifest.json",
+  manifest: `${prefix}/manifest.json`,
   icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
+    icon: `${prefix}/icon.svg`,
+    apple: `${prefix}/icon.svg`,
   },
 };
 

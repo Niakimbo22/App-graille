@@ -47,7 +47,7 @@ export default function GenerationPage() {
   }, [hydrated]);
 
   return (
-    <main className="mx-auto flex min-h-[100dvh] w-full max-w-md flex-col items-center justify-center px-8 text-center">
+    <main className="safe-top safe-bottom mx-auto flex min-h-[100dvh] w-full max-w-md flex-col items-center justify-center px-8 text-center">
       <div className="mb-8 animate-pop-in text-7xl">🛒</div>
       <h1 className="text-3xl font-extrabold lowercase text-forest">on prépare ta semaine…</h1>
       <p className="mt-2 text-base text-black/50">encore quelques secondes</p>

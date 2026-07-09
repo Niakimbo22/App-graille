@@ -65,7 +65,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
       <div className="relative flex h-56 items-center justify-center text-8xl" style={{ background: gradientFor(recipe.id) }}>
         <button
           onClick={() => router.push("/plan")}
-          className="absolute left-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-xl text-forest shadow-soft"
+          className="absolute left-5 top-[max(1.25rem,env(safe-area-inset-top))] flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-xl text-forest shadow-soft"
         >
           ←
         </button>
@@ -151,7 +151,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
 
       {/* Bouton changer */}
       {hydrated && plan && indexInPlan >= 0 && (
-        <div className="fixed inset-x-0 bottom-0 mx-auto max-w-md bg-gradient-to-t from-cream via-cream to-transparent px-5 pb-5 pt-8">
+        <div className="safe-bottom fixed inset-x-0 bottom-0 mx-auto max-w-md bg-gradient-to-t from-cream via-cream to-transparent px-5 pt-8">
           <PillButton onClick={handleSwap}>🔀 changer cette recette</PillButton>
         </div>
       )}

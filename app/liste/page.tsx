@@ -36,7 +36,7 @@ export default function ListePage() {
   const nbCochees = articles.filter((a) => state.cochees.includes(a.key)).length;
 
   return (
-    <main className="mx-auto w-full max-w-md px-5 pb-32 pt-6">
+    <main className="safe-top mx-auto w-full max-w-md px-5 pb-32">
       <div className="mb-5 flex items-center gap-3">
         <button
           onClick={() => router.push("/plan")}
@@ -93,7 +93,7 @@ export default function ListePage() {
       </div>
 
       {/* Total */}
-      <div className="fixed inset-x-0 bottom-0 mx-auto max-w-md border-t border-black/5 bg-white/95 px-5 py-4 backdrop-blur">
+      <div className="safe-bottom fixed inset-x-0 bottom-0 mx-auto max-w-md border-t border-black/5 bg-white/95 px-5 pt-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <span className="text-base font-semibold text-black/60">total estimé</span>
           <span className="text-2xl font-extrabold text-forest">{euros(total)}</span>

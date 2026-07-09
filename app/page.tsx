@@ -24,7 +24,7 @@ export default function Landing() {
   const exemples = EXEMPLES.map((id) => RECIPES.find((r) => r.id === id)!).filter(Boolean);
 
   return (
-    <main className="mx-auto w-full max-w-md px-5 pb-10 pt-10">
+    <main className="safe-top safe-bottom mx-auto w-full max-w-md px-5 pb-10 pt-8">
       {/* Hero */}
       <section className="text-center">
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-leaf to-forest text-3xl shadow-soft">

@@ -56,7 +56,7 @@ export default function PlanPage() {
   };
 
   return (
-    <main className="mx-auto w-full max-w-md px-5 pb-10 pt-6">
+    <main className="safe-top safe-bottom mx-auto w-full max-w-md px-5 pb-10">
       <div className="mb-4 flex items-center justify-between">
         <Link href="/" className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg text-forest shadow-soft">
           ←

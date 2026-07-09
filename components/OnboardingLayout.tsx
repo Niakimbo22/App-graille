@@ -31,7 +31,7 @@ export default function OnboardingLayout({
   const router = useRouter();
 
   return (
-    <div className="mx-auto flex min-h-[100dvh] w-full max-w-md flex-col px-5 pb-6 pt-5">
+    <div className="safe-top mx-auto flex min-h-[100dvh] w-full max-w-md flex-col px-5 pb-6">
       <header className="mb-6 flex items-center gap-3">
         <button
           aria-label="retour"
@@ -52,7 +52,7 @@ export default function OnboardingLayout({
       </div>
 
       {onContinue && (
-        <div className="sticky bottom-0 pt-4">
+        <div className="safe-bottom sticky bottom-0 pt-4">
           <PillButton onClick={onContinue} disabled={continueDisabled}>
             {continueLabel}
           </PillButton>

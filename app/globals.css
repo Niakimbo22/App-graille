@@ -6,6 +6,12 @@
   color-scheme: light;
 }
 
+html {
+  /* évite que iOS agrandisse le texte en paysage */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 html,
 body {
   background-color: #f3efe6;
@@ -15,6 +21,31 @@ body {
 
 body {
   min-height: 100dvh;
+  /* jamais de défilement horizontal sur mobile */
+  overflow-x: hidden;
+  /* pas de rebond élastique global gênant */
+  overscroll-behavior-y: none;
+}
+
+/* pas de flash gris au tap sur mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+/* marges de sécurité (encoche, barre d'accueil) */
+.safe-top {
+  padding-top: max(1.25rem, env(safe-area-inset-top));
+}
+.safe-x {
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
+}
+.safe-bottom {
+  padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
 }
 
 /* piste de fond crème + léger halo vert en haut */

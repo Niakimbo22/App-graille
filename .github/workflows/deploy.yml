@@ -2,7 +2,8 @@ name: Deploy Miam to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # la branche par défaut du repo (seule autorisée par l'environnement Pages)
+    branches: [main, claude/miam-meal-planner-qbhhsi]
   workflow_dispatch:
 
 # Autorise le déploiement Pages

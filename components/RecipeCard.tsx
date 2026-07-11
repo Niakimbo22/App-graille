@@ -22,13 +22,23 @@ export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }:
           {jour}
         </div>
       )}
-      <div className="flex items-center justify-center py-7 text-6xl" style={{ background: gradientFor(recipe.id) }}>
+      <div className="relative flex items-center justify-center py-7 text-6xl" style={{ background: gradientFor(recipe.id) }}>
         {recipe.emoji}
+        {recipe.origine === "monde" && (
+          <span className="absolute right-2 top-2 rounded-full bg-white/85 px-2 py-0.5 text-xs font-bold text-forest shadow-soft">
+            🌍 du monde
+          </span>
+        )}
       </div>
       <div className="p-4">
         <h3 className="text-lg font-bold leading-snug text-forest">{recipe.nom}</h3>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-black/60">
-          {prixTotal != null && <span className="font-bold text-forest">{euros(prixTotal)}</span>}
+          {prixTotal != null && (
+            <span className="font-bold text-forest">
+              {euros(prixTotal)}
+              {recipe.prixEstime && <span className="font-normal text-black/40"> ≈</span>}
+            </span>
+          )}
           <span>⏱ {recipe.tempsMin} min</span>
           {personnes != null && <span>👤 {personnes}</span>}
         </div>

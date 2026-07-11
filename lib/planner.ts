@@ -67,6 +67,8 @@ export function proteinCategory(recipe: Recipe): string {
 export function filterRecipes(recipes: Recipe[], funnel: FunnelState): Recipe[] {
   const equipDispo = funnel.equipement.length > 0 ? funnel.equipement : (["four", "plaque", "airfryer"] as const);
   return recipes.filter((r) => {
+    // recettes du monde importées: seulement si l'utilisateur les a activées
+    if (r.origine === "monde" && !funnel.inclureMonde) return false;
     for (const regime of funnel.regimes) {
       if (regime === "vegetarien" || regime === "pescetarien" || regime === "sans-gluten" || regime === "sans-lactose") {
         if (!satisfiesRegime(r, regime)) return false;

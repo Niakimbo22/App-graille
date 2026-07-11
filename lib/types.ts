@@ -47,6 +47,12 @@ export interface Recipe {
   emoji: string;
   ingredients: Ingredient[];
   etapes: string[];
+  /** "fr" = recette française curée (défaut), "monde" = importée (TheMealDB) */
+  origine?: "fr" | "monde";
+  /** true si le prix est une estimation (recettes importées, mesures approximées) */
+  prixEstime?: boolean;
+  /** crédit source pour les recettes importées */
+  source?: string;
 }
 
 /** Réponses collectées au fil du funnel. */
@@ -57,6 +63,8 @@ export interface FunnelState {
   ambiances: Tag[];
   personnes: number;
   equipement: Equipement[];
+  /** inclure les recettes du monde importées (prix estimés). Défaut: false */
+  inclureMonde?: boolean;
 }
 
 export interface PlanItem {

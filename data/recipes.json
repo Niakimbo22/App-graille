@@ -15,7 +15,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.33,
+    "prixParPersonne": 1.82,
     "kcal": 650,
     "macros": {
       "proteines": 28,
@@ -29,49 +29,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Lardons fumés",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.75
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Champignons de Paris",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Bouillon de volaille",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Parmesan râpé",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.375
       }
     ],
     "etapes": [
@@ -100,7 +100,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.21,
+    "prixParPersonne": 1.73,
     "kcal": 590,
     "macros": {
       "proteines": 20,
@@ -114,49 +114,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Épinards frais",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.54
       },
       {
         "nom": "Bûche de chèvre",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.48
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Noix",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.168
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -185,7 +185,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.34,
+    "prixParPersonne": 1.1,
     "kcal": 520,
     "macros": {
       "proteines": 14,
@@ -199,49 +199,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Ail",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Piment séché",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.03
       },
       {
         "nom": "Persil",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.03
       },
       {
         "nom": "Pignons de pin",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.48
       }
     ],
     "etapes": [
@@ -270,7 +270,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.22,
+    "prixParPersonne": 0.79,
     "kcal": 480,
     "macros": {
       "proteines": 15,
@@ -284,49 +284,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Ail",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.064
       },
       {
         "nom": "Piment",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Basilic",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -356,7 +356,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.37,
+    "prixParPersonne": 1.11,
     "kcal": 700,
     "macros": {
       "proteines": 26,
@@ -370,35 +370,35 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Cheddar",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Lait",
         "qteParPersonne": 120,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.132
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.135
       },
       {
         "nom": "Farine",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.03
+        "prixParPersonne": 0.012
       },
       {
         "nom": "Muscade",
@@ -434,7 +434,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.92,
+    "prixParPersonne": 1.83,
     "kcal": 560,
     "macros": {
       "proteines": 18,
@@ -448,42 +448,42 @@
         "qteParPersonne": 150,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.525
       },
       {
         "nom": "Tomates cerises",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Mozzarella",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.45
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Basilic",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -514,7 +514,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.59,
+    "prixParPersonne": 2.26,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -528,7 +528,7 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Émincé de poulet",
@@ -542,42 +542,42 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Cacahuètes",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Citron vert",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Oignon nouveau",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -608,7 +608,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.45,
+    "prixParPersonne": 0.97,
     "kcal": 460,
     "macros": {
       "proteines": 14,
@@ -622,49 +622,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Chou chinois",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Huile de sésame",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.075
       }
     ],
     "etapes": [
@@ -693,7 +693,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.83,
+    "prixParPersonne": 1.22,
     "kcal": 430,
     "macros": {
       "proteines": 20,
@@ -707,49 +707,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Maïs",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -778,7 +778,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.63,
+    "prixParPersonne": 1.33,
     "kcal": 470,
     "macros": {
       "proteines": 19,
@@ -792,56 +792,56 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Lait de coco",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Curry",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Riz basmati",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Coriandre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       }
     ],
     "etapes": [
@@ -870,7 +870,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.89,
+    "prixParPersonne": 1.36,
     "kcal": 450,
     "macros": {
       "proteines": 18,
@@ -884,49 +884,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Lait de coco",
         "qteParPersonne": 70,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Curry",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -955,7 +955,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.78,
+    "prixParPersonne": 1.62,
     "kcal": 540,
     "macros": {
       "proteines": 15,
@@ -969,49 +969,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Vin blanc",
         "qteParPersonne": 30,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Bouillon de légumes",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.108
       }
     ],
     "etapes": [
@@ -1040,7 +1040,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.63,
+    "prixParPersonne": 1.37,
     "kcal": 500,
     "macros": {
       "proteines": 14,
@@ -1054,49 +1054,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.22
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Bouillon de légumes",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -1124,7 +1124,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.38,
+    "prixParPersonne": 2.13,
     "kcal": 560,
     "macros": {
       "proteines": 38,
@@ -1138,42 +1138,42 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.3
+        "prixParPersonne": 1.32
       },
       {
         "nom": "Lait de coco",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Curry",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Riz basmati",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.18
       }
     ],
     "etapes": [
@@ -1200,7 +1200,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.34,
+    "prixParPersonne": 1.53,
     "kcal": 520,
     "macros": {
       "proteines": 36,
@@ -1214,49 +1214,49 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 0.78
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Piment d'Espelette",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.05
       }
     ],
     "etapes": [
@@ -1286,7 +1286,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.08,
+    "prixParPersonne": 1.91,
     "kcal": 590,
     "macros": {
       "proteines": 40,
@@ -1300,49 +1300,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.3
+        "prixParPersonne": 1.32
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 20,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Miel",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Sésame",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Oignon nouveau",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -1370,7 +1370,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.14,
+    "prixParPersonne": 1.89,
     "kcal": 420,
     "macros": {
       "proteines": 42,
@@ -1384,42 +1384,42 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.43
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Thym",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.22
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -1448,7 +1448,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.62,
+    "prixParPersonne": 2.44,
     "kcal": 720,
     "macros": {
       "proteines": 42,
@@ -1462,49 +1462,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.3
+        "prixParPersonne": 1.44
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Spaghetti",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.264
       },
       {
         "nom": "Huile",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.02
       }
     ],
     "etapes": [
@@ -1531,7 +1531,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.88,
+    "prixParPersonne": 2.48,
     "kcal": 560,
     "macros": {
       "proteines": 38,
@@ -1545,49 +1545,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.6
+        "prixParPersonne": 1.56
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Vin rouge",
         "qteParPersonne": 40,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Pommes de terre",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.144
       }
     ],
     "etapes": [
@@ -1617,7 +1617,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.51,
+    "prixParPersonne": 2.34,
     "kcal": 480,
     "macros": {
       "proteines": 36,
@@ -1631,49 +1631,49 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.5
+        "prixParPersonne": 1.65
       },
       {
         "nom": "Brocoli",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 18,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Ail",
         "qteParPersonne": 6,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Huile de sésame",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.075
       }
     ],
     "etapes": [
@@ -1703,7 +1703,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.75,
+    "prixParPersonne": 1.48,
     "kcal": 560,
     "macros": {
       "proteines": 34,
@@ -1717,42 +1717,42 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 1.08
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 18,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Sucre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.03
+        "prixParPersonne": 0.014
       },
       {
         "nom": "Ail",
         "qteParPersonne": 6,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Oignon nouveau",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -1781,7 +1781,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.58,
+    "prixParPersonne": 1.98,
     "kcal": 580,
     "macros": {
       "proteines": 38,
@@ -1795,42 +1795,42 @@
         "qteParPersonne": 140,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.26
       },
       {
         "nom": "Moutarde",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Pommes de terre",
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.156
       },
       {
         "nom": "Échalote",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -1857,7 +1857,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.12,
+    "prixParPersonne": 1.86,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -1871,49 +1871,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1
       },
       {
         "nom": "Lentilles vertes",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.315
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Lardons",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Thym",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       }
     ],
     "etapes": [
@@ -1941,7 +1941,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.42,
+    "prixParPersonne": 2.03,
     "kcal": 640,
     "macros": {
       "proteines": 30,
@@ -1962,42 +1962,42 @@
         "qteParPersonne": 200,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Lait",
         "qteParPersonne": 60,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.07
+        "prixParPersonne": 0.066
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.135
       },
       {
         "nom": "Gruyère râpé",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.325
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.1
       }
     ],
     "etapes": [
@@ -2024,7 +2024,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.91,
+    "prixParPersonne": 1.59,
     "kcal": 680,
     "macros": {
       "proteines": 30,
@@ -2038,35 +2038,35 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Jambon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.7
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Lait",
         "qteParPersonne": 60,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.07
+        "prixParPersonne": 0.066
       },
       {
         "nom": "Gruyère râpé",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.39
       },
       {
         "nom": "Muscade",
@@ -2105,7 +2105,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 3.11,
+    "prixParPersonne": 3.57,
     "kcal": 540,
     "macros": {
       "proteines": 38,
@@ -2119,42 +2119,42 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.2
+        "prixParPersonne": 2.88
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 18,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Miel",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Brocoli",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Sésame",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.06
       }
     ],
     "etapes": [
@@ -2185,7 +2185,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 3.27,
+    "prixParPersonne": 3.57,
     "kcal": 500,
     "macros": {
       "proteines": 36,
@@ -2199,42 +2199,42 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.2
+        "prixParPersonne": 2.88
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -2265,7 +2265,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 3.15,
+    "prixParPersonne": 3.55,
     "kcal": 400,
     "macros": {
       "proteines": 34,
@@ -2279,42 +2279,42 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2
+        "prixParPersonne": 2.6
       },
       {
         "nom": "Tomates cerises",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.54
       },
       {
         "nom": "Olives noires",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Pommes de terre",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -2344,7 +2344,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.46,
+    "prixParPersonne": 2.67,
     "kcal": 430,
     "macros": {
       "proteines": 38,
@@ -2358,42 +2358,42 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.6
+        "prixParPersonne": 1.95
       },
       {
         "nom": "Lentilles corail",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.36
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Lait de coco",
         "qteParPersonne": 50,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Curry",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.05
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.1
       }
     ],
     "etapes": [
@@ -2424,7 +2424,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.48,
+    "prixParPersonne": 2.53,
     "kcal": 420,
     "macros": {
       "proteines": 30,
@@ -2438,42 +2438,42 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.8
+        "prixParPersonne": 1.98
       },
       {
         "nom": "Ail",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.064
       },
       {
         "nom": "Persil",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -2503,7 +2503,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.66,
+    "prixParPersonne": 2.75,
     "kcal": 560,
     "macros": {
       "proteines": 28,
@@ -2517,49 +2517,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Crevettes",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.5
+        "prixParPersonne": 1.62
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Vin blanc",
         "qteParPersonne": 30,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -2588,7 +2588,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.72,
+    "prixParPersonne": 3.11,
     "kcal": 560,
     "macros": {
       "proteines": 26,
@@ -2602,49 +2602,49 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.76
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Tortillas",
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Chou rouge",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Yaourt",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Citron vert",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Coriandre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       }
     ],
     "etapes": [
@@ -2675,7 +2675,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.4,
+    "prixParPersonne": 1.93,
     "kcal": 600,
     "macros": {
       "proteines": 24,
@@ -2689,49 +2689,49 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Thon en boîte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 0.72
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Moutarde",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.032
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.28
       }
     ],
     "etapes": [
@@ -2759,7 +2759,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.09,
+    "prixParPersonne": 1.52,
     "kcal": 480,
     "macros": {
       "proteines": 18,
@@ -2773,49 +2773,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Quinoa",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.36
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Avocat",
         "qteParPersonne": 0.5,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Tahini",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.1
       }
     ],
     "etapes": [
@@ -2846,7 +2846,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.69,
+    "prixParPersonne": 1.42,
     "kcal": 380,
     "macros": {
       "proteines": 24,
@@ -2860,28 +2860,28 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.84
+        "prixParPersonne": 0.9
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.036
       },
       {
         "nom": "Fromage râpé",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Persil",
@@ -2895,7 +2895,7 @@
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.01
       }
     ],
     "etapes": [
@@ -2925,7 +2925,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.04,
+    "prixParPersonne": 1.74,
     "kcal": 400,
     "macros": {
       "proteines": 24,
@@ -2939,28 +2939,28 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.84
+        "prixParPersonne": 0.9
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.36
+        "prixParPersonne": 0.198
       },
       {
         "nom": "Feta",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.036
       },
       {
         "nom": "Menthe",
@@ -2974,7 +2974,7 @@
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -3005,7 +3005,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.94,
+    "prixParPersonne": 1.43,
     "kcal": 380,
     "macros": {
       "proteines": 20,
@@ -3019,49 +3019,49 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 140,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.245
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Pain",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -3090,7 +3090,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.35,
+    "prixParPersonne": 0.84,
     "kcal": 300,
     "macros": {
       "proteines": 9,
@@ -3104,56 +3104,56 @@
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.084
       },
       {
         "nom": "Poireau",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.19
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Vermicelles",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Céleri",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -3182,7 +3182,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.47,
+    "prixParPersonne": 0.95,
     "kcal": 320,
     "macros": {
       "proteines": 7,
@@ -3196,35 +3196,35 @@
         "qteParPersonne": 200,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.17
+        "prixParPersonne": 0.096
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Muscade",
@@ -3238,7 +3238,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -3266,7 +3266,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.66,
+    "prixParPersonne": 2.01,
     "kcal": 660,
     "macros": {
       "proteines": 24,
@@ -3280,42 +3280,42 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Lardons",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.75
+        "prixParPersonne": 0.54
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Lait",
         "qteParPersonne": 40,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.044
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.35
       }
     ],
     "etapes": [
@@ -3346,7 +3346,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.17,
+    "prixParPersonne": 2.49,
     "kcal": 450,
     "macros": {
       "proteines": 20,
@@ -3360,35 +3360,35 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 1.2
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -3416,7 +3416,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.66,
+    "prixParPersonne": 1.31,
     "kcal": 560,
     "macros": {
       "proteines": 26,
@@ -3430,35 +3430,35 @@
         "qteParPersonne": 2,
         "unite": "tranches",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Jambon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.56
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Béchamel",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.072
       }
     ],
     "etapes": [
@@ -3488,7 +3488,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.65,
+    "prixParPersonne": 1.41,
     "kcal": 640,
     "macros": {
       "proteines": 24,
@@ -3502,35 +3502,35 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.52
       },
       {
         "nom": "Sauce tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Mozzarella",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.65
+        "prixParPersonne": 0.54
       },
       {
         "nom": "Basilic",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -3561,7 +3561,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2,
+    "prixParPersonne": 2.65,
     "kcal": 520,
     "macros": {
       "proteines": 18,
@@ -3575,42 +3575,42 @@
         "qteParPersonne": 4,
         "unite": "u",
         "rayon": "Surgelés",
-        "prixParPersonne": 0.8
+        "prixParPersonne": 1.6
       },
       {
         "nom": "Tortilla",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Houmous",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.32
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Salade",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Concombre",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -3639,7 +3639,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.61,
+    "prixParPersonne": 1.33,
     "kcal": 600,
     "macros": {
       "proteines": 22,
@@ -3653,49 +3653,49 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Haricots rouges",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Cheddar",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Salade",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.024
       }
     ],
     "etapes": [
@@ -3725,7 +3725,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.02,
+    "prixParPersonne": 1.43,
     "kcal": 420,
     "macros": {
       "proteines": 18,
@@ -3739,35 +3739,35 @@
         "qteParPersonne": 200,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.8
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Muscade",
@@ -3803,7 +3803,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.68,
+    "prixParPersonne": 1.02,
     "kcal": 380,
     "macros": {
       "proteines": 10,
@@ -3817,49 +3817,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.36
+        "prixParPersonne": 0.198
       },
       {
         "nom": "Aubergine",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.225
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Boulgour",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Herbes de Provence",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -3888,7 +3888,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.95,
+    "prixParPersonne": 1.2,
     "kcal": 360,
     "macros": {
       "proteines": 8,
@@ -3902,49 +3902,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.36
+        "prixParPersonne": 0.198
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.245
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.225
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -3973,7 +3973,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.01,
+    "prixParPersonne": 1.53,
     "kcal": 360,
     "macros": {
       "proteines": 14,
@@ -3987,42 +3987,42 @@
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.176
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.245
       },
       {
         "nom": "Tomates cerises",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Feta",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Pois chiches",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -4052,7 +4052,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.32,
+    "prixParPersonne": 2.06,
     "kcal": 480,
     "macros": {
       "proteines": 34,
@@ -4073,35 +4073,35 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Croûtons",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Sauce César",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Huile",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.01
       }
     ],
     "etapes": [
@@ -4129,7 +4129,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.92,
+    "prixParPersonne": 1.5,
     "kcal": 420,
     "macros": {
       "proteines": 20,
@@ -4143,49 +4143,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.315
       },
       {
         "nom": "Chèvre frais",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.48
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Oignon rouge",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.05
       },
       {
         "nom": "Noix",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.168
       },
       {
         "nom": "Vinaigrette",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Roquette",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.3
       }
     ],
     "etapes": [
@@ -4216,7 +4216,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.47,
+    "prixParPersonne": 2.14,
     "kcal": 570,
     "macros": {
       "proteines": 38,
@@ -4230,7 +4230,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 1.21
       },
       {
         "nom": "Noix de cajou",
@@ -4244,35 +4244,35 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -4301,7 +4301,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.13,
+    "prixParPersonne": 1.63,
     "kcal": 640,
     "macros": {
       "proteines": 34,
@@ -4315,49 +4315,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Bœuf haché",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1
+        "prixParPersonne": 0.99
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -4384,7 +4384,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.71,
+    "prixParPersonne": 2.02,
     "kcal": 720,
     "macros": {
       "proteines": 34,
@@ -4398,49 +4398,49 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Bœuf haché",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1
+        "prixParPersonne": 0.99
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Béchamel",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.35
       },
       {
         "nom": "Huile",
         "qteParPersonne": 5,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.01
       }
     ],
     "etapes": [
@@ -4471,7 +4471,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.52,
+    "prixParPersonne": 1.28,
     "kcal": 460,
     "macros": {
       "proteines": 18,
@@ -4485,35 +4485,35 @@
         "qteParPersonne": 160,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.192
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.84
+        "prixParPersonne": 0.9
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Sel",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.01
+        "prixParPersonne": 0.005
       }
     ],
     "etapes": [
@@ -4542,7 +4542,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.2,
+    "prixParPersonne": 1.76,
     "kcal": 620,
     "macros": {
       "proteines": 28,
@@ -4556,49 +4556,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1
       },
       {
         "nom": "Semoule",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.132
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -4628,7 +4628,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.47,
+    "prixParPersonne": 0.91,
     "kcal": 440,
     "macros": {
       "proteines": 14,
@@ -4642,49 +4642,49 @@
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Pois chiches",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.154
       },
       {
         "nom": "Navet",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Épices ras el hanout",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -4714,7 +4714,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.31,
+    "prixParPersonne": 1.06,
     "kcal": 500,
     "macros": {
       "proteines": 18,
@@ -4728,49 +4728,49 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Lait",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.088
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Salade",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Levure",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.045
       }
     ],
     "etapes": [
@@ -4799,7 +4799,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.8,
+    "prixParPersonne": 1.63,
     "kcal": 620,
     "macros": {
       "proteines": 28,
@@ -4813,49 +4813,49 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Lait",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.088
       },
       {
         "nom": "Bacon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.48
       },
       {
         "nom": "Sirop d'érable",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Levure",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.045
       }
     ],
     "etapes": [
@@ -4887,7 +4887,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.99,
+    "prixParPersonne": 1.82,
     "kcal": 520,
     "macros": {
       "proteines": 22,
@@ -4901,49 +4901,49 @@
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Jambon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.56
       },
       {
         "nom": "Petits pois",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Surgelés",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Crevettes",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.54
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 12,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Oignon nouveau",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -4972,7 +4972,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.79,
+    "prixParPersonne": 1.31,
     "kcal": 400,
     "macros": {
       "proteines": 16,
@@ -4986,21 +4986,21 @@
         "qteParPersonne": 200,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Béchamel",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Muscade",
@@ -5014,7 +5014,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -5042,7 +5042,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.42,
+    "prixParPersonne": 2.56,
     "kcal": 680,
     "macros": {
       "proteines": 30,
@@ -5056,35 +5056,35 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.6
+        "prixParPersonne": 1.98
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 200,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Lait",
         "qteParPersonne": 50,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.055
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.135
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Persil",
@@ -5119,7 +5119,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.87,
+    "prixParPersonne": 2.92,
     "kcal": 580,
     "macros": {
       "proteines": 34,
@@ -5133,49 +5133,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.7
+        "prixParPersonne": 2.16
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -5203,7 +5203,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.02,
+    "prixParPersonne": 1.35,
     "kcal": 560,
     "macros": {
       "proteines": 40,
@@ -5217,49 +5217,49 @@
         "qteParPersonne": 150,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 0.9
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.084
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Ail",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.064
       },
       {
         "nom": "Thym",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -5287,7 +5287,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.06,
+    "prixParPersonne": 1.46,
     "kcal": 660,
     "macros": {
       "proteines": 36,
@@ -5301,35 +5301,35 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Surgelés",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 0.9
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 180,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.216
       },
       {
         "nom": "Lait",
         "qteParPersonne": 50,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.055
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.135
       },
       {
         "nom": "Petits pois",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Surgelés",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.15
       }
     ],
     "etapes": [
@@ -5356,7 +5356,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.03,
+    "prixParPersonne": 1.81,
     "kcal": 640,
     "macros": {
       "proteines": 32,
@@ -5370,42 +5370,42 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 1.21
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 160,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.192
       },
       {
         "nom": "Farine",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.03
+        "prixParPersonne": 0.015
       },
       {
         "nom": "Huile",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.016
       }
     ],
     "etapes": [
@@ -5433,7 +5433,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.32,
+    "prixParPersonne": 2.02,
     "kcal": 440,
     "macros": {
       "proteines": 42,
@@ -5447,21 +5447,21 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.43
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Paprika",
@@ -5475,21 +5475,21 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.1
       }
     ],
     "etapes": [
@@ -5518,7 +5518,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.19,
+    "prixParPersonne": 1.77,
     "kcal": 420,
     "macros": {
       "proteines": 20,
@@ -5532,42 +5532,42 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 0.96
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.176
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.245
       },
       {
         "nom": "Oignon rouge",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Pois chiches",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Paprika",
@@ -5604,7 +5604,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.58,
+    "prixParPersonne": 1.11,
     "kcal": 520,
     "macros": {
       "proteines": 16,
@@ -5618,49 +5618,49 @@
         "qteParPersonne": 180,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.216
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Salade",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Farine",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.03
+        "prixParPersonne": 0.015
       },
       {
         "nom": "Vinaigrette",
         "qteParPersonne": 12,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -5686,7 +5686,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.02,
+    "prixParPersonne": 1.78,
     "kcal": 520,
     "macros": {
       "proteines": 26,
@@ -5700,49 +5700,49 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.525
       },
       {
         "nom": "Bœuf haché",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 0.88
       },
       {
         "nom": "Riz",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -5771,7 +5771,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.08,
+    "prixParPersonne": 2.09,
     "kcal": 420,
     "macros": {
       "proteines": 14,
@@ -5785,49 +5785,49 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.75
       },
       {
         "nom": "Boulgour",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Feta",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Pignons",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -5858,7 +5858,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.86,
+    "prixParPersonne": 2.69,
     "kcal": 420,
     "macros": {
       "proteines": 26,
@@ -5872,49 +5872,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.5
+        "prixParPersonne": 1.62
       },
       {
         "nom": "Lait de coco",
         "qteParPersonne": 100,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Nouilles de riz",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Citronnelle",
         "qteParPersonne": 3,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Coriandre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       }
     ],
     "etapes": [
@@ -5943,7 +5943,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.49,
+    "prixParPersonne": 2.05,
     "kcal": 560,
     "macros": {
       "proteines": 28,
@@ -5957,42 +5957,42 @@
         "qteParPersonne": 250,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.5
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 160,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.34
+        "prixParPersonne": 0.192
       },
       {
         "nom": "Échalote",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Vin blanc",
         "qteParPersonne": 40,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Persil",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.108
       }
     ],
     "etapes": [
@@ -6023,7 +6023,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.39,
+    "prixParPersonne": 1.83,
     "kcal": 460,
     "macros": {
       "proteines": 30,
@@ -6037,49 +6037,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1
+        "prixParPersonne": 0.96
       },
       {
         "nom": "Aubergine",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.31
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.154
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -6112,7 +6112,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 3.27,
+    "prixParPersonne": 3.49,
     "kcal": 480,
     "macros": {
       "proteines": 38,
@@ -6126,42 +6126,42 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.1
+        "prixParPersonne": 2.64
       },
       {
         "nom": "Sésame",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Pak choï",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Nouilles",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -6191,7 +6191,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.44,
+    "prixParPersonne": 1.82,
     "kcal": 580,
     "macros": {
       "proteines": 20,
@@ -6205,42 +6205,42 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Poireau",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.35
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -6270,7 +6270,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.21,
+    "prixParPersonne": 1.8,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -6291,42 +6291,42 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Chapelure",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.045
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 0.5,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -6354,7 +6354,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.58,
+    "prixParPersonne": 2.31,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -6368,49 +6368,49 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.2
+        "prixParPersonne": 1.21
       },
       {
         "nom": "Pain pita",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Salade",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.03
       },
       {
         "nom": "Sauce blanche",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Frites",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Surgelés",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -6438,7 +6438,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.46,
+    "prixParPersonne": 1.95,
     "kcal": 560,
     "macros": {
       "proteines": 32,
@@ -6452,49 +6452,49 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1
+        "prixParPersonne": 0.99
       },
       {
         "nom": "Haricots rouges",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Tomates concassées",
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.22
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Riz",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.18
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -6525,7 +6525,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.36,
+    "prixParPersonne": 2.69,
     "kcal": 620,
     "macros": {
       "proteines": 24,
@@ -6539,28 +6539,28 @@
         "qteParPersonne": 150,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.8
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Muscade",
@@ -6596,7 +6596,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.53,
+    "prixParPersonne": 1.3,
     "kcal": 480,
     "macros": {
       "proteines": 14,
@@ -6610,35 +6610,35 @@
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.21
       },
       {
         "nom": "Champignons",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Persil",
@@ -6676,7 +6676,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.88,
+    "prixParPersonne": 1.47,
     "kcal": 340,
     "macros": {
       "proteines": 18,
@@ -6690,28 +6690,28 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.56
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.32
+        "prixParPersonne": 0.28
       },
       {
         "nom": "Muscade",
@@ -6725,7 +6725,7 @@
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.12
       }
     ],
     "etapes": [
@@ -6757,7 +6757,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.42,
+    "prixParPersonne": 1.03,
     "kcal": 500,
     "macros": {
       "proteines": 16,
@@ -6771,49 +6771,49 @@
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.48
       },
       {
         "nom": "Beurre de cacahuète",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Chou",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.075
       },
       {
         "nom": "Citron vert",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Gingembre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -6844,7 +6844,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.72,
+    "prixParPersonne": 1.51,
     "kcal": 500,
     "macros": {
       "proteines": 22,
@@ -6858,49 +6858,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 0.96
       },
       {
         "nom": "Maïzena",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.045
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 15,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       },
       {
         "nom": "Ketchup",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.06
       },
       {
         "nom": "Riz",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Poivron",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Ail",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.04
       }
     ],
     "etapes": [
@@ -6930,7 +6930,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.32,
+    "prixParPersonne": 0.96,
     "kcal": 460,
     "macros": {
       "proteines": 18,
@@ -6944,49 +6944,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Boulgour",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Persil",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -7015,7 +7015,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.68,
+    "prixParPersonne": 1.31,
     "kcal": 460,
     "macros": {
       "proteines": 12,
@@ -7029,49 +7029,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.24
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Farine",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.04
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.225
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Noisettes",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.24
       }
     ],
     "etapes": [
@@ -7100,7 +7100,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.29,
+    "prixParPersonne": 2.18,
     "kcal": 540,
     "macros": {
       "proteines": 32,
@@ -7121,35 +7121,35 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Salade",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Sauce César",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.1
       }
     ],
     "etapes": [
@@ -7179,7 +7179,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.78,
+    "prixParPersonne": 1.54,
     "kcal": 540,
     "macros": {
       "proteines": 28,
@@ -7193,49 +7193,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Thon en boîte",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.8
+        "prixParPersonne": 0.84
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Ail",
         "qteParPersonne": 6,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Persil",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Câpres",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.096
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -7265,7 +7265,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.87,
+    "prixParPersonne": 1.38,
     "kcal": 420,
     "macros": {
       "proteines": 16,
@@ -7279,35 +7279,35 @@
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.52
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Feta",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Concombre",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Oignon rouge",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.05
       },
       {
         "nom": "Menthe",
@@ -7321,7 +7321,7 @@
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -7350,7 +7350,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.89,
+    "prixParPersonne": 1.39,
     "kcal": 520,
     "macros": {
       "proteines": 18,
@@ -7364,49 +7364,49 @@
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Haricots noirs",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Maïs",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.15
       },
       {
         "nom": "Avocat",
         "qteParPersonne": 0.5,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Citron vert",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.125
       },
       {
         "nom": "Coriandre",
         "qteParPersonne": 5,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.15
       }
     ],
     "etapes": [
@@ -7435,7 +7435,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.66,
+    "prixParPersonne": 1.54,
     "kcal": 520,
     "macros": {
       "proteines": 18,
@@ -7449,49 +7449,49 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Brocoli",
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Anchois",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.45
       },
       {
         "nom": "Ail",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.064
       },
       {
         "nom": "Piment",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -7518,7 +7518,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.49,
+    "prixParPersonne": 2.1,
     "kcal": 480,
     "macros": {
       "proteines": 34,
@@ -7532,49 +7532,49 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.44
       },
       {
         "nom": "Carotte",
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.096
       },
       {
         "nom": "Poireau",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Navet",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.22
+        "prixParPersonne": 0.108
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Thym",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       }
     ],
     "etapes": [
@@ -7603,7 +7603,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.35,
+    "prixParPersonne": 2.18,
     "kcal": 620,
     "macros": {
       "proteines": 30,
@@ -7617,49 +7617,49 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.4
+        "prixParPersonne": 1.54
       },
       {
         "nom": "Semoule",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.14
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Coriandre",
         "qteParPersonne": 6,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.14
+        "prixParPersonne": 0.18
       },
       {
         "nom": "Courgette",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.132
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.064
       }
     ],
     "etapes": [
@@ -7690,7 +7690,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.42,
+    "prixParPersonne": 2.55,
     "kcal": 660,
     "macros": {
       "proteines": 30,
@@ -7704,42 +7704,42 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.35
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Saumon fumé",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.3
+        "prixParPersonne": 1.75
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Aneth",
         "qteParPersonne": 4,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Échalote",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -7768,7 +7768,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.1,
+    "prixParPersonne": 1.73,
     "kcal": 620,
     "macros": {
       "proteines": 20,
@@ -7782,35 +7782,35 @@
         "qteParPersonne": 150,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.525
       },
       {
         "nom": "Gorgonzola",
         "qteParPersonne": 45,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 0.72
       },
       {
         "nom": "Crème fraîche",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Noix",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.168
       },
       {
         "nom": "Épinards",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       }
     ],
     "etapes": [
@@ -7841,7 +7841,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.8,
+    "prixParPersonne": 2.55,
     "kcal": 460,
     "macros": {
       "proteines": 36,
@@ -7855,49 +7855,49 @@
         "qteParPersonne": 140,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.9
+        "prixParPersonne": 1.96
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.144
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.175
       },
       {
         "nom": "Citron",
         "qteParPersonne": 0.3,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Ail",
         "qteParPersonne": 6,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Thym",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 10,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.08
       }
     ],
     "etapes": [
@@ -7926,7 +7926,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.33,
+    "prixParPersonne": 0.81,
     "kcal": 300,
     "macros": {
       "proteines": 7,
@@ -7940,56 +7940,56 @@
         "qteParPersonne": 180,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.216
       },
       {
         "nom": "Pomme de terre",
         "qteParPersonne": 70,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.084
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Cumin",
         "qteParPersonne": 2,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.05
+        "prixParPersonne": 0.08
       },
       {
         "nom": "Bouillon",
         "qteParPersonne": 1,
         "unite": "cube",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Croûtons",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.2
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Graines de courge",
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Épicerie sucrée",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.096
       },
       {
         "nom": "Huile d'olive",
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       }
     ],
     "etapes": [
@@ -8018,7 +8018,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.96,
+    "prixParPersonne": 1.67,
     "kcal": 520,
     "macros": {
       "proteines": 22,
@@ -8032,42 +8032,42 @@
         "qteParPersonne": 180,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.38
+        "prixParPersonne": 0.216
       },
       {
         "nom": "Jambon",
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.7
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Oignon",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.036
       },
       {
         "nom": "Huile",
         "qteParPersonne": 8,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.06
+        "prixParPersonne": 0.016
       }
     ],
     "etapes": [
@@ -8097,7 +8097,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.74,
+    "prixParPersonne": 1.13,
     "kcal": 520,
     "macros": {
       "proteines": 14,
@@ -8111,42 +8111,42 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boulangerie",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Tomate",
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Moutarde",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.048
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.42
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Herbes de Provence",
         "qteParPersonne": 1,
         "unite": "pincée",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.04
+        "prixParPersonne": 0.02
       },
       {
         "nom": "Salade",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.25
+        "prixParPersonne": 0.16
       }
     ],
     "etapes": [
@@ -8178,7 +8178,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.45,
+    "prixParPersonne": 1.46,
     "kcal": 480,
     "macros": {
       "proteines": 16,
@@ -8192,42 +8192,42 @@
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.24
+        "prixParPersonne": 0.16
       },
       {
         "nom": "Kimchi",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.72
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.28
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Oignon nouveau",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.16
+        "prixParPersonne": 0.12
       },
       {
         "nom": "Sauce soja",
         "qteParPersonne": 12,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.1
+        "prixParPersonne": 0.072
       },
       {
         "nom": "Huile de sésame",
         "qteParPersonne": 6,
         "unite": "ml",
         "rayon": "Épicerie salée",
-        "prixParPersonne": 0.12
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [
@@ -8254,7 +8254,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.48,
+    "prixParPersonne": 2.62,
     "kcal": 520,
     "macros": {
       "proteines": 28,
@@ -8268,35 +8268,35 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Fruits & Légumes",
-        "prixParPersonne": 0.7
+        "prixParPersonne": 1
       },
       {
         "nom": "Jambon",
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.72
+        "prixParPersonne": 0.84
       },
       {
         "nom": "Béchamel",
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.5
+        "prixParPersonne": 0.27
       },
       {
         "nom": "Gruyère",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.48
+        "prixParPersonne": 0.42
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.08
+        "prixParPersonne": 0.09
       }
     ],
     "etapes": [

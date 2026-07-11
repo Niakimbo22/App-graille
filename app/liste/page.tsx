@@ -5,6 +5,7 @@ import { useMiam } from "@/context/MiamContext";
 import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
+import { majLisible } from "@/lib/prices";
 import PillButton from "@/components/PillButton";
 
 export default function ListePage() {
@@ -98,6 +99,9 @@ export default function ListePage() {
           <span className="text-base font-semibold text-black/60">total estimé</span>
           <span className="text-2xl font-extrabold text-forest">{euros(total)}</span>
         </div>
+        <p className="pt-1 text-[11px] leading-tight text-black/35">
+          prix moyens supermarché France · maj {majLisible()} · ajustés pour {plan.magasin}
+        </p>
       </div>
     </main>
   );

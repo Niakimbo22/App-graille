@@ -8,6 +8,7 @@ import { generatePlan } from "@/lib/planner";
 import { buildShoppingList } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros } from "@/lib/format";
+import { majLisible } from "@/lib/prices";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
 
@@ -94,6 +95,9 @@ export default function PlanPage() {
             budget un peu juste — on a gardé les recettes les moins chères.
           </p>
         )}
+        <p className="mt-3 text-[11px] leading-tight text-black/35">
+          prix moyens supermarché France · maj {majLisible()} · ajustés pour {plan.magasin}
+        </p>
       </section>
 
       {/* Liste de courses */}

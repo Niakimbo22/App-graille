@@ -2,16 +2,20 @@
   "name": "Miam — plan de repas de la semaine",
   "short_name": "Miam",
   "description": "Ton plan de repas hebdo selon ton budget, tes goûts et ton magasin. 100% gratuit.",
+  "id": ".",
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
+  "orientation": "portrait",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["food", "lifestyle", "productivity"],
   "background_color": "#F3EFE6",
   "theme_color": "#1D5A3C",
   "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

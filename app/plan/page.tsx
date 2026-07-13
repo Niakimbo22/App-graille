@@ -34,14 +34,15 @@ export default function PlanPage() {
   }
 
   const coef = coefMagasin(plan.magasin);
-  const { articles } = buildShoppingList(
+  const { articles, total } = buildShoppingList(
     plan.items.map((i) => i.recipeId),
     plan.personnes,
     coef
   );
 
-  const pct = Math.min(100, Math.round((plan.coutEstime / plan.budget) * 100));
-  const depasse = plan.coutEstime > plan.budget;
+  // coût affiché = vrai total de la liste de courses (conditionnement réel)
+  const pct = Math.min(100, Math.round((total / plan.budget) * 100));
+  const depasse = total > plan.budget;
 
   const regenerer = () => {
     const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef });
@@ -79,7 +80,7 @@ export default function PlanPage() {
           <div>
             <p className="text-sm text-black/50">coût estimé</p>
             <p className={`text-3xl font-extrabold ${depasse ? "text-orange-500" : "text-forest"}`}>
-              {euros(plan.coutEstime)}
+              {euros(total)}
             </p>
           </div>
           <p className="pb-1 text-sm font-semibold text-black/50">budget {euros(plan.budget)}</p>

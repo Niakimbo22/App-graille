@@ -239,6 +239,49 @@ const PRICES = {
   tortillas: { prix: 0.4, ref: "u" },
 };
 
+// ── Conditionnement : ce qu'on ACHÈTE vraiment en magasin ────────────────────
+// [pas, prix, label] — pas = contenu d'1 unité vendue (dans l'unité de la recette :
+// g pour la plupart), prix = € de cette unité vendue, label = mot affiché.
+// La liste de courses arrondit au nombre d'unités vendues (on n'achète pas 60 g
+// de concombre → 1 concombre entier). Absent = vendu en vrac / placard → prorata.
+const COND = {
+  // légumes à la pièce
+  concombre: [400, 0.9, "pièce"],
+  poivron: [150, 0.75, "pièce"],
+  courgette: [200, 0.6, "pièce"],
+  aubergine: [250, 0.85, "pièce"],
+  "courge butternut": [900, 2.2, "pièce"],
+  potiron: [1000, 2.5, "part"],
+  brocoli: [500, 1.6, "pièce"],
+  "chou-fleur": [700, 1.9, "pièce"],
+  chou: [800, 1.6, "pièce"],
+  "chou rouge": [800, 2, "pièce"],
+  "chou chinois": [600, 1.8, "pièce"],
+  salade: [200, 0.95, "pièce"],
+  "salade romaine": [300, 1.2, "pièce"],
+  navet: [150, 0.4, "pièce"],
+  poireau: [150, 0.6, "pièce"],
+  céleri: [400, 1.3, "pièce"],
+  "pak choï": [200, 1.2, "pièce"],
+  // sachets / barquettes
+  roquette: [100, 1.4, "sachet"],
+  épinards: [150, 1.5, "sachet"],
+  "épinards frais": [150, 1.5, "sachet"],
+  champignons: [250, 1.4, "barquette"],
+  "champignons de paris": [250, 1.4, "barquette"],
+  "tomates cerises": [250, 1.6, "barquette"],
+  "graines de courge": [100, 1.8, "sachet"],
+  // herbes fraîches (botte / pot)
+  persil: [30, 0.8, "botte"],
+  coriandre: [30, 0.9, "botte"],
+  basilic: [25, 1.2, "pot"],
+  menthe: [25, 0.9, "botte"],
+  aneth: [20, 0.9, "botte"],
+  citronnelle: [20, 1.2, "sachet"],
+  "oignon nouveau": [100, 0.8, "botte"],
+  gingembre: [80, 0.6, "morceau"],
+};
+
 /** Convertit le prix de référence vers le prix de l'unité utilisée en recette. */
 function prixUnite(entry, unite) {
   const { prix, ref, poids } = entry;
@@ -286,10 +329,16 @@ function main() {
     process.exit(1);
   }
 
+  // Fusionne le conditionnement dans la table de prix exportée.
+  const prixOut = {};
+  for (const [key, entry] of Object.entries(PRICES)) {
+    prixOut[key] = COND[key] ? { ...entry, cond: COND[key] } : { ...entry };
+  }
+
   writeFileSync(RECIPES_PATH, JSON.stringify(recipes, null, 2) + "\n");
   writeFileSync(
     PRICES_PATH,
-    JSON.stringify({ meta: META, prix: PRICES }, null, 2) + "\n"
+    JSON.stringify({ meta: META, prix: prixOut }, null, 2) + "\n"
   );
 
   // Récap

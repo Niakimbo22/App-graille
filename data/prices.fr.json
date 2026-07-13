@@ -128,12 +128,22 @@
     },
     "aneth": {
       "prix": 30,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        20,
+        0.9,
+        "botte"
+      ]
     },
     "aubergine": {
       "prix": 3,
       "ref": "kg",
-      "poids": 250
+      "poids": 250,
+      "cond": [
+        250,
+        0.85,
+        "pièce"
+      ]
     },
     "avocat": {
       "prix": 0.8,
@@ -141,11 +151,21 @@
     },
     "basilic": {
       "prix": 30,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        25,
+        1.2,
+        "pot"
+      ]
     },
     "brocoli": {
       "prix": 3,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        500,
+        1.6,
+        "pièce"
+      ]
     },
     "carotte": {
       "prix": 1.2,
@@ -153,31 +173,66 @@
     },
     "céleri": {
       "prix": 2.5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        400,
+        1.3,
+        "pièce"
+      ]
     },
     "champignons": {
       "prix": 4,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        250,
+        1.4,
+        "barquette"
+      ]
     },
     "champignons de paris": {
       "prix": 4,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        250,
+        1.4,
+        "barquette"
+      ]
     },
     "chou": {
       "prix": 1.5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        800,
+        1.6,
+        "pièce"
+      ]
     },
     "chou chinois": {
       "prix": 2.5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        600,
+        1.8,
+        "pièce"
+      ]
     },
     "chou rouge": {
       "prix": 2,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        800,
+        2,
+        "pièce"
+      ]
     },
     "chou-fleur": {
       "prix": 2.5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        700,
+        1.9,
+        "pièce"
+      ]
     },
     "citron": {
       "prix": 0.4,
@@ -189,23 +244,48 @@
     },
     "citronnelle": {
       "prix": 25,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        20,
+        1.2,
+        "sachet"
+      ]
     },
     "concombre": {
       "prix": 2,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        400,
+        0.9,
+        "pièce"
+      ]
     },
     "coriandre": {
       "prix": 30,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        30,
+        0.9,
+        "botte"
+      ]
     },
     "courge butternut": {
       "prix": 2,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        900,
+        2.2,
+        "pièce"
+      ]
     },
     "courgette": {
       "prix": 2.2,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        200,
+        0.6,
+        "pièce"
+      ]
     },
     "échalote": {
       "prix": 4,
@@ -217,23 +297,48 @@
     },
     "épinards": {
       "prix": 4,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        150,
+        1.5,
+        "sachet"
+      ]
     },
     "épinards frais": {
       "prix": 6,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        150,
+        1.5,
+        "sachet"
+      ]
     },
     "gingembre": {
       "prix": 8,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        80,
+        0.6,
+        "morceau"
+      ]
     },
     "menthe": {
       "prix": 30,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        25,
+        0.9,
+        "botte"
+      ]
     },
     "navet": {
       "prix": 1.8,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        150,
+        0.4,
+        "pièce"
+      ]
     },
     "oignon": {
       "prix": 1.2,
@@ -241,7 +346,12 @@
     },
     "oignon nouveau": {
       "prix": 6,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        100,
+        0.8,
+        "botte"
+      ]
     },
     "oignon rouge": {
       "prix": 2,
@@ -249,20 +359,40 @@
     },
     "pak choï": {
       "prix": 5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        200,
+        1.2,
+        "pièce"
+      ]
     },
     "persil": {
       "prix": 20,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        30,
+        0.8,
+        "botte"
+      ]
     },
     "poireau": {
       "prix": 2.5,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        150,
+        0.6,
+        "pièce"
+      ]
     },
     "poivron": {
       "prix": 3.5,
       "ref": "kg",
-      "poids": 150
+      "poids": 150,
+      "cond": [
+        150,
+        0.75,
+        "pièce"
+      ]
     },
     "pomme de terre": {
       "prix": 1.2,
@@ -274,19 +404,39 @@
     },
     "potiron": {
       "prix": 2,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        1000,
+        2.5,
+        "part"
+      ]
     },
     "roquette": {
       "prix": 12,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        100,
+        1.4,
+        "sachet"
+      ]
     },
     "salade": {
       "prix": 4,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        200,
+        0.95,
+        "pièce"
+      ]
     },
     "salade romaine": {
       "prix": 4,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        300,
+        1.2,
+        "pièce"
+      ]
     },
     "tomate": {
       "prix": 2.5,
@@ -294,7 +444,12 @@
     },
     "tomates cerises": {
       "prix": 6,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        250,
+        1.6,
+        "barquette"
+      ]
     },
     "béchamel": {
       "prix": 3,
@@ -658,7 +813,12 @@
     },
     "graines de courge": {
       "prix": 12,
-      "ref": "kg"
+      "ref": "kg",
+      "cond": [
+        100,
+        1.8,
+        "sachet"
+      ]
     },
     "miel": {
       "prix": 12,

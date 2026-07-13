@@ -59,7 +59,7 @@ const PRICES = {
   jambon: { prix: 14, ref: "kg" },
   lardons: { prix: 9, ref: "kg" },
   "lardons fumés": { prix: 10, ref: "kg" },
-  merguez: { prix: 10, ref: "kg" },
+  merguez: { prix: 10, ref: "kg", poids: 60 },
   moules: { prix: 5, ref: "kg" },
   "pavé de saumon": { prix: 24, ref: "kg" },
   sardines: { prix: 8, ref: "kg" },

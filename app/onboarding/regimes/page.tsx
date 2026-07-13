@@ -24,7 +24,7 @@ export default function RegimesPage() {
   return (
     <OnboardingLayout
       step={3}
-      total={6}
+      total={7}
       title="des besoins alimentaires ?"
       subtitle="plusieurs choix possibles"
       onContinue={() => router.push("/onboarding/ambiance")}

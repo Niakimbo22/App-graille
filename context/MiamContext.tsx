@@ -11,6 +11,7 @@ const defaultFunnel: FunnelState = {
   regimes: [],
   ambiances: [],
   personnes: 2,
+  nbRepas: 5,
   equipement: [],
 };
 

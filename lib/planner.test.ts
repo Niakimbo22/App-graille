@@ -25,6 +25,7 @@ function baseFunnel(overrides: Partial<FunnelState> = {}): FunnelState {
     regimes: [],
     ambiances: [],
     personnes: 2,
+    nbRepas: 5,
     equipement: ["four", "plaque", "airfryer"],
     ...overrides,
   };

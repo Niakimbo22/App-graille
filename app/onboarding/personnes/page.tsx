@@ -24,10 +24,10 @@ export default function PersonnesPage() {
   return (
     <OnboardingLayout
       step={5}
-      total={6}
+      total={7}
       title="vous êtes combien ?"
       subtitle="on ajuste les quantités"
-      onContinue={() => router.push("/onboarding/equipement")}
+      onContinue={() => router.push("/onboarding/jours")}
     >
       <div className="flex items-center justify-center gap-6">
         <Btn label="−" onClick={() => set(n - 1)} disabled={n <= 1} />

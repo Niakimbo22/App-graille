@@ -62,6 +62,8 @@ export interface FunnelState {
   regimes: Regime[];
   ambiances: Tag[];
   personnes: number;
+  /** nombre de dîners (jours) à planifier. Défaut: 5 */
+  nbRepas: number;
   equipement: Equipement[];
   /** inclure les recettes du monde importées (prix estimés). Défaut: false */
   inclureMonde?: boolean;

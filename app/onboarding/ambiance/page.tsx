@@ -13,7 +13,7 @@ export default function AmbiancePage() {
   return (
     <OnboardingLayout
       step={4}
-      total={6}
+      total={7}
       title="quelle ambiance cette semaine ?"
       subtitle="jusqu'à 3 envies"
       onContinue={() => router.push("/onboarding/personnes")}

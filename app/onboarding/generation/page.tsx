@@ -25,7 +25,7 @@ export default function GenerationPage() {
 
     // génère et enregistre le plan
     const coef = coefMagasin(state.funnel.magasin);
-    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef });
+    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef, nbRepas: state.funnel.nbRepas });
     setPlan({
       items: result.items,
       magasin: state.funnel.magasin ?? "Carrefour",

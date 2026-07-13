@@ -12,7 +12,7 @@ import { majLisible } from "@/lib/prices";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
 
-const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi"];
+const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 
 export default function PlanPage() {
   const { state, setPlan, resetCochees, hydrated } = useMiam();
@@ -45,7 +45,7 @@ export default function PlanPage() {
   const depasse = total > plan.budget;
 
   const regenerer = () => {
-    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef });
+    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef, nbRepas: state.funnel.nbRepas });
     setPlan({
       items: result.items,
       magasin: plan.magasin,

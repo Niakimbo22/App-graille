@@ -6,7 +6,9 @@ import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
+import { encodePlan, shareUrl, shoppingListShareText } from "@/lib/share";
 import PillButton from "@/components/PillButton";
+import ShareButton from "@/components/ShareButton";
 
 export default function ListePage() {
   const { state, toggleCoche, hydrated } = useMiam();
@@ -45,12 +47,19 @@ export default function ListePage() {
         >
           ←
         </button>
-        <div>
+        <div className="flex-1">
           <h1 className="text-2xl font-extrabold lowercase text-forest">liste de courses</h1>
           <p className="text-sm text-black/50">
             {nbCochees}/{articles.length} · {plan.magasin}
           </p>
         </div>
+        <ShareButton
+          variant="icon"
+          className="bg-white"
+          title="Ma liste de courses — Miam"
+          text={shoppingListShareText(parRayon, total)}
+          url={shareUrl("/partage/", { d: encodePlan(plan) })}
+        />
       </div>
 
       <div className="space-y-5">

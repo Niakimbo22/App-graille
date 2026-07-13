@@ -6,6 +6,10 @@ const isPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig = {
   reactStrictMode: true,
+  env: {
+    // exposé au client pour construire des liens de partage absolus
+    NEXT_PUBLIC_BASE_PATH: isPages ? `/${repo}` : "",
+  },
   ...(isPages
     ? {
         output: "export",

@@ -8,8 +8,10 @@ import { coefMagasin } from "@/lib/stores";
 import { gradientFor } from "@/lib/gradient";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
+import { recipeShareText, shareUrl } from "@/lib/share";
 import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
+import ShareButton from "@/components/ShareButton";
 import type { Rayon } from "@/lib/types";
 
 export default function RecipeDetailClient({ id }: { id: string }) {
@@ -69,6 +71,13 @@ export default function RecipeDetailClient({ id }: { id: string }) {
         >
           ←
         </button>
+        <ShareButton
+          variant="icon"
+          className="absolute right-5 top-[max(1.25rem,env(safe-area-inset-top))]"
+          title={recipe.nom}
+          text={recipeShareText(recipe, personnes)}
+          url={shareUrl(`/plan/${recipe.id}/`)}
+        />
         {recipe.emoji}
       </div>
 

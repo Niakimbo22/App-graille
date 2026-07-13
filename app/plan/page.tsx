@@ -9,8 +9,10 @@ import { buildShoppingList } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
+import { encodePlan, planShareText, shareUrl } from "@/lib/share";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
+import ShareButton from "@/components/ShareButton";
 
 const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 
@@ -56,6 +58,11 @@ export default function PlanPage() {
     });
     resetCochees();
   };
+
+  const recipesForShare = plan.items
+    .map((item) => ({ recipe: getRecipe(item.recipeId)! }))
+    .filter((x) => x.recipe);
+  const partageLien = shareUrl("/partage/", { d: encodePlan(plan) });
 
   return (
     <main className="safe-top safe-bottom mx-auto w-full max-w-md px-5 pb-10">
@@ -130,10 +137,16 @@ export default function PlanPage() {
         })}
       </section>
 
-      <div className="mt-6">
+      <div className="mt-6 space-y-3">
         <PillButton variant="ghost" onClick={regenerer}>
           🔄 régénérer la semaine
         </PillButton>
+        <ShareButton
+          title="Mon plan de la semaine — Miam"
+          text={planShareText(recipesForShare, plan.personnes, total, plan.magasin)}
+          url={partageLien}
+          label="partager ma semaine"
+        />
       </div>
     </main>
   );

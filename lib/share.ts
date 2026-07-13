@@ -104,6 +104,14 @@ export function shoppingListShareText(
   return lines.join("\n");
 }
 
+export function appShareText(): string {
+  return [
+    "🥗 Miam — plan de repas de la semaine",
+    "Une appli gratuite qui compose ton menu de la semaine selon ton budget et te sort la liste de courses.",
+    "Sans compte, sans pub, ça marche même hors connexion une fois installée.",
+  ].join("\n");
+}
+
 // ── Partage natif (Web Share API) avec repli presse-papiers ───────────────────
 
 export interface ShareInput {

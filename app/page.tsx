@@ -7,6 +7,9 @@ import { RECIPES } from "@/lib/recipes";
 import { gradientFor } from "@/lib/gradient";
 import { euros } from "@/lib/format";
 import PillButton from "@/components/PillButton";
+import ShareButton from "@/components/ShareButton";
+import InstallAppButton from "@/components/InstallAppButton";
+import { appShareText, shareUrl } from "@/lib/share";
 
 const EXEMPLES = ["poulet-curry-coco", "buddha-bowl-pois-chiches", "saumon-teriyaki-four"];
 
@@ -86,6 +89,20 @@ export default function Landing() {
           <PillButton onClick={() => router.push("/onboarding/magasin")}>commencer</PillButton>
         )}
         <p className="pt-1 text-center text-xs text-black/40">100% gratuit · aucune donnée envoyée · pas de compte</p>
+      </section>
+
+      {/* Installer / partager */}
+      <section className="mt-6 space-y-3">
+        <InstallAppButton />
+        <ShareButton
+          title="Miam — plan de repas de la semaine"
+          text={appShareText()}
+          url={shareUrl("/")}
+          label="partager l'application à un proche"
+        />
+        <p className="pt-1 text-center text-xs text-black/40">
+          installe miam sur ton écran d&apos;accueil, comme une vraie appli
+        </p>
       </section>
     </main>
   );

@@ -1,7 +1,7 @@
 // Tests de l'algorithme de sélection. Lancer avec: npm test
 import recipesData from "../data/recipes.json";
 import type { Recipe, FunnelState } from "./types";
-import { generatePlan, filterRecipes, satisfiesRegime } from "./planner";
+import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI } from "./planner";
 
 const recipes = recipesData as Recipe[];
 
@@ -112,6 +112,32 @@ console.log("Cas 7 — coefficient magasin");
   const plein = generatePlan({ recipes, funnel, coef: 1.0, seed: 42 });
   const lidl = generatePlan({ recipes, funnel, coef: 0.85, seed: 42 });
   assert(lidl.coutEstime < plein.coutEstime, `Lidl (${lidl.coutEstime}€) moins cher que Carrefour (${plein.coutEstime}€)`);
+}
+
+// --- Cas 8: sans sucre ajouté ---
+console.log("Cas 8 — sans sucre ajouté");
+{
+  const funnel = baseFunnel({ regimes: ["sans-sucre"] });
+  const res = generatePlan({ recipes, funnel, coef: 1.0, seed: 11 });
+  assert(res.items.length === 5, "5 recettes trouvées sans sucre ajouté");
+  for (const item of res.items) {
+    const r = recipes.find((x) => x.id === item.recipeId)!;
+    assert(!hasAddedSugar(r), `${r.id} sans sucre ajouté`);
+  }
+}
+
+// --- Cas 9: indice glycémique bas ---
+console.log("Cas 9 — indice glycémique bas");
+{
+  const funnel = baseFunnel({ regimes: ["indice-glycemique-bas"] });
+  const res = generatePlan({ recipes, funnel, coef: 1.0, seed: 13 });
+  assert(res.items.length === 5, "5 recettes trouvées IG bas");
+  for (const item of res.items) {
+    const r = recipes.find((x) => x.id === item.recipeId)!;
+    assert(isLowGI(r), `${r.id} est IG bas`);
+  }
+  const riz = recipes.find((x) => x.id === "riz-cantonais");
+  if (riz) assert(!isLowGI(riz), "riz cantonais n'est pas IG bas (riz + sucre absents mais féculent raffiné)");
 }
 
 console.log(`\n${passed} assertions OK, ${failed} échecs`);

@@ -6,7 +6,13 @@ export type Tag =
   | "famille"
   | "du monde";
 
-export type Regime = "vegetarien" | "pescetarien" | "sans-gluten" | "sans-lactose";
+export type Regime =
+  | "vegetarien"
+  | "pescetarien"
+  | "sans-gluten"
+  | "sans-lactose"
+  | "sans-sucre"
+  | "indice-glycemique-bas";
 
 export type Equipement = "four" | "plaque" | "airfryer";
 

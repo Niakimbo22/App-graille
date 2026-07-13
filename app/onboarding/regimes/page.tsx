@@ -6,12 +6,19 @@ import type { Regime } from "@/lib/types";
 import OnboardingLayout from "@/components/OnboardingLayout";
 import SelectCard from "@/components/SelectCard";
 
-const OPTIONS: { regime: Regime | "aucun"; label: string; emoji: string }[] = [
+const OPTIONS: { regime: Regime | "aucun"; label: string; emoji: string; subtitle?: string }[] = [
   { regime: "aucun", label: "Aucun", emoji: "🍽️" },
   { regime: "vegetarien", label: "Végétarien", emoji: "🥕" },
   { regime: "pescetarien", label: "Pescétarien", emoji: "🐟" },
   { regime: "sans-gluten", label: "Sans gluten", emoji: "🌾" },
   { regime: "sans-lactose", label: "Sans lactose", emoji: "🥛" },
+  { regime: "sans-sucre", label: "Sans sucre ajouté", emoji: "🍬" },
+  {
+    regime: "indice-glycemique-bas",
+    label: "Indice glycémique bas",
+    emoji: "📉",
+    subtitle: "estimation · évite riz, pâtes, pain, pomme de terre",
+  },
 ];
 
 export default function RegimesPage() {
@@ -38,6 +45,7 @@ export default function RegimesPage() {
               selected={selected}
               emoji={o.emoji}
               title={o.label}
+              subtitle={o.subtitle}
               onClick={() => {
                 if (o.regime === "aucun") setFunnel({ regimes: [] });
                 else toggleRegime(o.regime as Regime);

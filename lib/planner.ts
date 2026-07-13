@@ -34,6 +34,34 @@ export function mulberry32(seed: number): () => number {
   };
 }
 
+// Ingrédients apportant du sucre ajouté (correspondance exacte, pas de sous-chaîne
+// pour éviter les faux positifs comme "confit de canard").
+const SUCRE_AJOUTE = new Set(["sucre", "miel", "sirop d'érable", "ketchup"]);
+
+/** Vrai si la recette contient un ingrédient de sucre ajouté. */
+export function hasAddedSugar(recipe: Recipe): boolean {
+  return recipe.ingredients.some((i) => SUCRE_AJOUTE.has(i.nom.toLowerCase().trim()));
+}
+
+// Féculents raffinés à indice glycémique élevé (approximation pratique : on exclut
+// volontairement le riz basmati, le boulgour, le quinoa et les légumineuses, qui
+// ont un IG plus bas). Ce n'est pas un avis médical, juste une estimation utile
+// pour composer un menu.
+const FECULENTS_IG_HAUT = new Set([
+  "chapelure", "coquillettes", "croûtons", "farine", "feuilles de lasagne", "frites",
+  "galette de sarrasin", "gnocchi", "macaroni", "nouilles", "nouilles chinoises",
+  "nouilles de riz", "nouilles soba", "orecchiette", "pain", "pain burger", "pain de mie",
+  "pain pita", "penne", "polenta", "pomme de terre", "pommes de terre", "pâte brisée",
+  "pâte à pizza", "pâte feuilletée", "riz", "riz arborio", "rigatoni", "semoule",
+  "spaghetti", "tagliatelles", "tortilla", "tortillas", "vermicelles",
+]);
+
+/** Vrai si la recette évite les féculents à IG élevé et le sucre ajouté (estimation). */
+export function isLowGI(recipe: Recipe): boolean {
+  if (hasAddedSugar(recipe)) return false;
+  return !recipe.ingredients.some((i) => FECULENTS_IG_HAUT.has(i.nom.toLowerCase().trim()));
+}
+
 /** Régime satisfait par une recette (un plat végé convient à un pescétarien). */
 export function satisfiesRegime(recipe: Recipe, regime: Regime): boolean {
   switch (regime) {
@@ -45,6 +73,10 @@ export function satisfiesRegime(recipe: Recipe, regime: Regime): boolean {
       return !recipe.allergenes.includes("gluten");
     case "sans-lactose":
       return !recipe.allergenes.includes("lait");
+    case "sans-sucre":
+      return !hasAddedSugar(recipe);
+    case "indice-glycemique-bas":
+      return isLowGI(recipe);
     default:
       return true;
   }
@@ -70,9 +102,7 @@ export function filterRecipes(recipes: Recipe[], funnel: FunnelState): Recipe[] 
     // recettes du monde importées: seulement si l'utilisateur les a activées
     if (r.origine === "monde" && !funnel.inclureMonde) return false;
     for (const regime of funnel.regimes) {
-      if (regime === "vegetarien" || regime === "pescetarien" || regime === "sans-gluten" || regime === "sans-lactose") {
-        if (!satisfiesRegime(r, regime)) return false;
-      }
+      if (!satisfiesRegime(r, regime)) return false;
     }
     if (!r.equipement.every((e) => (equipDispo as readonly string[]).includes(e))) return false;
     return true;

@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useMiam } from "@/context/MiamContext";
+import { useProfil } from "@/context/ProfilContext";
 import { RECIPES, getRecipe } from "@/lib/recipes";
 import { generatePlan } from "@/lib/planner";
 import { buildShoppingList } from "@/lib/shopping";
@@ -18,6 +19,7 @@ const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dim
 
 export default function PlanPage() {
   const { state, setPlan, resetCochees, hydrated } = useMiam();
+  const { profil, garderSemaine, retirerSemaine, semaineGardee } = useProfil();
   const router = useRouter();
   const plan = state.plan;
 
@@ -64,6 +66,17 @@ export default function PlanPage() {
     .filter((x) => x.recipe);
   const partageLien = shareUrl("/partage/", { d: encodePlan(plan) });
 
+  const gardee = semaineGardee(plan);
+  const onGarder = () => {
+    if (!profil) {
+      // pas encore de profil : on va en créer un, la semaine sera gardée juste après
+      router.push("/favoris?garder=semaine");
+      return;
+    }
+    if (gardee) retirerSemaine(gardee.id);
+    else garderSemaine(plan);
+  };
+
   return (
     <main className="safe-top safe-bottom mx-auto w-full max-w-md px-5 pb-10">
       <div className="mb-4 flex items-center justify-between">
@@ -73,6 +86,13 @@ export default function PlanPage() {
         <span className="rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-forest shadow-soft">
           🛒 prévu pour {plan.magasin}
         </span>
+        <Link
+          href="/favoris"
+          aria-label="mes favoris"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg shadow-soft"
+        >
+          ❤️
+        </Link>
       </div>
 
       {/* Bandeau */}
@@ -138,6 +158,9 @@ export default function PlanPage() {
       </section>
 
       <div className="mt-6 space-y-3">
+        <PillButton variant="ghost" onClick={onGarder}>
+          {gardee ? "💛 gardée — retirer des favoris" : "🤍 garder cette semaine en favoris"}
+        </PillButton>
         <PillButton variant="ghost" onClick={regenerer}>
           🔄 régénérer la semaine
         </PillButton>

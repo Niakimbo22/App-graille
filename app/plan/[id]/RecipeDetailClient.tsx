@@ -12,6 +12,7 @@ import { recipeShareText, shareUrl } from "@/lib/share";
 import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
+import FavoriteHeart from "@/components/FavoriteHeart";
 import type { Rayon } from "@/lib/types";
 
 export default function RecipeDetailClient({ id }: { id: string }) {
@@ -71,6 +72,10 @@ export default function RecipeDetailClient({ id }: { id: string }) {
         >
           ←
         </button>
+        <FavoriteHeart
+          recipeId={recipe.id}
+          className="absolute right-[4.5rem] top-[max(1.25rem,env(safe-area-inset-top))]"
+        />
         <ShareButton
           variant="icon"
           className="absolute right-5 top-[max(1.25rem,env(safe-area-inset-top))]"

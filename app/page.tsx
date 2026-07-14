@@ -88,7 +88,10 @@ export default function Landing() {
         ) : (
           <PillButton onClick={() => router.push("/onboarding/magasin")}>commencer</PillButton>
         )}
-        <p className="pt-1 text-center text-xs text-black/40">100% gratuit · aucune donnée envoyée · pas de compte</p>
+        <PillButton variant="ghost" onClick={() => router.push("/favoris")}>
+          ❤️ mes favoris
+        </PillButton>
+        <p className="pt-1 text-center text-xs text-black/40">100% gratuit · aucune donnée envoyée · pas de vrai compte</p>
       </section>
 
       {/* Installer / partager */}

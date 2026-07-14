@@ -27,7 +27,7 @@ export default function InstallAppButton() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
   const [installed, setInstalled] = useState(true);
   const [ios, setIos] = useState(false);
-  const [showIosHelp, setShowIosHelp] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
 
   useEffect(() => {
     setInstalled(isStandalone());
@@ -50,7 +50,6 @@ export default function InstallAppButton() {
   }, []);
 
   if (installed) return null;
-  if (!deferred && !ios) return null;
 
   const onClick = async () => {
     if (deferred) {
@@ -60,7 +59,8 @@ export default function InstallAppButton() {
       setDeferred(null);
       return;
     }
-    setShowIosHelp((v) => !v);
+    // pas d'invite native (iOS, Firefox…) : on explique comment faire
+    setShowHelp((v) => !v);
   };
 
   return (
@@ -68,10 +68,20 @@ export default function InstallAppButton() {
       <PillButton variant="ghost" onClick={onClick}>
         📲 installer l&apos;application
       </PillButton>
-      {showIosHelp && (
+      {showHelp && (
         <p className="mt-2 rounded-2xl bg-white p-3 text-center text-sm text-black/60 shadow-soft">
-          appuie sur <strong>partager</strong> (le carré avec la flèche, en bas de Safari) puis
-          <strong> « Sur l&apos;écran d&apos;accueil »</strong>.
+          {ios ? (
+            <>
+              appuie sur <strong>partager</strong> (le carré avec la flèche, en bas de Safari) puis
+              <strong> « Sur l&apos;écran d&apos;accueil »</strong>.
+            </>
+          ) : (
+            <>
+              ouvre le <strong>menu de ton navigateur</strong> (⋮ ou ⋯) puis choisis
+              <strong> « installer l&apos;application »</strong> ou
+              <strong> « ajouter à l&apos;écran d&apos;accueil »</strong>.
+            </>
+          )}
         </p>
       )}
     </div>

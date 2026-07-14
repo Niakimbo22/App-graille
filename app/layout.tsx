@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { MiamProvider } from "@/context/MiamContext";
+import { ProfilProvider } from "@/context/ProfilContext";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -40,7 +41,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={inter.variable}>
       <body className="miam-bg font-sans">
-        <MiamProvider>{children}</MiamProvider>
+        <MiamProvider>
+          <ProfilProvider>{children}</ProfilProvider>
+        </MiamProvider>
         <ServiceWorkerRegister />
       </body>
     </html>

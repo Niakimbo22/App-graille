@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { Recipe } from "@/lib/types";
 import { gradientFor } from "@/lib/gradient";
 import { euros } from "@/lib/format";
+import { recetteDeSaison } from "@/lib/saison";
 import TagPill from "./TagPill";
 
 interface Props {
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }: Props) {
+  const deSaison = recetteDeSaison(recipe);
   const body = (
     <div className="overflow-hidden rounded-3xl bg-white shadow-soft transition active:scale-[0.99]">
       {jour && (
@@ -27,6 +29,11 @@ export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }:
         {recipe.origine === "monde" && (
           <span className="absolute right-2 top-2 rounded-full bg-white/85 px-2 py-0.5 text-xs font-bold text-forest shadow-soft">
             🌍 du monde
+          </span>
+        )}
+        {deSaison && (
+          <span className="absolute left-2 top-2 rounded-full bg-white/85 px-2 py-0.5 text-xs font-bold text-leaf shadow-soft">
+            🌱 de saison
           </span>
         )}
       </div>

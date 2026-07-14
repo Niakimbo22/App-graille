@@ -8,6 +8,7 @@ import { coefMagasin } from "@/lib/stores";
 import { gradientFor } from "@/lib/gradient";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
+import { estDeSaison } from "@/lib/saison";
 import { recipeShareText, shareUrl } from "@/lib/share";
 import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
@@ -135,15 +136,26 @@ export default function RecipeDetailClient({ id }: { id: string }) {
             <span className="text-sm text-black/50">pour {personnes} {personnes > 1 ? "pers." : "pers."}</span>
           </div>
           <ul className="divide-y divide-black/5">
-            {recipe.ingredients.map((ing) => (
-              <li key={ing.nom} className="flex items-center gap-3 py-2.5">
-                <span className="text-lg">{rayonEmoji(ing.rayon as Rayon)}</span>
-                <span className="flex-1 text-sm font-medium text-forest">{ing.nom}</span>
-                <span className="text-sm font-semibold text-black/60">
-                  {formatQte(ing.qteParPersonne, personnes, ing.unite)}
-                </span>
-              </li>
-            ))}
+            {recipe.ingredients.map((ing) => {
+              const saison = ing.rayon === "Fruits & Légumes" ? estDeSaison(ing.nom) : null;
+              return (
+                <li key={ing.nom} className="flex items-center gap-3 py-2.5">
+                  <span className="text-lg">{rayonEmoji(ing.rayon as Rayon)}</span>
+                  <span className="flex flex-1 flex-wrap items-center gap-x-2 text-sm font-medium text-forest">
+                    {ing.nom}
+                    {saison === true && (
+                      <span className="rounded-full bg-leaf/15 px-1.5 py-0.5 text-[10px] font-bold text-leaf">🌱 saison</span>
+                    )}
+                    {saison === false && (
+                      <span className="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold text-orange-500">hors saison</span>
+                    )}
+                  </span>
+                  <span className="text-sm font-semibold text-black/60">
+                    {formatQte(ing.qteParPersonne, personnes, ing.unite)}
+                  </span>
+                </li>
+              );
+            })}
           </ul>
         </section>
 

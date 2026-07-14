@@ -1,5 +1,6 @@
-import type { Recipe, FunnelState, Regime } from "./types";
+import type { Recipe, FunnelState, Regime, ProteinPref } from "./types";
 import { round2 } from "./format";
+import { saisonnaliteRecette } from "./saison";
 
 export interface PlanInput {
   recipes: Recipe[];
@@ -109,14 +110,43 @@ export function filterRecipes(recipes: Recipe[], funnel: FunnelState): Recipe[] 
   });
 }
 
-/** Score d'affinité d'une recette avec les ambiances choisies. */
+// Bonus de score attribué à une recette qui matche une envie de protéine.
+const BONUS_ENVIE = 3;
+// Bonus si la recette est pleinement de saison (au moins un F&L de saison, aucun hors-saison).
+const BONUS_SAISON = 3;
+// Pénalité par ingrédient F&L hors saison quand l'option saison est activée.
+const MALUS_HORS_SAISON = 2;
+
+/**
+ * Score d'affinité d'une recette avec les choix du funnel :
+ * ambiances, envies de protéines, et fruits & légumes de saison.
+ */
 export function scoreRecipe(recipe: Recipe, funnel: FunnelState): number {
   let score = 0;
   for (const tag of recipe.tags) {
     if (funnel.ambiances.includes(tag)) score += 2;
   }
   if (funnel.ambiances.includes("rapide") && recipe.tempsMin <= 25) score += 1;
+
+  // envies de protéines : on privilégie les recettes de la catégorie voulue
+  const prefs = funnel.preferences ?? [];
+  if (prefs.length > 0 && prefs.includes(proteinCategory(recipe) as ProteinPref)) {
+    score += BONUS_ENVIE;
+  }
+
+  // fruits & légumes de saison : bonus si de saison, malus par ingrédient hors saison
+  if (funnel.saison) {
+    const s = saisonnaliteRecette(recipe);
+    if (s.ok && s.deSaison > 0) score += BONUS_SAISON;
+    else if (s.horsSaison.length > 0) score -= MALUS_HORS_SAISON * s.horsSaison.length;
+  }
+
   return score;
+}
+
+/** Poids de tirage (toujours strictement positif malgré d'éventuels malus). */
+function poids(score: number): number {
+  return Math.max(0.25, score + 1);
 }
 
 /** Prix total d'une recette pour le nombre de personnes, coef magasin inclus. */
@@ -156,14 +186,18 @@ export function generatePlan(input: PlanInput): PlanResult {
     prot: proteinCategory(recipe),
   }));
 
+  const prefs = funnel.preferences ?? [];
   const chosen: typeof candidates = [];
   let budgetLeft = funnel.budget;
   let lastProt: string | null = null;
   const remaining = [...candidates];
 
   while (chosen.length < nbRepas && remaining.length > 0) {
-    // diversité: éviter la même protéine deux fois de suite (relâché si impossible)
-    let pool = remaining.filter((c) => c.prot !== lastProt);
+    // diversité: éviter la même protéine deux fois de suite — sauf si c'est
+    // une envie assumée (ex: "plus de poulet"), auquel cas on l'autorise à revenir.
+    let pool = remaining.filter(
+      (c) => c.prot !== lastProt || prefs.includes(c.prot as ProteinPref)
+    );
     if (pool.length === 0) pool = remaining;
 
     // recettes tenant dans le budget restant
@@ -171,9 +205,9 @@ export function generatePlan(input: PlanInput): PlanResult {
 
     let pick: (typeof candidates)[number] | null;
     if (inBudget.length > 0) {
-      // tirage pondéré par le score (poids minimal 1 pour garder de l'aléatoire)
+      // tirage pondéré par le score (poids minimal pour garder de l'aléatoire)
       pick = weightedPick(
-        inBudget.map((c) => ({ item: c, weight: c.score + 1 })),
+        inBudget.map((c) => ({ item: c, weight: poids(c.score) })),
         rng
       );
     } else {
@@ -210,7 +244,7 @@ export function swapRecipe(
   const used = new Set(usedIds);
   const options = filterRecipes(recipes, funnel).filter((r) => r.id !== currentId && !used.has(r.id));
   if (options.length === 0) return null;
-  const weighted = options.map((r) => ({ item: r, weight: scoreRecipe(r, funnel) + 1 }));
+  const weighted = options.map((r) => ({ item: r, weight: poids(scoreRecipe(r, funnel)) }));
   const pick = weightedPick(weighted, rng);
   if (!pick) return null;
   return { recipeId: pick.id, prixTotal: prixTotalRecette(pick, funnel.personnes, coef) };

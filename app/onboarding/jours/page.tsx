@@ -26,8 +26,8 @@ export default function JoursPage() {
 
   return (
     <OnboardingLayout
-      step={6}
-      total={7}
+      step={7}
+      total={8}
       title="combien de dîners ?"
       subtitle="on prépare autant de repas et la liste qui va avec"
       onContinue={() => router.push("/onboarding/equipement")}

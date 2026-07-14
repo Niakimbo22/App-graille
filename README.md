@@ -27,9 +27,13 @@ npm run gen        # régénère data/recipes.json depuis scripts/gen-recipes.mj
 
 ## 🧭 Le parcours
 
-`/` landing → `/onboarding/*` (funnel plein écran, une question par écran) →
+`/` landing → `/onboarding/*` (funnel plein écran, une question par écran :
+magasin → budget → régimes → ambiance → **envies** → personnes → jours → équipement) →
 `/onboarding/generation` (écran de génération animé) → `/plan` (les 5 recettes + coût) →
 `/plan/[id]` (détail recette + swap) → `/liste` (liste de courses par rayon, cases cochables).
+
+L'étape **envies** permet de demander « un peu plus de poulet / viande rouge / poisson /
+porc / végétal / œufs » et d'activer les **fruits & légumes de saison**.
 
 L'état (réponses, plan courant, articles cochés) est persisté dans `localStorage`
 sous la clé `miam-state`. Au retour, la landing propose **« reprendre ma semaine »**.
@@ -41,7 +45,7 @@ app/
   layout.tsx                 # shell + police Inter + MiamProvider + métadonnées PWA
   page.tsx                   # landing (hero, "comment ça marche", exemples, CTA)
   onboarding/
-    magasin/ budget/ regimes/ ambiance/ personnes/ equipement/
+    magasin/ budget/ regimes/ ambiance/ envies/ personnes/ jours/ equipement/
     generation/              # génère le plan + checklist animée puis redirige
   plan/
     page.tsx                 # résultats : bandeau, coût, liste, 5 cards, régénérer
@@ -53,7 +57,8 @@ context/
   MiamContext.tsx            # état global + persistance localStorage
 lib/
   planner.ts                 # algorithme de sélection (pur, testé)
-  planner.test.ts            # 7 cas de test
+  planner.test.ts            # 11 cas de test
+  saison.ts                  # calendrier fruits & légumes de saison (France)
   shopping.ts                # agrégation de la liste de courses par rayon
   recipes.ts / stores.ts / tags.ts / gradient.ts / format.ts / types.ts
 data/
@@ -69,7 +74,10 @@ public/
 1. **Filtre** — régimes compatibles (un plat végé convient au pescétarien ; `sans-gluten`
    /`sans-lactose` excluent l'allergène correspondant), équipement requis ⊆ équipement dispo.
 2. **Score** — `+2` par tag matchant une ambiance choisie, `+1` si `tempsMin ≤ 25`
-   quand « rapide & facile » est coché.
+   quand « rapide & facile » est coché, `+3` si la protéine dominante correspond à une
+   **envie** cochée (poulet, viande rouge, poisson…), et — si l'option **saison** est
+   activée — `+3` pour une recette pleinement de saison, `−2` par ingrédient hors saison.
+   Une envie autorise aussi la même protéine à revenir d'un soir à l'autre (diversité relâchée).
 3. **Sélection** — 5 recettes par tirage pondéré par le score (RNG déterministe `mulberry32`,
    seedé pour que « régénérer » varie), avec diversité (pas deux fois la même protéine de suite),
    en respectant `Σ(prixParPersonne × personnes × coefMagasin) ≤ budget`.
@@ -77,6 +85,21 @@ public/
 
 Prix affichés = `prixParPersonne × personnes × coefMagasin`, arrondis à 2 décimales.
 Coefficients magasin : Lidl/Aldi `0.85`, la plupart `1.0`, Grand Frais/Franprix `1.25`.
+
+## 🌱 Fruits & légumes de saison (`lib/saison.ts`)
+
+Un calendrier France mois par mois (`CALENDRIER`) associe chaque produit à ses mois de
+pleine saison. Les produits disponibles toute l'année (oignon, ail, pomme de terre,
+carotte, herbes séchées, agrumes…) sont marqués `annee: true` : jamais « hors saison »,
+mais absents de la liste des nouveautés du mois.
+
+- `estDeSaison(nom, mois?)` → `true` / `false` / `null` (produit inconnu = neutre).
+- `saisonnaliteRecette(recipe)` analyse les ingrédients du rayon Fruits & Légumes.
+- `produitsDuMois(mois?, categorie?)` alimente le panneau « de saison ce mois-ci ».
+
+Le mois courant est déduit de la date. Ces infos servent au **scoring** (option saison),
+au **badge « 🌱 de saison »** sur les recettes, aux **pastilles saison/hors-saison** dans
+la liste de courses et le détail recette, et au **panneau saison** de la page plan.
 
 ## 🍽 Ajouter ou modifier des recettes
 

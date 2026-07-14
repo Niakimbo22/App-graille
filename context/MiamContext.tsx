@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useRef, useState, ReactNode } from "react";
-import type { MiamState, FunnelState, Plan, Regime, Tag, Equipement } from "@/lib/types";
+import type { MiamState, FunnelState, Plan, Regime, Tag, Equipement, ProteinPref } from "@/lib/types";
 
 const STORAGE_KEY = "miam-state";
 
@@ -13,6 +13,8 @@ const defaultFunnel: FunnelState = {
   personnes: 2,
   nbRepas: 5,
   equipement: [],
+  preferences: [],
+  saison: false,
 };
 
 const defaultState: MiamState = {
@@ -28,6 +30,8 @@ interface MiamContextValue {
   toggleRegime: (r: Regime) => void;
   toggleAmbiance: (t: Tag) => void;
   toggleEquipement: (e: Equipement) => void;
+  togglePreference: (p: ProteinPref) => void;
+  toggleSaison: () => void;
   setPlan: (plan: Plan | null) => void;
   toggleCoche: (key: string) => void;
   resetCochees: () => void;
@@ -101,6 +105,17 @@ export function MiamProvider({ children }: { children: ReactNode }) {
       return { ...s, funnel: { ...s.funnel, equipement } };
     });
 
+  const togglePreference = (p: ProteinPref) =>
+    setState((s) => {
+      const cur = s.funnel.preferences ?? [];
+      const has = cur.includes(p);
+      const preferences = has ? cur.filter((x) => x !== p) : [...cur, p];
+      return { ...s, funnel: { ...s.funnel, preferences } };
+    });
+
+  const toggleSaison = () =>
+    setState((s) => ({ ...s, funnel: { ...s.funnel, saison: !s.funnel.saison } }));
+
   const setPlan = (plan: Plan | null) => setState((s) => ({ ...s, plan }));
 
   const toggleCoche = (key: string) =>
@@ -122,6 +137,8 @@ export function MiamProvider({ children }: { children: ReactNode }) {
         toggleRegime,
         toggleAmbiance,
         toggleEquipement,
+        togglePreference,
+        toggleSaison,
         setPlan,
         toggleCoche,
         resetCochees,

@@ -1,7 +1,8 @@
 // Tests de l'algorithme de sélection. Lancer avec: npm test
 import recipesData from "../data/recipes.json";
 import type { Recipe, FunnelState } from "./types";
-import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI } from "./planner";
+import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory } from "./planner";
+import { estDeSaison, saisonnaliteRecette, produitPour } from "./saison";
 
 const recipes = recipesData as Recipe[];
 
@@ -27,6 +28,8 @@ function baseFunnel(overrides: Partial<FunnelState> = {}): FunnelState {
     personnes: 2,
     nbRepas: 5,
     equipement: ["four", "plaque", "airfryer"],
+    preferences: [],
+    saison: false,
     ...overrides,
   };
 }
@@ -138,6 +141,41 @@ console.log("Cas 9 — indice glycémique bas");
   }
   const riz = recipes.find((x) => x.id === "riz-cantonais");
   if (riz) assert(!isLowGI(riz), "riz cantonais n'est pas IG bas (riz + sucre absents mais féculent raffiné)");
+}
+
+// --- Cas 10: envies de protéines (plus de poulet) ---
+console.log("Cas 10 — envie de poulet privilégiée");
+{
+  const base = baseFunnel({ ambiances: [], budget: 200 });
+  const envie = baseFunnel({ preferences: ["volaille"], budget: 200 });
+  // sur plusieurs seeds, l'envie doit augmenter la présence de volaille
+  let volailleBase = 0;
+  let volailleEnvie = 0;
+  for (let seed = 1; seed <= 40; seed++) {
+    for (const item of generatePlan({ recipes, funnel: base, coef: 1, seed }).items) {
+      if (proteinCategory(recipes.find((r) => r.id === item.recipeId)!) === "volaille") volailleBase++;
+    }
+    for (const item of generatePlan({ recipes, funnel: envie, coef: 1, seed }).items) {
+      if (proteinCategory(recipes.find((r) => r.id === item.recipeId)!) === "volaille") volailleEnvie++;
+    }
+  }
+  assert(volailleEnvie > volailleBase, `plus de volaille avec l'envie (${volailleEnvie} vs ${volailleBase})`);
+}
+
+// --- Cas 11: fruits & légumes de saison ---
+console.log("Cas 11 — option saison");
+{
+  const funnel = baseFunnel({ saison: true, budget: 200 });
+  const res = generatePlan({ recipes, funnel, coef: 1, seed: 5 });
+  assert(res.items.length === 5, "5 recettes trouvées avec l'option saison");
+  // le calendrier reconnaît les produits et calcule la saisonnalité
+  assert(estDeSaison("Ail") === true, "l'ail est dispo toute l'année");
+  assert(produitPour("Tomates cerises")?.nom === "tomate", "les tomates cerises mappent sur tomate");
+  const enJanvier = estDeSaison("Tomate", 1);
+  const enJuillet = estDeSaison("Tomate", 7);
+  assert(enJanvier === false && enJuillet === true, "la tomate est de saison en juillet, pas en janvier");
+  const s = saisonnaliteRecette(recipes[0]);
+  assert(s.ratio >= 0 && s.ratio <= 1, "ratio de saison borné [0,1]");
 }
 
 console.log(`\n${passed} assertions OK, ${failed} échecs`);

@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
+import { estDeSaison } from "@/lib/saison";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
@@ -72,6 +73,7 @@ export default function ListePage() {
             <div className="overflow-hidden rounded-3xl bg-white shadow-soft">
               {groupe.articles.map((a) => {
                 const checked = state.cochees.includes(a.key);
+                const saison = groupe.rayon === "Fruits & Légumes" ? estDeSaison(a.nom) : null;
                 return (
                   <button
                     key={a.key}
@@ -85,8 +87,14 @@ export default function ListePage() {
                     >
                       {checked ? "✓" : ""}
                     </span>
-                    <span className={`flex-1 text-sm font-medium ${checked ? "text-black/35 line-through" : "text-forest"}`}>
+                    <span className={`flex flex-1 flex-wrap items-center gap-x-2 text-sm font-medium ${checked ? "text-black/35 line-through" : "text-forest"}`}>
                       {a.nom}
+                      {!checked && saison === true && (
+                        <span className="rounded-full bg-leaf/15 px-1.5 py-0.5 text-[10px] font-bold text-leaf">🌱 saison</span>
+                      )}
+                      {!checked && saison === false && (
+                        <span className="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold text-orange-500">hors saison</span>
+                      )}
                     </span>
                     <span className={`text-sm ${checked ? "text-black/25" : "text-black/55"}`}>
                       {formatQte(a.qte, 1, a.unite)}

@@ -13,10 +13,10 @@ export default function AmbiancePage() {
   return (
     <OnboardingLayout
       step={4}
-      total={7}
+      total={8}
       title="quelle ambiance cette semaine ?"
       subtitle="jusqu'à 3 envies"
-      onContinue={() => router.push("/onboarding/personnes")}
+      onContinue={() => router.push("/onboarding/envies")}
     >
       <div className="grid grid-cols-2 gap-3">
         {AMBIANCES.map((a) => {

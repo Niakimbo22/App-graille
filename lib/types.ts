@@ -16,6 +16,13 @@ export type Regime =
 
 export type Equipement = "four" | "plaque" | "airfryer";
 
+/**
+ * Envies de protéines : catégories que l'utilisateur veut manger *davantage*.
+ * Les clés correspondent aux catégories renvoyées par `proteinCategory()`
+ * pour se brancher directement sur l'algorithme de sélection.
+ */
+export type ProteinPref = "volaille" | "rouge" | "poisson" | "porc" | "vegetal" | "oeuf";
+
 export type Rayon =
   | "Fruits & Légumes"
   | "Boucherie/Poisson"
@@ -71,6 +78,10 @@ export interface FunnelState {
   /** nombre de dîners (jours) à planifier. Défaut: 5 */
   nbRepas: number;
   equipement: Equipement[];
+  /** envies de protéines à privilégier (ex: manger plus de poulet). Défaut: [] */
+  preferences: ProteinPref[];
+  /** privilégier les recettes aux fruits & légumes de saison. Défaut: false */
+  saison?: boolean;
   /** inclure les recettes du monde importées (prix estimés). Défaut: false */
   inclureMonde?: boolean;
 }

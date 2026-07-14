@@ -23,8 +23,8 @@ export default function PersonnesPage() {
 
   return (
     <OnboardingLayout
-      step={5}
-      total={7}
+      step={6}
+      total={8}
       title="vous êtes combien ?"
       subtitle="on ajuste les quantités"
       onContinue={() => router.push("/onboarding/jours")}

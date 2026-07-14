@@ -14,6 +14,7 @@ import { encodePlan, planShareText, shareUrl } from "@/lib/share";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
+import SaisonPanel from "@/components/SaisonPanel";
 
 const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 
@@ -138,6 +139,11 @@ export default function PlanPage() {
           <span className="text-3xl">🛒</span>
         </div>
       </Link>
+
+      {/* Fruits & légumes de saison */}
+      <div className="mt-4">
+        <SaisonPanel />
+      </div>
 
       {/* Recettes */}
       <section className="mt-6 space-y-4">

@@ -12,7 +12,7 @@ export default function BudgetPage() {
   return (
     <OnboardingLayout
       step={2}
-      total={7}
+      total={8}
       title="quel budget ?"
       subtitle="pour tes 5 dîners de la semaine"
       onContinue={() => router.push("/onboarding/regimes")}

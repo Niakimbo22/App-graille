@@ -9,6 +9,7 @@ import { gradientFor } from "@/lib/gradient";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
 import { estDeSaison } from "@/lib/saison";
+import { besoinHalal } from "@/lib/planner";
 import { recipeShareText, shareUrl } from "@/lib/share";
 import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
@@ -138,6 +139,10 @@ export default function RecipeDetailClient({ id }: { id: string }) {
           <ul className="divide-y divide-black/5">
             {recipe.ingredients.map((ing) => {
               const saison = ing.rayon === "Fruits & Légumes" ? estDeSaison(ing.nom) : null;
+              const halalReminder =
+                state.funnel.regimes.includes("halal") &&
+                ing.rayon === "Boucherie/Poisson" &&
+                besoinHalal(ing.nom);
               return (
                 <li key={ing.nom} className="flex items-center gap-3 py-2.5">
                   <span className="text-lg">{rayonEmoji(ing.rayon as Rayon)}</span>
@@ -148,6 +153,9 @@ export default function RecipeDetailClient({ id }: { id: string }) {
                     )}
                     {saison === false && (
                       <span className="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold text-orange-500">hors saison</span>
+                    )}
+                    {halalReminder && (
+                      <span className="rounded-full bg-forest/10 px-1.5 py-0.5 text-[10px] font-bold text-forest">🕌 halal</span>
                     )}
                   </span>
                   <span className="text-sm font-semibold text-black/60">

@@ -20,6 +20,10 @@ export default function EnviesPage() {
   const router = useRouter();
   const prefs = state.funnel.preferences ?? [];
   const saison = state.funnel.saison ?? false;
+  const halal = state.funnel.regimes.includes("halal");
+
+  // en halal, l'envie « plus de porc » est retirée des choix
+  const envies = halal ? ENVIES.filter((e) => e.pref !== "porc") : ENVIES;
 
   const mois = moisCourant();
   const duMois = produitsDuMois(mois).slice(0, 8);
@@ -33,7 +37,7 @@ export default function EnviesPage() {
       onContinue={() => router.push("/onboarding/personnes")}
     >
       <div className="grid grid-cols-2 gap-3">
-        {ENVIES.map((e) => {
+        {envies.map((e) => {
           const active = prefs.includes(e.pref);
           return (
             <button

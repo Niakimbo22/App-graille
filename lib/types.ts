@@ -9,6 +9,7 @@ export type Tag =
 export type Regime =
   | "vegetarien"
   | "pescetarien"
+  | "halal"
   | "sans-gluten"
   | "sans-lactose"
   | "sans-sucre"

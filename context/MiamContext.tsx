@@ -82,10 +82,15 @@ export function MiamProvider({ children }: { children: ReactNode }) {
 
   const toggleRegime = (r: Regime) =>
     setState((s) => {
-      let regimes: Regime[];
       const has = s.funnel.regimes.includes(r);
-      regimes = has ? s.funnel.regimes.filter((x) => x !== r) : [...s.funnel.regimes, r];
-      return { ...s, funnel: { ...s.funnel, regimes } };
+      const regimes = has ? s.funnel.regimes.filter((x) => x !== r) : [...s.funnel.regimes, r];
+      // halal et l'envie « plus de porc » sont contradictoires :
+      // en activant halal on retire cette envie devenue impossible.
+      const preferences =
+        regimes.includes("halal")
+          ? (s.funnel.preferences ?? []).filter((p) => p !== "porc")
+          : s.funnel.preferences;
+      return { ...s, funnel: { ...s.funnel, regimes, preferences } };
     });
 
   const toggleAmbiance = (t: Tag) =>
@@ -107,6 +112,8 @@ export function MiamProvider({ children }: { children: ReactNode }) {
 
   const togglePreference = (p: ProteinPref) =>
     setState((s) => {
+      // en halal, l'envie « plus de porc » n'a pas de sens : on l'ignore.
+      if (p === "porc" && s.funnel.regimes.includes("halal")) return s;
       const cur = s.funnel.preferences ?? [];
       const has = cur.includes(p);
       const preferences = has ? cur.filter((x) => x !== p) : [...cur, p];

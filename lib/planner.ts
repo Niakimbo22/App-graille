@@ -63,6 +63,37 @@ export function isLowGI(recipe: Recipe): boolean {
   return !recipe.ingredients.some((i) => FECULENTS_IG_HAUT.has(i.nom.toLowerCase().trim()));
 }
 
+// Ingrédients haram (porc et dérivés, alcool). On teste par mot entier après
+// normalisation des accents : `\bvin\b` matche « vin blanc » mais pas « vinaigrette ».
+const HARAM_RE = /\b(porc|lardons?|bacon|jambon|chorizo|saucisson|saucisse|pancetta|prosciutto|vin|rhum|biere)\b/;
+// Exceptions halal : une « saucisse/jambon de volaille » reste halal.
+const HALAL_SAUF_RE = /(volaille|poulet|dinde)/;
+
+function sansAccents(s: string): string {
+  return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+}
+
+/** Vrai si la recette ne contient ni porc/charcuterie ni alcool. */
+export function isHalal(recipe: Recipe): boolean {
+  return !recipe.ingredients.some((i) => {
+    const n = sansAccents(i.nom);
+    if (HALAL_SAUF_RE.test(n)) return false;
+    return HARAM_RE.test(n);
+  });
+}
+
+// Viandes & volailles à sourcer halal (le poisson et les fruits de mer, eux,
+// sont toujours halal — pas de rappel nécessaire).
+const VIANDE_RE = /(poulet|volaille|dinde|canard|escalope|cordon|nugget|boeuf|bœuf|veau|agneau|kefta|kebab|merguez|steak|viande)/;
+const POISSON_RE = /(saumon|cabillaud|colin|thon|dorade|sardine|poisson|crevette|\bmoule|anchois|crustac|calmar|sepia|seiche)/;
+
+/** Vrai si l'article est une viande/volaille qui doit être achetée halal. */
+export function besoinHalal(nom: string): boolean {
+  const n = sansAccents(nom);
+  if (POISSON_RE.test(n)) return false;
+  return VIANDE_RE.test(n);
+}
+
 /** Régime satisfait par une recette (un plat végé convient à un pescétarien). */
 export function satisfiesRegime(recipe: Recipe, regime: Regime): boolean {
   switch (regime) {
@@ -70,6 +101,8 @@ export function satisfiesRegime(recipe: Recipe, regime: Regime): boolean {
       return recipe.regimes.includes("vegetarien");
     case "pescetarien":
       return recipe.regimes.includes("pescetarien") || recipe.regimes.includes("vegetarien");
+    case "halal":
+      return isHalal(recipe);
     case "sans-gluten":
       return !recipe.allergenes.includes("gluten");
     case "sans-lactose":
@@ -86,11 +119,11 @@ export function satisfiesRegime(recipe: Recipe, regime: Regime): boolean {
 /** Catégorie de protéine dominante, utilisée pour la diversité du plan. */
 export function proteinCategory(recipe: Recipe): string {
   const text = (recipe.nom + " " + recipe.ingredients.map((i) => i.nom).join(" ")).toLowerCase();
-  if (/(saumon|cabillaud|colin|thon|dorade|sardine|poisson|crevette|moule|anchois|crustac|sépia|calmar)/.test(text))
+  if (/(saumon|cabillaud|colin|thon|dorade|sardine|poisson|crevette|\bmoule|anchois|crustac|sépia|calmar)/.test(text))
     return "poisson";
   if (/(poulet|volaille|dinde|canard|escalope|cordon|nugget)/.test(text)) return "volaille";
-  if (/(lardon|bacon|jambon|saucisse|merguez|porc)/.test(text)) return "porc";
-  if (/(bœuf|boeuf|veau|agneau|kefta|kebab)/.test(text)) return "rouge";
+  if (/(lardon|bacon|jambon|saucisse|porc)/.test(text)) return "porc";
+  if (/(bœuf|boeuf|veau|agneau|kefta|kebab|merguez)/.test(text)) return "rouge";
   if (/(tofu|pois chiche|lentille|haricot|falafel)/.test(text)) return "vegetal";
   if (/(œuf|oeuf)/.test(text)) return "oeuf";
   return "autre";

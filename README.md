@@ -57,7 +57,7 @@ context/
   MiamContext.tsx            # état global + persistance localStorage
 lib/
   planner.ts                 # algorithme de sélection (pur, testé)
-  planner.test.ts            # 11 cas de test
+  planner.test.ts            # 13 cas de test
   saison.ts                  # calendrier fruits & légumes de saison (France)
   shopping.ts                # agrégation de la liste de courses par rayon
   recipes.ts / stores.ts / tags.ts / gradient.ts / format.ts / types.ts
@@ -72,7 +72,8 @@ public/
 ## 🧮 Algorithme de sélection (`lib/planner.ts`)
 
 1. **Filtre** — régimes compatibles (un plat végé convient au pescétarien ; `sans-gluten`
-   /`sans-lactose` excluent l'allergène correspondant), équipement requis ⊆ équipement dispo.
+   /`sans-lactose` excluent l'allergène correspondant ; `halal` exclut porc/charcuterie et
+   alcool, détectés depuis les ingrédients), équipement requis ⊆ équipement dispo.
 2. **Score** — `+2` par tag matchant une ambiance choisie, `+1` si `tempsMin ≤ 25`
    quand « rapide & facile » est coché, `+3` si la protéine dominante correspond à une
    **envie** cochée (poulet, viande rouge, poisson…), et — si l'option **saison** est
@@ -110,7 +111,8 @@ décrites dans `scripts/gen-recipes.mjs`, où le prix par personne d'une recette
 1. Ajoute une entrée `r(id, nom, emoji, tempsMin, tags, regimes, equipement, allergenes, kcal, macros, ingredients, etapes)`.
    - `ingredients` : `[nom, qteParPersonne, unite, rayon, prixParPersonne]`
    - `tags` ∈ `rapide, gourmand, protéiné, healthy, famille, du monde`
-   - `regimes` ∈ `vegetarien, pescetarien, sans-gluten, sans-lactose` (vide = tout public)
+   - `regimes` ∈ `vegetarien, pescetarien, sans-gluten, sans-lactose` (vide = tout public).
+     `halal` n'est **pas** un champ : il est déduit des ingrédients (ni porc/charcuterie ni alcool).
    - `equipement` ∈ `four, plaque, airfryer`
    - `rayon` ∈ `Fruits & Légumes, Boucherie/Poisson, Crèmerie, Épicerie salée, Épicerie sucrée, Surgelés, Boulangerie`
 2. Lance `npm run gen` — le script valide (prix, nombre d'ingrédients/étapes, ids uniques)

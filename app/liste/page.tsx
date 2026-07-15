@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
 import { estDeSaison } from "@/lib/saison";
+import { besoinHalal } from "@/lib/planner";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
@@ -38,6 +39,7 @@ export default function ListePage() {
   );
 
   const nbCochees = articles.filter((a) => state.cochees.includes(a.key)).length;
+  const halal = state.funnel.regimes.includes("halal");
 
   return (
     <main className="safe-top mx-auto w-full max-w-md px-5 pb-32">
@@ -74,6 +76,7 @@ export default function ListePage() {
               {groupe.articles.map((a) => {
                 const checked = state.cochees.includes(a.key);
                 const saison = groupe.rayon === "Fruits & Légumes" ? estDeSaison(a.nom) : null;
+                const halalReminder = halal && groupe.rayon === "Boucherie/Poisson" && besoinHalal(a.nom);
                 return (
                   <button
                     key={a.key}
@@ -94,6 +97,9 @@ export default function ListePage() {
                       )}
                       {!checked && saison === false && (
                         <span className="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold text-orange-500">hors saison</span>
+                      )}
+                      {!checked && halalReminder && (
+                        <span className="rounded-full bg-forest/10 px-1.5 py-0.5 text-[10px] font-bold text-forest">🕌 halal</span>
                       )}
                     </span>
                     <span className={`text-sm ${checked ? "text-black/25" : "text-black/55"}`}>

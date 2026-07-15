@@ -10101,5 +10101,746 @@
       "Arrose de sauce soja et de citron vert.",
       "Parsème de sésame."
     ]
+  },
+  {
+    "id": "tajine-poulet-olives",
+    "nom": "Tajine de poulet, citron & olives",
+    "tempsMin": 40,
+    "tags": [
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [
+      "sans-lactose",
+      "sans-gluten"
+    ],
+    "allergenes": [],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.91,
+    "kcal": 520,
+    "macros": {
+      "proteines": 38,
+      "glucides": 30,
+      "lipides": 22
+    },
+    "emoji": "🍗",
+    "ingredients": [
+      {
+        "nom": "Cuisse de poulet",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.096
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Olives noires",
+        "qteParPersonne": 20,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Épices ras el hanout",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.144
+      }
+    ],
+    "etapes": [
+      "Fais dorer les cuisses de poulet dans une cocotte avec l'oignon émincé.",
+      "Ajoute l'ail, les épices ras el hanout et un verre d'eau.",
+      "Dépose les pommes de terre en morceaux, couvre et laisse mijoter 25 min.",
+      "Ajoute le citron en quartiers et les olives, poursuis 8 min.",
+      "Parsème de coriandre fraîche avant de servir."
+    ]
+  },
+  {
+    "id": "couscous-poulet-merguez",
+    "nom": "Couscous poulet & merguez",
+    "tempsMin": 45,
+    "tags": [
+      "famille",
+      "du monde"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.55,
+    "kcal": 680,
+    "macros": {
+      "proteines": 35,
+      "glucides": 70,
+      "lipides": 28
+    },
+    "emoji": "🍲",
+    "ingredients": [
+      {
+        "nom": "Semoule",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Merguez",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Escalope de poulet",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.08
+      },
+      {
+        "nom": "Carotte",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.096
+      },
+      {
+        "nom": "Courgette",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.176
+      },
+      {
+        "nom": "Pois chiches",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.15
+      },
+      {
+        "nom": "Navet",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.108
+      },
+      {
+        "nom": "Épices ras el hanout",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.12
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      }
+    ],
+    "etapes": [
+      "Fais revenir le poulet et les merguez, réserve.",
+      "Dans la même cocotte, fais suer l'oignon puis ajoute carotte, courgette et navet en morceaux.",
+      "Ajoute les pois chiches, les épices et de l'eau à hauteur, mijote 20 min.",
+      "Remets les viandes, poursuis la cuisson 10 min.",
+      "Prépare la semoule en la couvrant d'eau bouillante et d'un filet d'huile.",
+      "Sers la semoule avec le bouillon, les légumes et les viandes."
+    ]
+  },
+  {
+    "id": "kefta-boeuf-tomate",
+    "nom": "Kefta de bœuf à la tomate",
+    "tempsMin": 30,
+    "tags": [
+      "protéiné",
+      "du monde"
+    ],
+    "regimes": [
+      "sans-lactose"
+    ],
+    "allergenes": [
+      "œuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.1,
+    "kcal": 560,
+    "macros": {
+      "proteines": 34,
+      "glucides": 22,
+      "lipides": 34
+    },
+    "emoji": "🍅",
+    "ingredients": [
+      {
+        "nom": "Bœuf haché",
+        "qteParPersonne": 125,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.375
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.072
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Tomates concassées",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.24
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      },
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 0.25,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.075
+      },
+      {
+        "nom": "Paprika",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      }
+    ],
+    "etapes": [
+      "Mélange le bœuf haché avec l'oignon râpé, le persil, le cumin et l'œuf.",
+      "Façonne des boulettes et fais-les dorer à la poêle.",
+      "Ajoute l'ail, le paprika et les tomates concassées.",
+      "Laisse mijoter 15 min à couvert.",
+      "Rectifie l'assaisonnement et sers bien chaud."
+    ]
+  },
+  {
+    "id": "boulettes-agneau-boulgour",
+    "nom": "Boulettes d'agneau & boulgour menthe",
+    "tempsMin": 35,
+    "tags": [
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "gluten"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.47,
+    "kcal": 600,
+    "macros": {
+      "proteines": 32,
+      "glucides": 52,
+      "lipides": 26
+    },
+    "emoji": "🌿",
+    "ingredients": [
+      {
+        "nom": "Agneau haché",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.54
+      },
+      {
+        "nom": "Boulgour",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.21
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Menthe",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 5,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.04
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      }
+    ],
+    "etapes": [
+      "Mélange l'agneau avec l'oignon râpé, la menthe, le persil et le cumin.",
+      "Forme des boulettes et fais-les dorer à la poêle.",
+      "Cuis le boulgour dans deux fois son volume d'eau bouillante salée.",
+      "Ajoute la tomate en dés et l'ail aux boulettes, laisse compoter 8 min.",
+      "Sers les boulettes sur le boulgour."
+    ]
+  },
+  {
+    "id": "poulet-yassa",
+    "nom": "Poulet yassa à l'oignon confit",
+    "tempsMin": 45,
+    "tags": [
+      "du monde",
+      "famille"
+    ],
+    "regimes": [
+      "sans-lactose",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "moutarde"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.73,
+    "kcal": 590,
+    "macros": {
+      "proteines": 36,
+      "glucides": 58,
+      "lipides": 20
+    },
+    "emoji": "🧅",
+    "ingredients": [
+      {
+        "nom": "Cuisse de poulet",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.9
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 150,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.18
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Moutarde",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.032
+      },
+      {
+        "nom": "Riz",
+        "qteParPersonne": 80,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 60,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.21
+      }
+    ],
+    "etapes": [
+      "Fais mariner le poulet avec le jus de citron, la moutarde et l'ail.",
+      "Fais dorer les cuisses, réserve.",
+      "Fais confire les oignons émincés et le poivron 15 min à feu doux.",
+      "Remets le poulet avec la marinade, couvre et mijote 20 min.",
+      "Cuis le riz à part.",
+      "Sers le poulet et ses oignons sur le riz."
+    ]
+  },
+  {
+    "id": "biryani-poulet",
+    "nom": "Biryani de poulet épicé",
+    "tempsMin": 40,
+    "tags": [
+      "du monde",
+      "protéiné"
+    ],
+    "regimes": [],
+    "allergenes": [
+      "lait"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 2.28,
+    "kcal": 640,
+    "macros": {
+      "proteines": 34,
+      "glucides": 66,
+      "lipides": 22
+    },
+    "emoji": "🍛",
+    "ingredients": [
+      {
+        "nom": "Riz basmati",
+        "qteParPersonne": 90,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.27
+      },
+      {
+        "nom": "Filet de poulet",
+        "qteParPersonne": 110,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 1.21
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.084
+      },
+      {
+        "nom": "Yaourt",
+        "qteParPersonne": 40,
+        "unite": "g",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.1
+      },
+      {
+        "nom": "Curry",
+        "qteParPersonne": 3,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.075
+      },
+      {
+        "nom": "Épices ras el hanout",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 70,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.175
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.24
+      }
+    ],
+    "etapes": [
+      "Fais mariner le poulet en dés avec le yaourt, le curry et les épices.",
+      "Fais revenir l'oignon, ajoute le poulet mariné et la tomate.",
+      "Ajoute le riz basmati rincé et de l'eau à hauteur.",
+      "Couvre et laisse cuire 15 min à feu doux sans remuer.",
+      "Laisse reposer 5 min hors du feu.",
+      "Parsème de coriandre et sers."
+    ]
+  },
+  {
+    "id": "chakchouka-oeufs",
+    "nom": "Chakchouka œufs & merguez",
+    "tempsMin": 25,
+    "tags": [
+      "rapide",
+      "du monde"
+    ],
+    "regimes": [
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "œuf"
+    ],
+    "equipement": [
+      "plaque"
+    ],
+    "prixParPersonne": 1.99,
+    "kcal": 520,
+    "macros": {
+      "proteines": 28,
+      "glucides": 20,
+      "lipides": 34
+    },
+    "emoji": "🍳",
+    "ingredients": [
+      {
+        "nom": "Œuf",
+        "qteParPersonne": 2,
+        "unite": "u",
+        "rayon": "Crèmerie",
+        "prixParPersonne": 0.6
+      },
+      {
+        "nom": "Merguez",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 0.5
+      },
+      {
+        "nom": "Poivron",
+        "qteParPersonne": 100,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.35
+      },
+      {
+        "nom": "Tomate",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Oignon",
+        "qteParPersonne": 50,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.06
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Paprika",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      }
+    ],
+    "etapes": [
+      "Fais revenir l'oignon, le poivron et les merguez tranchées.",
+      "Ajoute la tomate en dés, l'ail, le cumin et le paprika.",
+      "Laisse mijoter 10 min pour obtenir une sauce épaisse.",
+      "Casse les œufs sur la sauce, couvre et laisse pocher 5 min.",
+      "Sers directement dans la poêle."
+    ]
+  },
+  {
+    "id": "cabillaud-chermoula",
+    "nom": "Cabillaud à la chermoula",
+    "tempsMin": 30,
+    "tags": [
+      "healthy",
+      "du monde"
+    ],
+    "regimes": [
+      "pescetarien",
+      "sans-lactose",
+      "sans-gluten"
+    ],
+    "allergenes": [
+      "poisson"
+    ],
+    "equipement": [
+      "four"
+    ],
+    "prixParPersonne": 3.66,
+    "kcal": 440,
+    "macros": {
+      "proteines": 34,
+      "glucides": 28,
+      "lipides": 18
+    },
+    "emoji": "🐟",
+    "ingredients": [
+      {
+        "nom": "Dos de cabillaud",
+        "qteParPersonne": 130,
+        "unite": "g",
+        "rayon": "Boucherie/Poisson",
+        "prixParPersonne": 2.6
+      },
+      {
+        "nom": "Coriandre",
+        "qteParPersonne": 10,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.3
+      },
+      {
+        "nom": "Persil",
+        "qteParPersonne": 8,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.16
+      },
+      {
+        "nom": "Citron",
+        "qteParPersonne": 0.5,
+        "unite": "u",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.2
+      },
+      {
+        "nom": "Ail",
+        "qteParPersonne": 6,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.048
+      },
+      {
+        "nom": "Cumin",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Paprika",
+        "qteParPersonne": 2,
+        "unite": "g",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.05
+      },
+      {
+        "nom": "Huile d'olive",
+        "qteParPersonne": 10,
+        "unite": "ml",
+        "rayon": "Épicerie salée",
+        "prixParPersonne": 0.08
+      },
+      {
+        "nom": "Pomme de terre",
+        "qteParPersonne": 120,
+        "unite": "g",
+        "rayon": "Fruits & Légumes",
+        "prixParPersonne": 0.144
+      }
+    ],
+    "etapes": [
+      "Mixe coriandre, persil, ail, cumin, paprika, huile et jus de citron en chermoula.",
+      "Enrobe le cabillaud de la moitié de la chermoula, laisse mariner 10 min.",
+      "Dispose les pommes de terre en rondelles dans un plat, sale, enfourne 15 min à 200°C.",
+      "Pose le poisson sur les pommes de terre, enfourne encore 12 min.",
+      "Nappe du reste de chermoula et sers."
+    ]
   }
 ]

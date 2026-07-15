@@ -1,7 +1,7 @@
 // Tests de l'algorithme de sélection. Lancer avec: npm test
 import recipesData from "../data/recipes.json";
 import type { Recipe, FunnelState } from "./types";
-import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory } from "./planner";
+import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory, isHalal, besoinHalal } from "./planner";
 import { estDeSaison, saisonnaliteRecette, produitPour } from "./saison";
 
 const recipes = recipesData as Recipe[];
@@ -176,6 +176,42 @@ console.log("Cas 11 — option saison");
   assert(enJanvier === false && enJuillet === true, "la tomate est de saison en juillet, pas en janvier");
   const s = saisonnaliteRecette(recipes[0]);
   assert(s.ratio >= 0 && s.ratio <= 1, "ratio de saison borné [0,1]");
+}
+
+// --- Cas 12: halal (sans porc ni alcool) ---
+console.log("Cas 12 — halal");
+{
+  const funnel = baseFunnel({ regimes: ["halal"] });
+  const res = generatePlan({ recipes, funnel, coef: 1, seed: 21 });
+  assert(res.items.length === 5, "5 recettes halal trouvées");
+  const HARAM = /\b(porc|lardons?|bacon|jambon|chorizo|saucisson|saucisse|vin|rhum|biere)\b/;
+  for (const item of res.items) {
+    const r = recipes.find((x) => x.id === item.recipeId)!;
+    const noms = r.ingredients.map((i) => i.nom.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""));
+    assert(!noms.some((n) => HARAM.test(n)), `${r.id} sans porc ni alcool`);
+  }
+  // vérifs unitaires ciblées
+  const carbonara = recipes.find((x) => x.id === "pates-carbonara");
+  if (carbonara) assert(!isHalal(carbonara), "les carbonara (lardons) ne sont pas halal");
+  const couscous = recipes.find((x) => x.id === "couscous-poulet-merguez");
+  if (couscous) assert(isHalal(couscous), "le couscous poulet-merguez est halal");
+  // la vinaigrette ne doit pas être confondue avec du vin
+  assert(!HARAM.test("vinaigrette"), "‘vinaigrette’ n'est pas du vin");
+  // rappel halal : viande oui, poisson non
+  assert(besoinHalal("Cuisse de poulet") && besoinHalal("Merguez"), "poulet & merguez → à choisir halal");
+  assert(!besoinHalal("Dos de cabillaud") && !besoinHalal("Crevettes"), "poisson & crevettes → pas de rappel");
+}
+
+// --- Cas 13: halal + envie de porc = neutralisée en amont (UI), plan cohérent ---
+console.log("Cas 13 — halal ignore une envie de porc résiduelle");
+{
+  // même si des préférences "porc" traînaient, aucune recette porc ne passe le filtre halal
+  const funnel = baseFunnel({ regimes: ["halal"], preferences: ["porc"] });
+  const res = generatePlan({ recipes, funnel, coef: 1, seed: 4 });
+  for (const item of res.items) {
+    const r = recipes.find((x) => x.id === item.recipeId)!;
+    assert(isHalal(r), `${r.id} reste halal malgré l'envie porc`);
+  }
 }
 
 console.log(`\n${passed} assertions OK, ${failed} échecs`);

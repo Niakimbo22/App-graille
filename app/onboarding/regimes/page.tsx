@@ -10,6 +10,7 @@ const OPTIONS: { regime: Regime | "aucun"; label: string; emoji: string; subtitl
   { regime: "aucun", label: "Aucun", emoji: "🍽️" },
   { regime: "vegetarien", label: "Végétarien", emoji: "🥕" },
   { regime: "pescetarien", label: "Pescétarien", emoji: "🐟" },
+  { regime: "halal", label: "Halal", emoji: "🕌", subtitle: "sans porc ni alcool · viandes à choisir halal" },
   { regime: "sans-gluten", label: "Sans gluten", emoji: "🌾" },
   { regime: "sans-lactose", label: "Sans lactose", emoji: "🥛" },
   { regime: "sans-sucre", label: "Sans sucre ajouté", emoji: "🍬" },

@@ -2,8 +2,8 @@
   "meta": {
     "devise": "EUR",
     "maj": "2026-07",
-    "base": "Carrefour/Leclerc (coef 1.0)",
-    "note": "Prix moyens supermarché France, relevés à la main et révisables. Le coût affiché reste une estimation : × coefficient enseigne."
+    "base": "E.Leclerc (coef 1.0)",
+    "note": "Prix moyens supermarché France (niveau E.Leclerc, enseigne la moins chère), relevés à la main et révisables. Le coût affiché reste une estimation : × coefficient enseigne (calé sur le palmarès UFC-Que Choisir 2026)."
   },
   "prix": {
     "agneau haché": {

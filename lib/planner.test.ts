@@ -112,9 +112,9 @@ console.log("Cas 6 — régénérer varie le plan");
 console.log("Cas 7 — coefficient magasin");
 {
   const funnel = baseFunnel();
-  const plein = generatePlan({ recipes, funnel, coef: 1.0, seed: 42 });
-  const lidl = generatePlan({ recipes, funnel, coef: 0.85, seed: 42 });
-  assert(lidl.coutEstime < plein.coutEstime, `Lidl (${lidl.coutEstime}€) moins cher que Carrefour (${plein.coutEstime}€)`);
+  const leclerc = generatePlan({ recipes, funnel, coef: 1.0, seed: 42 });
+  const lidl = generatePlan({ recipes, funnel, coef: 0.92, seed: 42 });
+  assert(lidl.coutEstime < leclerc.coutEstime, `Lidl (${lidl.coutEstime}€) moins cher que E.Leclerc (${leclerc.coutEstime}€)`);
 }
 
 // --- Cas 8: sans sucre ajouté ---

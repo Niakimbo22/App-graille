@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * price-fr.mjs — recalcule les prix RÉELS de chaque ingrédient et de chaque
- * recette à partir d'une table de prix supermarché France (mid-market, coef 1.0).
+ * recette à partir d'une table de prix supermarché France (niveau E.Leclerc, coef 1.0).
  *
  * - `ref` = unité de référence du prix : "kg" (€/kg), "L" (€/L) ou "u" (€/pièce).
  * - Les recettes stockent des quantités en g / ml / u / pincée / cube / tranches ;
@@ -12,8 +12,8 @@
  *   data/recipes.json   (prixParPersonne recalculés)
  *   data/prices.fr.json (table + métadonnées : devise, mise à jour, source)
  *
- * Prix : ordres de grandeur relevés en supermarché français (Carrefour/Leclerc),
- * révisables à la main. Date de référence dans META.maj.
+ * Prix : ordres de grandeur relevés en supermarché français (niveau E.Leclerc,
+ * enseigne la moins chère), révisables à la main. Date de référence dans META.maj.
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -27,10 +27,11 @@ const PRICES_PATH = join(ROOT, "data", "prices.fr.json");
 const META = {
   devise: "EUR",
   maj: "2026-07",
-  base: "Carrefour/Leclerc (coef 1.0)",
+  base: "E.Leclerc (coef 1.0)",
   note:
-    "Prix moyens supermarché France, relevés à la main et révisables. " +
-    "Le coût affiché reste une estimation : × coefficient enseigne.",
+    "Prix moyens supermarché France (niveau E.Leclerc, enseigne la moins chère), " +
+    "relevés à la main et révisables. Le coût affiché reste une estimation : " +
+    "× coefficient enseigne (calé sur le palmarès UFC-Que Choisir 2026).",
 };
 
 // prix = valeur pour l'unité de référence `ref`.

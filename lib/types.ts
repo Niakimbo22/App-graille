@@ -67,6 +67,8 @@ export interface Recipe {
   prixEstime?: boolean;
   /** crédit source pour les recettes importées */
   source?: string;
+  /** vraie photo du plat (Wikimedia Commons, Special:FilePath) — fallback emoji si absente ou en échec */
+  photo?: string;
 }
 
 /** Réponses collectées au fil du funnel. */

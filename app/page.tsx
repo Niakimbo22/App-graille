@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { RECIPES } from "@/lib/recipes";
-import { gradientFor } from "@/lib/gradient";
 import { euros } from "@/lib/format";
+import RecipePhoto from "@/components/RecipePhoto";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
 import InstallAppButton from "@/components/InstallAppButton";
@@ -47,9 +47,7 @@ export default function Landing() {
       <section className="mt-8 grid grid-cols-3 gap-3">
         {exemples.map((r) => (
           <div key={r.id} className="overflow-hidden rounded-2xl bg-white shadow-soft">
-            <div className="flex h-16 items-center justify-center text-3xl" style={{ background: gradientFor(r.id) }}>
-              {r.emoji}
-            </div>
+            <RecipePhoto recipe={r} className="h-16" emojiClassName="text-3xl" />
             <div className="p-2">
               <p className="line-clamp-2 text-xs font-semibold leading-tight text-forest">{r.nom}</p>
               <p className="mt-1 text-xs font-bold text-leaf">{euros(r.prixParPersonne)}/pers</p>

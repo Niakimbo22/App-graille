@@ -5,7 +5,6 @@ import { useMiam } from "@/context/MiamContext";
 import { RECIPES, getRecipe } from "@/lib/recipes";
 import { swapRecipe } from "@/lib/planner";
 import { coefMagasin } from "@/lib/stores";
-import { gradientFor } from "@/lib/gradient";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
 import { estDeSaison } from "@/lib/saison";
@@ -15,6 +14,7 @@ import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
 import FavoriteHeart from "@/components/FavoriteHeart";
+import RecipePhoto from "@/components/RecipePhoto";
 import type { Rayon } from "@/lib/types";
 
 export default function RecipeDetailClient({ id }: { id: string }) {
@@ -67,7 +67,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
   return (
     <main className="mx-auto w-full max-w-md pb-28">
       {/* Header */}
-      <div className="relative flex h-56 items-center justify-center text-8xl" style={{ background: gradientFor(recipe.id) }}>
+      <RecipePhoto recipe={recipe} className="h-56" emojiClassName="text-8xl">
         <button
           onClick={() => router.push("/plan")}
           className="absolute left-5 top-[max(1.25rem,env(safe-area-inset-top))] flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-xl text-forest shadow-soft"
@@ -85,8 +85,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
           text={recipeShareText(recipe, personnes)}
           url={shareUrl(`/plan/${recipe.id}/`)}
         />
-        {recipe.emoji}
-      </div>
+      </RecipePhoto>
 
       <div className="px-5">
         <div className="-mt-6 rounded-3xl bg-white p-5 shadow-soft">

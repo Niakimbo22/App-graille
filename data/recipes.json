@@ -15,7 +15,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.82,
+    "prixParPersonne": 1.87,
     "kcal": 650,
     "macros": {
       "proteines": 28,
@@ -71,7 +71,7 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.375
+        "prixParPersonne": 0.42
       }
     ],
     "etapes": [
@@ -80,7 +80,8 @@
       "Verse les pâtes, le bouillon et de l'eau à hauteur, cuis 12 min à couvert.",
       "Incorpore la crème, laisse réduire 2 min.",
       "Sers avec le parmesan râpé."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20with%20cream%20tuffle%20and%20mushrooms%20in%20Savour%20Cafe.jpg?width=640"
   },
   {
     "id": "pates-crémeuses-epinards",
@@ -165,7 +166,8 @@
       "Ajoute la crème et le chèvre émietté, mélange jusqu'à fondre.",
       "Égoutte les pâtes, mélange à la sauce.",
       "Parsème de noix concassées."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20with%20Spinach%20and%20Cream%20Sauce.jpg?width=640"
   },
   {
     "id": "spaghetti-aglio-olio",
@@ -250,7 +252,8 @@
       "Torréfie chapelure et pignons à sec dans une poêle.",
       "Mélange les pâtes à l'huile parfumée et un peu d'eau de cuisson.",
       "Sers avec persil, pignons et chapelure croustillante."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20aglio%20olio%20e%20peperoncino%20by%20matsuyuki%20retouched.jpg?width=640"
   },
   {
     "id": "penne-arrabiata",
@@ -335,7 +338,8 @@
       "Cuis les penne al dente.",
       "Mélange pâtes et sauce.",
       "Termine avec le basilic frais."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Penne%20all'arrabbiata.jpg?width=640"
   },
   {
     "id": "mac-and-cheese",
@@ -356,7 +360,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.11,
+    "prixParPersonne": 1.16,
     "kcal": 700,
     "macros": {
       "proteines": 26,
@@ -384,14 +388,14 @@
         "qteParPersonne": 120,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.132
+        "prixParPersonne": 0.156
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.135
+        "prixParPersonne": 0.165
       },
       {
         "nom": "Farine",
@@ -414,7 +418,8 @@
       "Ajoute le cheddar, remue jusqu'à fondre, muscade.",
       "Mélange les pâtes à la sauce.",
       "Sers bien crémeux."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaroni%20and%20cheese.jpg?width=640"
   },
   {
     "id": "gnocchi-poelees-tomates",
@@ -434,7 +439,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.83,
+    "prixParPersonne": 1.88,
     "kcal": 560,
     "macros": {
       "proteines": 18,
@@ -462,7 +467,7 @@
         "qteParPersonne": 50,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.45
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Ail",
@@ -492,7 +497,8 @@
       "Coupe la mozzarella, dépose-la dessus, couvre 2 min.",
       "Parsème de basilic.",
       "Sers immédiatement."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gnocchi%20al%20pomodoro%202.jpg?width=640"
   },
   {
     "id": "pad-thai-poulet",
@@ -514,7 +520,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.26,
+    "prixParPersonne": 2.51,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -535,14 +541,14 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Cacahuètes",
@@ -586,7 +592,8 @@
       "Brouille l'œuf dans le wok, ajoute carotte râpée.",
       "Ajoute nouilles, poulet et sauce soja, saute vif.",
       "Sers avec cacahuètes, oignon nouveau et citron vert."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pad%20Thai.JPG?width=640"
   },
   {
     "id": "nouilles-sautees-legumes",
@@ -673,7 +680,8 @@
       "Ajoute gingembre et sauce soja.",
       "Incorpore les nouilles, mélange.",
       "Termine avec l'huile de sésame."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakisoba%20(fried%20noodles)%20with%20pork%2C%20onions%2C%20cabbage%20and%20carrot.jpg?width=640"
   },
   {
     "id": "chili-sin-carne",
@@ -758,7 +766,8 @@
       "Mijote 20 min à feu doux.",
       "Cuis le riz en parallèle.",
       "Sers le chili sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chili%20con%20carne%20with%20beef%2C%20beans%2C%20chili%20peppers%2C%20garlic%2C%20black%20pepper%2C%20and%20a%20soft-boiled%20egg%20-%20Massachusetts.jpg?width=640"
   },
   {
     "id": "dahl-lentilles-corail",
@@ -850,7 +859,8 @@
       "Mijote 20 min jusqu'à consistance crémeuse.",
       "Cuis le riz basmati.",
       "Sers le dahl parsemé de coriandre."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadka%20Daal%20(Indian%20lentil%20curry).jpg?width=640"
   },
   {
     "id": "curry-pois-chiches-epinards",
@@ -935,7 +945,8 @@
       "Mijote 12 min, ajoute les épinards en fin de cuisson.",
       "Cuis le riz.",
       "Sers le curry sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chana%20masala.jpg?width=640"
   },
   {
     "id": "risotto-champignons",
@@ -955,7 +966,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.62,
+    "prixParPersonne": 1.7,
     "kcal": 540,
     "macros": {
       "proteines": 15,
@@ -1004,14 +1015,14 @@
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.44
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.108
+        "prixParPersonne": 0.132
       }
     ],
     "etapes": [
@@ -1020,7 +1031,8 @@
       "Ajoute le bouillon louche par louche en remuant.",
       "Incorpore les champignons poêlés.",
       "Termine hors du feu avec beurre et parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mushroom%20Risotto%20(4790041234).jpg?width=640"
   },
   {
     "id": "risotto-courgette-citron",
@@ -1040,7 +1052,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.37,
+    "prixParPersonne": 1.43,
     "kcal": 500,
     "macros": {
       "proteines": 14,
@@ -1089,7 +1101,7 @@
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.44
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Huile d'olive",
@@ -1105,7 +1117,8 @@
       "À mi-cuisson, incorpore la courgette en dés.",
       "Ajoute le zeste et jus de citron.",
       "Termine avec le parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Risotto-dish.jpg?width=640"
   },
   {
     "id": "poulet-curry-coco",
@@ -1124,7 +1137,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.13,
+    "prixParPersonne": 2.31,
     "kcal": 560,
     "macros": {
       "proteines": 38,
@@ -1138,7 +1151,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.32
+        "prixParPersonne": 1.5
       },
       {
         "nom": "Lait de coco",
@@ -1182,7 +1195,8 @@
       "Ajoute le lait de coco et le poulet, mijote 10 min.",
       "Cuis le riz.",
       "Sers le poulet nappé de sauce sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20curry.jpg?width=640"
   },
   {
     "id": "poulet-basquaise",
@@ -1265,7 +1279,8 @@
       "Verse les tomates et le piment, couvre.",
       "Mijote 25 min à feu doux.",
       "Sers avec le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Poulet%20basquaise%2001.jpg?width=640"
   },
   {
     "id": "poulet-teriyaki",
@@ -1286,7 +1301,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.91,
+    "prixParPersonne": 2.09,
     "kcal": 590,
     "macros": {
       "proteines": 40,
@@ -1300,7 +1315,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.32
+        "prixParPersonne": 1.5
       },
       {
         "nom": "Sauce soja",
@@ -1351,7 +1366,8 @@
       "Cuis le riz.",
       "Nappe le poulet de sauce brillante.",
       "Sers avec sésame et oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20teriyaki.jpg?width=640"
   },
   {
     "id": "emince-poulet-citron",
@@ -1370,7 +1386,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.89,
+    "prixParPersonne": 2.09,
     "kcal": 420,
     "macros": {
       "proteines": 42,
@@ -1384,7 +1400,7 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.43
+        "prixParPersonne": 1.625
       },
       {
         "nom": "Citron",
@@ -1428,7 +1444,8 @@
       "Poêle la courgette en rondelles à côté.",
       "Mélange le tout 3 min.",
       "Sers bien doré."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lemonchicken.jpg?width=640"
   },
   {
     "id": "escalope-milanaise",
@@ -1448,7 +1465,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.44,
+    "prixParPersonne": 2.7,
     "kcal": 720,
     "macros": {
       "proteines": 42,
@@ -1462,7 +1479,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.44
+        "prixParPersonne": 1.56
       },
       {
         "nom": "Chapelure",
@@ -1476,7 +1493,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Spaghetti",
@@ -1497,7 +1514,7 @@
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.264
+        "prixParPersonne": 0.3
       },
       {
         "nom": "Huile",
@@ -1513,7 +1530,8 @@
       "Cuis les spaghetti et réchauffe la sauce tomate.",
       "Sers l'escalope sur les pâtes.",
       "Parsème de parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotoletta%20alla%20milanese.jpg?width=640"
   },
   {
     "id": "boeuf-bourguignon-express",
@@ -1531,7 +1549,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.48,
+    "prixParPersonne": 2.72,
     "kcal": 560,
     "macros": {
       "proteines": 38,
@@ -1545,7 +1563,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.56
+        "prixParPersonne": 1.8
       },
       {
         "nom": "Champignons",
@@ -1596,7 +1614,8 @@
       "Déglace au vin, ajoute le bouillon.",
       "Mijote 25 min à couvert.",
       "Sers avec des pommes de terre vapeur."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Boeuf%20Bourguignon.JPG?width=640"
   },
   {
     "id": "boeuf-saute-brocoli",
@@ -1617,7 +1636,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.34,
+    "prixParPersonne": 2.56,
     "kcal": 480,
     "macros": {
       "proteines": 36,
@@ -1631,7 +1650,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.65
+        "prixParPersonne": 1.87
       },
       {
         "nom": "Brocoli",
@@ -1682,7 +1701,8 @@
       "Remets le bœuf, ajoute la sauce soja.",
       "Cuis le riz.",
       "Sers avec un filet d'huile de sésame."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20with%20broccoli.JPG?width=640"
   },
   {
     "id": "saute-porc-caramel",
@@ -1761,7 +1781,8 @@
       "Verse la sauce soja et l'ail, mijote 12 min.",
       "Cuis le riz.",
       "Sers parsemé d'oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thit-kho-tieu-1.jpg?width=640"
   },
   {
     "id": "cotes-porc-moutarde",
@@ -1839,7 +1860,8 @@
       "Ajoute moutarde et crème, laisse épaissir.",
       "Remets les côtes dans la sauce.",
       "Sers avec pommes de terre sautées."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%B4te%20de%20Porc%20Fermi%C3%A8re.jpg?width=640"
   },
   {
     "id": "saucisses-lentilles",
@@ -1922,7 +1944,8 @@
       "Mijote 25 min.",
       "Poêle les saucisses.",
       "Sers les saucisses sur les lentilles."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rago%C3%BBt%20aux%20lentilles.jpg?width=640"
   },
   {
     "id": "hachis-parmentier",
@@ -1941,7 +1964,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.03,
+    "prixParPersonne": 2.22,
     "kcal": 640,
     "macros": {
       "proteines": 30,
@@ -1955,7 +1978,7 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Pommes de terre",
@@ -1976,14 +1999,14 @@
         "qteParPersonne": 60,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.066
+        "prixParPersonne": 0.078
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.135
+        "prixParPersonne": 0.165
       },
       {
         "nom": "Gruyère râpé",
@@ -2006,7 +2029,8 @@
       "Dispose la viande dans un plat, couvre de purée.",
       "Parsème de gruyère.",
       "Enfourne 20 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachis%20parmentier%2001.jpg?width=640"
   },
   {
     "id": "gratin-dauphinois-jambon",
@@ -2024,7 +2048,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.59,
+    "prixParPersonne": 1.6,
     "kcal": 680,
     "macros": {
       "proteines": 30,
@@ -2059,7 +2083,7 @@
         "qteParPersonne": 60,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.066
+        "prixParPersonne": 0.078
       },
       {
         "nom": "Gruyère râpé",
@@ -2082,7 +2106,8 @@
       "Verse dans un plat à gratin.",
       "Couvre de gruyère.",
       "Enfourne 18 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nudel-Schinken-Gratin.jpg?width=640"
   },
   {
     "id": "saumon-teriyaki-four",
@@ -2163,7 +2188,8 @@
       "Cuis le riz et vapeur le brocoli.",
       "Nappe le saumon du jus.",
       "Parsème de sésame."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Teriyaki%20salmon.jpg?width=640"
   },
   {
     "id": "pavé-saumon-poele",
@@ -2243,7 +2269,8 @@
       "Fais tomber les épinards avec l'ail.",
       "Ajoute la crème.",
       "Sers le saumon sur les épinards avec du citron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20salmon.jpg?width=640"
   },
   {
     "id": "cabillaud-tomates-olives",
@@ -2265,7 +2292,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 3.55,
+    "prixParPersonne": 3.81,
     "kcal": 400,
     "macros": {
       "proteines": 34,
@@ -2279,7 +2306,7 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.6
+        "prixParPersonne": 2.86
       },
       {
         "nom": "Tomates cerises",
@@ -2323,7 +2350,8 @@
       "Dépose le cabillaud, couvre 8 min.",
       "Cuis les pommes de terre vapeur.",
       "Sers le poisson nappé de sauce."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dos%20de%20cabillaud%20r%C3%B4ti%20(avril%202022).JPG?width=640"
   },
   {
     "id": "colin-lentilles-corail",
@@ -2402,7 +2430,8 @@
       "Poêle le colin 6 min.",
       "Dresse le poisson sur la purée.",
       "Termine avec un trait de citron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dos%20de%20cabillaud%20r%C3%B4ti%20(avril%202022).JPG?width=640"
   },
   {
     "id": "crevettes-ail-persil",
@@ -2482,7 +2511,8 @@
       "Ajoute persil et jus de citron.",
       "Laisse 2 min à feu vif.",
       "Sers sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gambas%20al%20ajillo.jpg?width=640"
   },
   {
     "id": "risotto-crevettes",
@@ -2503,7 +2533,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.75,
+    "prixParPersonne": 2.81,
     "kcal": 560,
     "macros": {
       "proteines": 28,
@@ -2552,14 +2582,14 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.33
+        "prixParPersonne": 0.375
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -2568,7 +2598,8 @@
       "Ajoute le bouillon louche par louche.",
       "Incorpore les crevettes en fin de cuisson.",
       "Termine avec beurre et parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Risotto-dish.jpg?width=640"
   },
   {
     "id": "tacos-poisson",
@@ -2653,7 +2684,8 @@
       "Prépare une sauce yaourt-citron vert.",
       "Garnis les tortillas de chou et poisson.",
       "Ajoute coriandre et sauce."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tacos%20de%20pescado%20en%20Maneadero%2C%20Ensenada%2C%20Baja%20California%2004.jpg?width=640"
   },
   {
     "id": "tarte-thon-tomate",
@@ -2675,7 +2707,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.93,
+    "prixParPersonne": 2.03,
     "kcal": 600,
     "macros": {
       "proteines": 24,
@@ -2710,7 +2742,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Crème fraîche",
@@ -2740,7 +2772,8 @@
       "Bats œuf et crème, verse dessus.",
       "Parsème de gruyère.",
       "Enfourne 25 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9paration%20d'une%20tarte%20%C3%A0%20la%20tomate%20(06)%20-%20sortie%20du%20four.jpg?width=640"
   },
   {
     "id": "buddha-bowl-pois-chiches",
@@ -2824,7 +2857,8 @@
       "Râpe la carotte, tranche l'avocat.",
       "Compose le bowl.",
       "Nappe de sauce tahini-citron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Healthy%20Gnocchi%20Buddha%20Bowl.jpg?width=640"
   },
   {
     "id": "omelette-legumes",
@@ -2846,7 +2880,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.42,
+    "prixParPersonne": 1.72,
     "kcal": 380,
     "macros": {
       "proteines": 24,
@@ -2860,7 +2894,7 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1.2
       },
       {
         "nom": "Poivron",
@@ -2904,7 +2938,8 @@
       "Ajoute le fromage et le persil.",
       "Plie l'omelette.",
       "Sers baveuse."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Omelette%20de%20verduras.jpg?width=640"
   },
   {
     "id": "frittata-courgette",
@@ -2925,7 +2960,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.74,
+    "prixParPersonne": 2.04,
     "kcal": 400,
     "macros": {
       "proteines": 24,
@@ -2939,7 +2974,7 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1.2
       },
       {
         "nom": "Courgette",
@@ -2983,7 +3018,8 @@
       "Verse sur les légumes dans un plat.",
       "Enfourne 15 min à 190°C.",
       "Parsème de menthe."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Frittata.jpg?width=640"
   },
   {
     "id": "shakshuka",
@@ -3005,7 +3041,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.43,
+    "prixParPersonne": 1.63,
     "kcal": 380,
     "macros": {
       "proteines": 20,
@@ -3019,7 +3055,7 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Tomates concassées",
@@ -3070,7 +3106,8 @@
       "Casse les œufs dans la sauce.",
       "Couvre jusqu'à cuisson des blancs.",
       "Sers avec du pain."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakshuka%20(Unsplash).jpg?width=640"
   },
   {
     "id": "soupe-legumes-vermicelles",
@@ -3162,7 +3199,8 @@
       "Couvre d'eau avec le bouillon, mijote 18 min.",
       "Ajoute les vermicelles 5 min.",
       "Sers bien chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vegetable%20soup.jpg?width=640"
   },
   {
     "id": "soupe-potiron",
@@ -3247,7 +3285,8 @@
       "Couvre de bouillon, mijote 20 min.",
       "Mixe avec la crème et la muscade.",
       "Sers avec des graines de courge."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkin%20soup%20at%20Pizzeria%20Ristorante%20%22O%20Sole%20Mio%22%2C%20Mielec%2C%20Poland.jpg?width=640"
   },
   {
     "id": "quiche-lorraine",
@@ -3266,7 +3305,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.01,
+    "prixParPersonne": 2.22,
     "kcal": 660,
     "macros": {
       "proteines": 24,
@@ -3294,7 +3333,7 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Crème fraîche",
@@ -3308,7 +3347,7 @@
         "qteParPersonne": 40,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.044
+        "prixParPersonne": 0.052
       },
       {
         "nom": "Gruyère",
@@ -3324,7 +3363,8 @@
       "Bats œufs, crème et lait.",
       "Verse l'appareil, ajoute le gruyère.",
       "Enfourne 30 min à 190°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiche%20Lorraine.jpg?width=640"
   },
   {
     "id": "galettes-sarrasin-oeuf",
@@ -3346,7 +3386,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.49,
+    "prixParPersonne": 2.75,
     "kcal": 450,
     "macros": {
       "proteines": 20,
@@ -3367,14 +3407,14 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Champignons",
@@ -3388,7 +3428,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -3397,7 +3437,8 @@
       "Ajoute fromage et champignons poêlés.",
       "Replie les bords.",
       "Sers dès que l'œuf est pris."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Galette%20de%20sarrasin%20compl%C3%A8te%20bretonne.jpg?width=640"
   },
   {
     "id": "croque-monsieur",
@@ -3416,7 +3457,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.31,
+    "prixParPersonne": 1.37,
     "kcal": 560,
     "macros": {
       "proteines": 26,
@@ -3444,7 +3485,7 @@
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Béchamel",
@@ -3458,7 +3499,7 @@
         "qteParPersonne": 8,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.072
+        "prixParPersonne": 0.088
       }
     ],
     "etapes": [
@@ -3467,7 +3508,8 @@
       "Nappe de béchamel dessus.",
       "Enfourne 10 min à 200°C.",
       "Sers doré et fondant."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Croque%20Monsieur.JPG?width=640"
   },
   {
     "id": "pizza-margherita",
@@ -3488,7 +3530,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.41,
+    "prixParPersonne": 1.47,
     "kcal": 640,
     "macros": {
       "proteines": 24,
@@ -3516,7 +3558,7 @@
         "qteParPersonne": 60,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.54
+        "prixParPersonne": 0.6
       },
       {
         "nom": "Basilic",
@@ -3539,7 +3581,8 @@
       "Répartis la mozzarella.",
       "Enfourne 12 min à 240°C.",
       "Ajoute basilic et huile d'olive."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eq%20it-na%20pizza-margherita%20sep2005%20sml.jpg?width=640"
   },
   {
     "id": "wrap-falafel",
@@ -3619,7 +3662,8 @@
       "Ajoute salade, tomate et concombre.",
       "Dépose les falafels.",
       "Roule serré."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Falafel%20%26%20Hummus%20Wrap%20-%20Lavash%202024-08-19.jpg?width=640"
   },
   {
     "id": "burger-vegetarien",
@@ -3704,7 +3748,8 @@
       "Ajoute le cheddar 2 min pour fondre.",
       "Garnis le pain de salade, tomate, oignon.",
       "Dépose le steak et referme."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Veggie%20burger%20flickr%20user%20divinemisscopa%20creative%20commons.jpg?width=640"
   },
   {
     "id": "gratin-courgettes",
@@ -3725,7 +3770,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.43,
+    "prixParPersonne": 1.53,
     "kcal": 420,
     "macros": {
       "proteines": 18,
@@ -3746,7 +3791,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Crème fraîche",
@@ -3783,7 +3828,8 @@
       "Mélange courgettes et appareil dans un plat.",
       "Couvre de gruyère.",
       "Enfourne 25 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kabak%20au%20gratin.jpg?width=640"
   },
   {
     "id": "tian-provencal",
@@ -3868,7 +3914,8 @@
       "Arrose d'huile et d'herbes.",
       "Enfourne 30 min à 200°C.",
       "Sers avec le boulgour cuit."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20vegetables%20-%20Parrillada%20de%20verduras%20(4586579546).jpg?width=640"
   },
   {
     "id": "ratatouille-riz",
@@ -3953,7 +4000,8 @@
       "Ajoute aubergine, courgette et tomate.",
       "Mijote 30 min à feu doux.",
       "Sers avec le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratatouille%20001.jpg?width=640"
   },
   {
     "id": "poelée-legumes-feta",
@@ -4031,7 +4079,8 @@
       "Laisse dorer 5 min.",
       "Émiette la feta dessus.",
       "Sers tiède."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20vegetables%20-%20Parrillada%20de%20verduras%20(4586579546).jpg?width=640"
   },
   {
     "id": "salade-cesar",
@@ -4052,7 +4101,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.06,
+    "prixParPersonne": 2.27,
     "kcal": 480,
     "macros": {
       "proteines": 34,
@@ -4066,7 +4115,7 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Salade romaine",
@@ -4087,7 +4136,7 @@
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.44
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Sauce César",
@@ -4110,7 +4159,8 @@
       "Mélange salade, croûtons et sauce.",
       "Ajoute le poulet.",
       "Parsème de parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Caesar%20salad%20(2).jpg?width=640"
   },
   {
     "id": "salade-lentilles-chevre",
@@ -4194,7 +4244,8 @@
       "Mélange lentilles tièdes, tomate et oignon.",
       "Ajoute roquette et chèvre.",
       "Parsème de noix."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%2C%20Rocket%2C%20Red%20Lentils%20%26%20Goat%20Cheese%20(4370431939).jpg?width=640"
   },
   {
     "id": "wok-poulet-cajou",
@@ -4216,7 +4267,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.14,
+    "prixParPersonne": 2.3,
     "kcal": 570,
     "macros": {
       "proteines": 38,
@@ -4230,7 +4281,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.21
+        "prixParPersonne": 1.375
       },
       {
         "nom": "Noix de cajou",
@@ -4281,7 +4332,8 @@
       "Verse la sauce soja.",
       "Ajoute les noix de cajou.",
       "Sers avec le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cashew%20chicken%20-%20Pollo%20con%20anacardos.JPG?width=640"
   },
   {
     "id": "boeuf-bolognaise",
@@ -4301,7 +4353,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.63,
+    "prixParPersonne": 1.76,
     "kcal": 640,
     "macros": {
       "proteines": 34,
@@ -4322,7 +4374,7 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.99
+        "prixParPersonne": 1.125
       },
       {
         "nom": "Tomates concassées",
@@ -4366,7 +4418,8 @@
       "Verse les tomates, mijote 20 min.",
       "Cuis les spaghetti.",
       "Nappe les pâtes de sauce."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20bolognese.jpg?width=640"
   },
   {
     "id": "lasagnes-bolognaise",
@@ -4384,7 +4437,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.02,
+    "prixParPersonne": 2.15,
     "kcal": 720,
     "macros": {
       "proteines": 34,
@@ -4405,7 +4458,7 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.99
+        "prixParPersonne": 1.125
       },
       {
         "nom": "Tomates concassées",
@@ -4449,7 +4502,8 @@
       "Termine par béchamel et gruyère.",
       "Enfourne 30 min à 190°C.",
       "Laisse reposer avant de servir."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lasagna%20bolognese.jpg?width=640"
   },
   {
     "id": "tortilla-espagnole",
@@ -4471,7 +4525,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.28,
+    "prixParPersonne": 1.58,
     "kcal": 460,
     "macros": {
       "proteines": 18,
@@ -4492,7 +4546,7 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1.2
       },
       {
         "nom": "Oignon",
@@ -4522,7 +4576,8 @@
       "Bats les œufs, mélange aux pommes de terre.",
       "Cuis la tortilla des deux côtés.",
       "Sers tiède."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortilla-de-patatas.jpg?width=640"
   },
   {
     "id": "chakchouka-merguez",
@@ -4607,7 +4662,8 @@
       "Prépare la semoule.",
       "Remets les merguez avec les légumes.",
       "Sers sur la semoule."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Couscous%20merguez%2C%20kedid%2C%20Tunisie%202021.jpg?width=640"
   },
   {
     "id": "couscous-legumes",
@@ -4693,7 +4749,8 @@
       "Prépare la semoule à part.",
       "Laisse mijoter 25 min.",
       "Sers les légumes sur la semoule."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moroccan%20cuisine-Couscous%20with%20vegetables.jpg?width=640"
   },
   {
     "id": "gaufres-salees-legumes",
@@ -4714,7 +4771,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.06,
+    "prixParPersonne": 1.23,
     "kcal": 500,
     "macros": {
       "proteines": 18,
@@ -4735,21 +4792,21 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Lait",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.088
+        "prixParPersonne": 0.104
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Salade",
@@ -4763,7 +4820,7 @@
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.108
+        "prixParPersonne": 0.132
       },
       {
         "nom": "Levure",
@@ -4799,7 +4856,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.63,
+    "prixParPersonne": 1.87,
     "kcal": 620,
     "macros": {
       "proteines": 28,
@@ -4820,14 +4877,14 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Lait",
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.088
+        "prixParPersonne": 0.104
       },
       {
         "nom": "Bacon",
@@ -4848,7 +4905,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       },
       {
         "nom": "Levure",
@@ -4864,7 +4921,8 @@
       "Poêle le bacon et les œufs.",
       "Dresse pancakes, œufs et bacon.",
       "Arrose de sirop d'érable."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bacon%20pancakes.jpg?width=640"
   },
   {
     "id": "nems-riz-cantonais",
@@ -4887,7 +4945,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.82,
+    "prixParPersonne": 1.92,
     "kcal": 520,
     "macros": {
       "proteines": 22,
@@ -4908,7 +4966,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Jambon",
@@ -4952,7 +5010,8 @@
       "Ajoute jambon, petits pois et crevettes.",
       "Incorpore le riz et la sauce soja.",
       "Sers avec oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Egg%20Fried%20rice.jpg?width=640"
   },
   {
     "id": "gratin-chou-fleur",
@@ -4972,7 +5031,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.31,
+    "prixParPersonne": 1.33,
     "kcal": 400,
     "macros": {
       "proteines": 16,
@@ -5014,7 +5073,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -5023,7 +5082,8 @@
       "Dispose le chou-fleur dans un plat, nappe de béchamel.",
       "Parsème de gruyère.",
       "Enfourne 20 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cauliflower-cheese.jpg?width=640"
   },
   {
     "id": "parmentier-canard",
@@ -5042,7 +5102,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.56,
+    "prixParPersonne": 2.6,
     "kcal": 680,
     "macros": {
       "proteines": 30,
@@ -5070,14 +5130,14 @@
         "qteParPersonne": 50,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.055
+        "prixParPersonne": 0.065
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.135
+        "prixParPersonne": 0.165
       },
       {
         "nom": "Oignon",
@@ -5100,7 +5160,8 @@
       "Dispose le canard dans un plat, couvre de purée.",
       "Enfourne 20 min à 200°C.",
       "Parsème de persil."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachis%20parmentier%2001.jpg?width=640"
   },
   {
     "id": "blanquette-veau-express",
@@ -5119,7 +5180,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.92,
+    "prixParPersonne": 3.16,
     "kcal": 580,
     "macros": {
       "proteines": 34,
@@ -5133,7 +5194,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.16
+        "prixParPersonne": 2.4
       },
       {
         "nom": "Carotte",
@@ -5184,7 +5245,8 @@
       "Ajoute les champignons.",
       "Incorpore la crème hors du feu.",
       "Sers avec le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Blanquette%20de%20Veau%20(3).JPG?width=640"
   },
   {
     "id": "poulet-roti-legumes",
@@ -5268,7 +5330,8 @@
       "Enfourne 35 min à 200°C.",
       "Retourne à mi-cuisson.",
       "Sers bien doré."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roast%20chicken.jpg?width=640"
   },
   {
     "id": "cordon-bleu-puree",
@@ -5287,7 +5350,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.46,
+    "prixParPersonne": 1.5,
     "kcal": 660,
     "macros": {
       "proteines": 36,
@@ -5315,14 +5378,14 @@
         "qteParPersonne": 50,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.055
+        "prixParPersonne": 0.065
       },
       {
         "nom": "Beurre",
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.135
+        "prixParPersonne": 0.165
       },
       {
         "nom": "Petits pois",
@@ -5338,7 +5401,8 @@
       "Réchauffe les petits pois.",
       "Dresse cordon bleu, purée et pois.",
       "Sers chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cordonbleu.jpg?width=640"
   },
   {
     "id": "nuggets-maison-frites",
@@ -5356,7 +5420,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.81,
+    "prixParPersonne": 2.07,
     "kcal": 640,
     "macros": {
       "proteines": 32,
@@ -5370,7 +5434,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.21
+        "prixParPersonne": 1.375
       },
       {
         "nom": "Chapelure",
@@ -5384,7 +5448,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Pomme de terre",
@@ -5414,7 +5478,8 @@
       "Cuis les frites 18 min à l'air fryer.",
       "Cuis les nuggets 12 min.",
       "Sers ensemble."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Solomillos%20de%20pollo%20rebozados%20y%20fritos.jpg?width=640"
   },
   {
     "id": "brochettes-poulet-airfryer",
@@ -5433,7 +5498,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.02,
+    "prixParPersonne": 2.22,
     "kcal": 440,
     "macros": {
       "proteines": 42,
@@ -5447,7 +5512,7 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.43
+        "prixParPersonne": 1.625
       },
       {
         "nom": "Poivron",
@@ -5498,7 +5563,8 @@
       "Cuis 15 min à l'air fryer à 200°C.",
       "Cuis le riz.",
       "Sers les brochettes sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chan's%20Original%20Teriyaki%20Chicken%20on%20a%20Stick%2001.jpg?width=640"
   },
   {
     "id": "legumes-rotis-airfryer",
@@ -5583,7 +5649,8 @@
       "Cuis 15 min à l'air fryer.",
       "Ajoute le halloumi tranché 5 min.",
       "Sers avec les pois chiches."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20vegetables%20-%20Parrillada%20de%20verduras%20(4586579546).jpg?width=640"
   },
   {
     "id": "croquettes-pomme-terre",
@@ -5604,7 +5671,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 1.11,
+    "prixParPersonne": 1.24,
     "kcal": 520,
     "macros": {
       "proteines": 16,
@@ -5632,14 +5699,14 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Emmental",
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Salade",
@@ -5669,7 +5736,8 @@
       "Cuis 15 min à l'air fryer.",
       "Assaisonne la salade.",
       "Sers croquettes et salade."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Croquettes%20with%20salad.jpg?width=640"
   },
   {
     "id": "poivrons-farcis",
@@ -5686,7 +5754,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.78,
+    "prixParPersonne": 1.9,
     "kcal": 520,
     "macros": {
       "proteines": 26,
@@ -5707,7 +5775,7 @@
         "qteParPersonne": 80,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.88
+        "prixParPersonne": 1
       },
       {
         "nom": "Riz",
@@ -5751,7 +5819,8 @@
       "Mélange riz et viande.",
       "Farcis les poivrons évidés.",
       "Enfourne 30 min à 190°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dollma%2CSpeca%20te%20mbushur%20me%20mish%20dhe%20oriz.jpg?width=640"
   },
   {
     "id": "aubergines-farcies",
@@ -5923,7 +5992,8 @@
       "Incorpore nouilles et crevettes.",
       "Laisse cuire 6 min.",
       "Sers avec coriandre."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang%20Mai%2C%20Thailand%2C%20Tom%20Kha%2C%20Thai%20coconut%20soup.jpg?width=640"
   },
   {
     "id": "moules-frites",
@@ -5943,7 +6013,7 @@
     "equipement": [
       "airfryer"
     ],
-    "prixParPersonne": 2.05,
+    "prixParPersonne": 2.07,
     "kcal": 560,
     "macros": {
       "proteines": 28,
@@ -5992,7 +6062,7 @@
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.108
+        "prixParPersonne": 0.132
       }
     ],
     "etapes": [
@@ -6001,7 +6071,8 @@
       "Ajoute les moules et le vin blanc, couvre.",
       "Cuis jusqu'à ouverture des moules.",
       "Parsème de persil, sers avec les frites."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moules-frites.jpg?width=640"
   },
   {
     "id": "sardines-grillees-ratat",
@@ -6088,7 +6159,8 @@
       "Grille-les à la poêle 3 min par face.",
       "Dresse les sardines sur la ratatouille.",
       "Arrose d'un filet d'huile."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sardines%2004%20beach%20Torre%20del%20Mar.JPG?width=640"
   },
   {
     "id": "thon-mi-cuit-sesame",
@@ -6170,7 +6242,8 @@
       "Saute le pak choï avec le gingembre.",
       "Cuis les nouilles, ajoute la sauce soja.",
       "Tranche le thon, sers sur les nouilles."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sesame%20crusted%20tuna%2C%20August%202015.jpg?width=640"
   },
   {
     "id": "quiche-poireaux",
@@ -6191,7 +6264,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.82,
+    "prixParPersonne": 2.04,
     "kcal": 580,
     "macros": {
       "proteines": 20,
@@ -6219,7 +6292,7 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Crème fraîche",
@@ -6240,7 +6313,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -6249,7 +6322,8 @@
       "Bats œufs et crème, verse dessus.",
       "Parsème de gruyère.",
       "Enfourne 30 min à 190°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiche%20lorraine%2002.JPG?width=640"
   },
   {
     "id": "boulettes-boeuf-tomate",
@@ -6270,7 +6344,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.8,
+    "prixParPersonne": 2,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -6284,7 +6358,7 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Spaghetti",
@@ -6312,7 +6386,7 @@
         "qteParPersonne": 0.5,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.15
+        "prixParPersonne": 0.2
       },
       {
         "nom": "Oignon",
@@ -6335,7 +6409,8 @@
       "Ajoute tomates, oignon et ail, mijote 15 min.",
       "Cuis les spaghetti.",
       "Sers boulettes et sauce sur les pâtes."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20and%20meatballs.jpg?width=640"
   },
   {
     "id": "kebab-maison",
@@ -6354,7 +6429,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.31,
+    "prixParPersonne": 2.47,
     "kcal": 620,
     "macros": {
       "proteines": 34,
@@ -6368,7 +6443,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.21
+        "prixParPersonne": 1.375
       },
       {
         "nom": "Pain pita",
@@ -6419,7 +6494,8 @@
       "Cuis les frites.",
       "Garnis le pita de salade, tomate, poulet.",
       "Ajoute frites et sauce blanche."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner%20kebab.jpg?width=640"
   },
   {
     "id": "chili-con-carne",
@@ -6438,7 +6514,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.95,
+    "prixParPersonne": 2.08,
     "kcal": 560,
     "macros": {
       "proteines": 32,
@@ -6452,7 +6528,7 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 0.99
+        "prixParPersonne": 1.125
       },
       {
         "nom": "Haricots rouges",
@@ -6503,7 +6579,8 @@
       "Verse tomates, haricots et cumin.",
       "Mijote 20 min.",
       "Sers avec le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chili%20con%20carne%20with%20beef%2C%20beans%2C%20chili%20peppers%2C%20garlic%2C%20black%20pepper%2C%20and%20a%20soft-boiled%20egg%20-%20Massachusetts.jpg?width=640"
   },
   {
     "id": "gratin-ravioles",
@@ -6576,7 +6653,8 @@
       "Nappe de crème muscadée.",
       "Couvre de gruyère.",
       "Enfourne 15 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gratin%20de%20ravioles.jpg?width=640"
   },
   {
     "id": "polenta-cremeuse-champi",
@@ -6596,7 +6674,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.3,
+    "prixParPersonne": 1.38,
     "kcal": 480,
     "macros": {
       "proteines": 14,
@@ -6624,7 +6702,7 @@
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.44
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Ail",
@@ -6638,7 +6716,7 @@
         "qteParPersonne": 12,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.108
+        "prixParPersonne": 0.132
       },
       {
         "nom": "Persil",
@@ -6654,7 +6732,8 @@
       "Poêle les champignons avec l'ail.",
       "Dresse la polenta, ajoute les champignons.",
       "Parsème de persil."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Polenta%20fritta%20con%20sugo%20di%20funghi%20(49653224258).jpg?width=640"
   },
   {
     "id": "oeufs-cocotte",
@@ -6676,7 +6755,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.47,
+    "prixParPersonne": 1.67,
     "kcal": 340,
     "macros": {
       "proteines": 18,
@@ -6690,7 +6769,7 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Épinards",
@@ -6734,7 +6813,8 @@
       "Ajoute crème, œuf et gruyère.",
       "Enfourne 12 min à 190°C.",
       "Sers avec des mouillettes de pain."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Oeufs%20cocotte%20provencale.jpg?width=640"
   },
   {
     "id": "soba-cacahuete",
@@ -6822,7 +6902,8 @@
       "Râpe carotte et chou.",
       "Mélange nouilles, légumes et sauce.",
       "Sers tiède ou froid."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakisoba%20(fried%20noodles)%20with%20pork%2C%20onions%2C%20cabbage%20and%20carrot.jpg?width=640"
   },
   {
     "id": "tofu-general-tao",
@@ -6909,7 +6990,8 @@
       "Prépare une sauce soja-ketchup-ail.",
       "Enrobe le tofu de sauce.",
       "Sers sur le riz avec le poivron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spicy%20orange%20glazed%20tofu%20w%20Israeli%20couscous%20and%20ginger%20glazed%20carrots.jpg?width=640"
   },
   {
     "id": "boulettes-veg-boulgour",
@@ -6995,7 +7077,8 @@
       "Cuis 14 min à l'air fryer.",
       "Cuis le boulgour.",
       "Sers avec une salade de tomate."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl%20of%20falafel.jpg?width=640"
   },
   {
     "id": "crumble-legumes",
@@ -7015,7 +7098,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.31,
+    "prixParPersonne": 1.42,
     "kcal": 460,
     "macros": {
       "proteines": 12,
@@ -7057,14 +7140,14 @@
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.225
+        "prixParPersonne": 0.275
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 20,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.44
+        "prixParPersonne": 0.5
       },
       {
         "nom": "Noisettes",
@@ -7100,7 +7183,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.18,
+    "prixParPersonne": 2.37,
     "kcal": 540,
     "macros": {
       "proteines": 32,
@@ -7114,7 +7197,7 @@
         "qteParPersonne": 100,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.1
+        "prixParPersonne": 1.25
       },
       {
         "nom": "Tortilla",
@@ -7135,7 +7218,7 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.33
+        "prixParPersonne": 0.375
       },
       {
         "nom": "Sauce César",
@@ -7158,7 +7241,8 @@
       "Ajoute salade, tomate et poulet.",
       "Parsème de parmesan.",
       "Roule bien serré."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20Taco%20Wraps.jpg?width=640"
   },
   {
     "id": "pates-thon-citron",
@@ -7244,7 +7328,8 @@
       "Ajoute le jus de citron.",
       "Mélange aux pâtes avec un peu d'eau de cuisson.",
       "Parsème de persil."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20with%20tomato%20sauce%2C%20capers%20and%20tuna.jpg?width=640"
   },
   {
     "id": "salade-quinoa-feta",
@@ -7330,7 +7415,8 @@
       "Mélange le tout.",
       "Ajoute feta et menthe.",
       "Assaisonne d'huile d'olive."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tabouleh%201.JPG?width=640"
   },
   {
     "id": "burrito-bowl",
@@ -7415,7 +7501,8 @@
       "Prépare une salsa tomate-citron-coriandre.",
       "Compose le bowl.",
       "Ajoute l'avocat tranché."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Burrito%20Bowl.jpg?width=640"
   },
   {
     "id": "orecchiette-brocoli",
@@ -7435,7 +7522,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.54,
+    "prixParPersonne": 1.59,
     "kcal": 520,
     "macros": {
       "proteines": 18,
@@ -7484,7 +7571,7 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.33
+        "prixParPersonne": 0.375
       },
       {
         "nom": "Huile d'olive",
@@ -7500,7 +7587,8 @@
       "Écrase le brocoli dans la sauce.",
       "Mélange aux pâtes.",
       "Sers avec du parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Orecchiette%20broccoli%20e%20salsiccia.jpg?width=640"
   },
   {
     "id": "pot-au-feu-express",
@@ -7518,7 +7606,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.1,
+    "prixParPersonne": 2.34,
     "kcal": 480,
     "macros": {
       "proteines": 34,
@@ -7532,7 +7620,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.44
+        "prixParPersonne": 1.68
       },
       {
         "nom": "Carotte",
@@ -7583,7 +7671,8 @@
       "Mijote 35 min.",
       "Vérifie l'assaisonnement.",
       "Sers bien chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pot-au-feu%201.jpg?width=640"
   },
   {
     "id": "keftas-agneau-semoule",
@@ -7603,7 +7692,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.18,
+    "prixParPersonne": 2.51,
     "kcal": 620,
     "macros": {
       "proteines": 30,
@@ -7617,7 +7706,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.54
+        "prixParPersonne": 1.87
       },
       {
         "nom": "Semoule",
@@ -7668,7 +7757,8 @@
       "Poêle-les avec la courgette.",
       "Prépare la semoule.",
       "Sers les keftas sur la semoule."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kafta%20shish%20kebab%20and%20grilled%20vegetables%20on%20salad%20-%20Cambridge%2C%20MA.jpg?width=640"
   },
   {
     "id": "saumon-pates-crémeuses",
@@ -7748,7 +7838,8 @@
       "Ajoute la crème et le saumon coupé.",
       "Incorpore citron et aneth.",
       "Mélange aux pâtes."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20with%20cold-smoked%20salmon%20and%20peas%20in%20Loviisa.jpg?width=640"
   },
   {
     "id": "gnocchi-gorgonzola",
@@ -7819,7 +7910,8 @@
       "Ajoute les épinards.",
       "Mélange les gnocchi à la sauce.",
       "Parsème de noix."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gnocchi%20di%20patate%20con%20sugo%20di%20pomodoro%20e%20con%20gorgonzola.jpg?width=640"
   },
   {
     "id": "dorade-four-legumes",
@@ -7906,7 +7998,8 @@
       "Enfourne 25 min à 200°C.",
       "Arrose du jus à mi-cuisson.",
       "Sers bien chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dorade%20royale%20de%20ratatouille.jpg?width=640"
   },
   {
     "id": "velouté-carotte-cumin",
@@ -7998,7 +8091,8 @@
       "Couvre de bouillon, mijote 20 min.",
       "Mixe finement.",
       "Sers avec des croûtons."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkin%20soup%20at%20Pizzeria%20Ristorante%20%22O%20Sole%20Mio%22%2C%20Mielec%2C%20Poland.jpg?width=640"
   },
   {
     "id": "galette-pomme-terre-jambon",
@@ -8018,7 +8112,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.67,
+    "prixParPersonne": 1.81,
     "kcal": 520,
     "macros": {
       "proteines": 22,
@@ -8046,14 +8140,14 @@
         "qteParPersonne": 40,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.4
+        "prixParPersonne": 0.44
       },
       {
         "nom": "Œuf",
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Oignon",
@@ -8076,7 +8170,8 @@
       "Forme une galette à la poêle.",
       "Cuis 6 min par face.",
       "Sers bien dorée."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Virve%20rosti%201.jpg?width=640"
   },
   {
     "id": "tarte-tomate-moutarde",
@@ -8097,7 +8192,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.13,
+    "prixParPersonne": 1.16,
     "kcal": 520,
     "macros": {
       "proteines": 14,
@@ -8132,7 +8227,7 @@
         "qteParPersonne": 30,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.33
       },
       {
         "nom": "Herbes de Provence",
@@ -8155,7 +8250,8 @@
       "Parsème de fromage et d'herbes.",
       "Enfourne 25 min à 200°C.",
       "Sers avec la salade."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9paration%20d'une%20tarte%20%C3%A0%20la%20tomate%20(06)%20-%20sortie%20du%20four.jpg?width=640"
   },
   {
     "id": "riz-saute-kimchi",
@@ -8178,7 +8274,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.46,
+    "prixParPersonne": 1.56,
     "kcal": 480,
     "macros": {
       "proteines": 16,
@@ -8206,7 +8302,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Oignon nouveau",
@@ -8236,7 +8332,8 @@
       "Pousse sur le côté, cuis un œuf au plat.",
       "Ajoute l'huile de sésame.",
       "Sers l'œuf sur le riz avec l'oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kimchi%20fried%20rice%202.jpg?width=640"
   },
   {
     "id": "gratin-endives-jambon",
@@ -8254,7 +8351,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 2.62,
+    "prixParPersonne": 2.64,
     "kcal": 520,
     "macros": {
       "proteines": 28,
@@ -8296,7 +8393,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -8324,7 +8421,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.05,
+    "prixParPersonne": 1.07,
     "kcal": 620,
     "macros": {
       "proteines": 14,
@@ -8352,7 +8449,7 @@
         "qteParPersonne": 80,
         "unite": "ml",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.088
+        "prixParPersonne": 0.104
       },
       {
         "nom": "Ail",
@@ -8382,7 +8479,8 @@
       "Range-les dans un plat, arrose de crème et lait, ajoute l'ail et la muscade.",
       "Couvre de gruyère râpé.",
       "Enfourne 35 min jusqu'à ce que ce soit doré."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gratin%20dauphinois.jpg?width=640"
   },
   {
     "id": "soupe-poireaux-pommes-terre",
@@ -8402,7 +8500,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 0.93,
+    "prixParPersonne": 0.95,
     "kcal": 320,
     "macros": {
       "proteines": 9,
@@ -8451,7 +8549,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -8460,7 +8558,8 @@
       "Laisse mijoter 20 min.",
       "Mixe finement.",
       "Incorpore la crème avant de servir."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vichyssoise.jpg?width=640"
   },
   {
     "id": "curry-lentilles-corail-coco",
@@ -8551,7 +8650,8 @@
       "Verse les tomates, le lait de coco et un verre d'eau.",
       "Laisse mijoter 18 min.",
       "Sers avec le riz basmati."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadka%20Daal%20(Indian%20lentil%20curry).jpg?width=640"
   },
   {
     "id": "poelee-gnocchi-chevre-epinards",
@@ -8628,7 +8728,8 @@
       "Ajoute l'ail puis les épinards, laisse tomber.",
       "Émiette le chèvre par-dessus, mélange.",
       "Parsème de noix concassées et sers."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gnocchi%20Verde.jpg?width=640"
   },
   {
     "id": "wok-boeuf-brocoli",
@@ -8648,7 +8749,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.6,
+    "prixParPersonne": 2.84,
     "kcal": 520,
     "macros": {
       "proteines": 35,
@@ -8662,7 +8763,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.8
+        "prixParPersonne": 2.04
       },
       {
         "nom": "Brocoli",
@@ -8713,7 +8814,8 @@
       "Ajoute le brocoli, l'ail et le gingembre, saute 5 min.",
       "Déglace à la sauce soja.",
       "Sers sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20with%20broccoli.JPG?width=640"
   },
   {
     "id": "salade-cesar-poulet",
@@ -8731,7 +8833,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.38,
+    "prixParPersonne": 2.54,
     "kcal": 470,
     "macros": {
       "proteines": 38,
@@ -8745,7 +8847,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.44
+        "prixParPersonne": 1.56
       },
       {
         "nom": "Salade romaine",
@@ -8766,7 +8868,7 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.33
+        "prixParPersonne": 0.375
       },
       {
         "nom": "Sauce césar",
@@ -8788,7 +8890,8 @@
       "Coupe la salade, dispose dans un bol.",
       "Ajoute le poulet, les croûtons et la sauce césar.",
       "Termine avec des copeaux de parmesan."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20Caesar%20salad%20at%20the%20office.jpg?width=640"
   },
   {
     "id": "saumon-poele-ecrasee",
@@ -8808,7 +8911,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 3.59,
+    "prixParPersonne": 3.62,
     "kcal": 610,
     "macros": {
       "proteines": 36,
@@ -8836,7 +8939,7 @@
         "qteParPersonne": 15,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.135
+        "prixParPersonne": 0.165
       },
       {
         "nom": "Citron",
@@ -8865,7 +8968,8 @@
       "Poêle le saumon côté peau 4 min, puis 2 min de l'autre côté.",
       "Assaisonne d'aneth et d'un filet de citron.",
       "Sers le saumon sur l'écrasée."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmon%20al%20horno.jpg?width=640"
   },
   {
     "id": "omelette-champignons-gruyere",
@@ -8886,7 +8990,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.74,
+    "prixParPersonne": 2.06,
     "kcal": 420,
     "macros": {
       "proteines": 28,
@@ -8900,7 +9004,7 @@
         "qteParPersonne": 3,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.9
+        "prixParPersonne": 1.2
       },
       {
         "nom": "Champignons",
@@ -8921,7 +9025,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       },
       {
         "nom": "Persil",
@@ -8937,7 +9041,8 @@
       "Ajoute le gruyère.",
       "Plie l'omelette quand elle est encore baveuse.",
       "Parsème de persil."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Omelette.JPG?width=640"
   },
   {
     "id": "penne-saumon-fume-creme",
@@ -9016,7 +9121,8 @@
       "Incorpore le saumon fumé coupé en lanières hors du feu.",
       "Mélange aux pâtes.",
       "Termine avec l'aneth et un trait de citron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20with%20cold-smoked%20salmon%20and%20peas%20in%20Loviisa.jpg?width=640"
   },
   {
     "id": "gratin-chou-fleur-bechamel",
@@ -9035,7 +9141,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.42,
+    "prixParPersonne": 1.44,
     "kcal": 420,
     "macros": {
       "proteines": 18,
@@ -9077,7 +9183,7 @@
         "qteParPersonne": 10,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.09
+        "prixParPersonne": 0.11
       }
     ],
     "etapes": [
@@ -9086,7 +9192,8 @@
       "Nappe de béchamel, assaisonne de muscade.",
       "Couvre de gruyère.",
       "Gratine 25 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cauliflower-cheese.jpg?width=640"
   },
   {
     "id": "nouilles-sautees-crevettes",
@@ -9173,7 +9280,8 @@
       "Saute le poivron et l'ail.",
       "Remets les crevettes et les nouilles, déglace à la sauce soja.",
       "Parsème d'oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakisoba%20(fried%20noodles)%20with%20pork%2C%20onions%2C%20cabbage%20and%20carrot.jpg?width=640"
   },
   {
     "id": "tarte-tomate-moutarde-chevre",
@@ -9250,7 +9358,8 @@
       "Ajoute le chèvre en tranches.",
       "Parsème d'herbes de Provence et d'un filet d'huile.",
       "Enfourne 25 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9paration%20d'une%20tarte%20%C3%A0%20la%20tomate%20(06)%20-%20sortie%20du%20four.jpg?width=640"
   },
   {
     "id": "poelee-merguez-semoule",
@@ -9328,7 +9437,8 @@
       "Prépare la semoule avec de l'eau bouillante.",
       "Mélange légumes et semoule.",
       "Sers avec les merguez."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Couscous%20merguez%2C%20kedid%2C%20Tunisie%202021.jpg?width=640"
   },
   {
     "id": "gratin-courgettes-riz",
@@ -9349,7 +9459,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 1.41,
+    "prixParPersonne": 1.51,
     "kcal": 460,
     "macros": {
       "proteines": 16,
@@ -9377,7 +9487,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Crème fraîche",
@@ -9407,7 +9517,8 @@
       "Mélange riz, courgettes, œuf battu et crème.",
       "Verse dans un plat, couvre de gruyère.",
       "Gratine 25 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kabak%20au%20gratin.jpg?width=640"
   },
   {
     "id": "poulet-sesame-miel",
@@ -9426,7 +9537,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.9,
+    "prixParPersonne": 2.08,
     "kcal": 560,
     "macros": {
       "proteines": 38,
@@ -9440,7 +9551,7 @@
         "qteParPersonne": 120,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.32
+        "prixParPersonne": 1.5
       },
       {
         "nom": "Miel",
@@ -9484,7 +9595,8 @@
       "Ajoute miel, sauce soja et gingembre, laisse caraméliser.",
       "Parsème de sésame.",
       "Sers sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Honey%20sesame%20chicken%20picture.JPG?width=640"
   },
   {
     "id": "soupe-potiron-coco",
@@ -9554,7 +9666,8 @@
       "Mijote 20 min.",
       "Mixe avec le lait de coco.",
       "Sers bien chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkin%20soup%20at%20Pizzeria%20Ristorante%20%22O%20Sole%20Mio%22%2C%20Mielec%2C%20Poland.jpg?width=640"
   },
   {
     "id": "gratin-pates-thon",
@@ -9626,7 +9739,8 @@
       "Verse dans un plat, ajoute des rondelles de tomate.",
       "Couvre de gruyère.",
       "Gratine 20 min à 200°C."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nudel-Schinken-Gratin.jpg?width=640"
   },
   {
     "id": "buddha-bowl-quinoa-feta",
@@ -9711,7 +9825,8 @@
       "Dispose quinoa, pois chiches et légumes dans un bol.",
       "Émiette la feta.",
       "Assaisonne d'huile d'olive et de citron."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Healthy%20Gnocchi%20Buddha%20Bowl.jpg?width=640"
   },
   {
     "id": "poelee-legumes-halloumi",
@@ -9788,7 +9903,8 @@
       "Assaisonne d'herbes de Provence.",
       "Dans une autre poêle, grille les tranches d'halloumi 2 min par face.",
       "Dresse les légumes et pose l'halloumi dessus."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20vegetables%20-%20Parrillada%20de%20verduras%20(4586579546).jpg?width=640"
   },
   {
     "id": "tajine-poulet-citron",
@@ -9864,7 +9980,8 @@
       "Remets le poulet, ajoute citron et olives, couvre d'eau.",
       "Mijote 30 min à couvert.",
       "Sers avec la semoule."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moroccan%20food-Chicken%20tagine%20with%20preserved%20lemons%20and%20olives-01.jpg?width=640"
   },
   {
     "id": "pates-carbonara",
@@ -9883,7 +10000,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.63,
+    "prixParPersonne": 1.8,
     "kcal": 640,
     "macros": {
       "proteines": 28,
@@ -9911,14 +10028,14 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Parmesan",
         "qteParPersonne": 25,
         "unite": "g",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.55
+        "prixParPersonne": 0.625
       },
       {
         "nom": "Oignon",
@@ -9934,7 +10051,8 @@
       "Bats l'œuf avec le parmesan.",
       "Hors du feu, mélange les pâtes chaudes aux lardons puis à l'appareil œuf-parmesan.",
       "Remue vivement pour une sauce crémeuse."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti%20alla%20Carbonara.jpg?width=640"
   },
   {
     "id": "riz-cantonais",
@@ -9955,7 +10073,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.36,
+    "prixParPersonne": 1.46,
     "kcal": 520,
     "macros": {
       "proteines": 20,
@@ -9976,7 +10094,7 @@
         "qteParPersonne": 1,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.3
+        "prixParPersonne": 0.4
       },
       {
         "nom": "Petits pois",
@@ -10013,7 +10131,8 @@
       "Saute le riz avec les petits pois et le jambon.",
       "Ajoute l'œuf et la sauce soja.",
       "Parsème d'oignon nouveau."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Egg%20Fried%20rice.jpg?width=640"
   },
   {
     "id": "poke-bowl-thon",
@@ -10100,7 +10219,8 @@
       "Dispose le riz dans un bol, ajoute le thon et les légumes.",
       "Arrose de sauce soja et de citron vert.",
       "Parsème de sésame."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahi%20tuna%20Poke.jpeg?width=640"
   },
   {
     "id": "tajine-poulet-olives",
@@ -10190,7 +10310,8 @@
       "Dépose les pommes de terre en morceaux, couvre et laisse mijoter 25 min.",
       "Ajoute le citron en quartiers et les olives, poursuis 8 min.",
       "Parsème de coriandre fraîche avant de servir."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tajine%20poulet%20olives.jpg?width=640"
   },
   {
     "id": "couscous-poulet-merguez",
@@ -10207,7 +10328,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.55,
+    "prixParPersonne": 2.64,
     "kcal": 680,
     "macros": {
       "proteines": 35,
@@ -10235,7 +10356,7 @@
         "qteParPersonne": 90,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.08
+        "prixParPersonne": 1.17
       },
       {
         "nom": "Carotte",
@@ -10287,7 +10408,8 @@
       "Remets les viandes, poursuis la cuisson 10 min.",
       "Prépare la semoule en la couvrant d'eau bouillante et d'un filet d'huile.",
       "Sers la semoule avec le bouillon, les légumes et les viandes."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Couscous%20Royal%20Marocain.JPG?width=640"
   },
   {
     "id": "kefta-boeuf-tomate",
@@ -10306,7 +10428,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.1,
+    "prixParPersonne": 2.31,
     "kcal": 560,
     "macros": {
       "proteines": 34,
@@ -10320,7 +10442,7 @@
         "qteParPersonne": 125,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.375
+        "prixParPersonne": 1.563
       },
       {
         "nom": "Oignon",
@@ -10362,7 +10484,7 @@
         "qteParPersonne": 0.25,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.075
+        "prixParPersonne": 0.1
       },
       {
         "nom": "Paprika",
@@ -10378,7 +10500,8 @@
       "Ajoute l'ail, le paprika et les tomates concassées.",
       "Laisse mijoter 15 min à couvert.",
       "Rectifie l'assaisonnement et sers bien chaud."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20kofta%20kebab%20at%20the%20Folklife%20Festival.jpg?width=640"
   },
   {
     "id": "boulettes-agneau-boulgour",
@@ -10395,7 +10518,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.47,
+    "prixParPersonne": 2.8,
     "kcal": 600,
     "macros": {
       "proteines": 32,
@@ -10409,7 +10532,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.54
+        "prixParPersonne": 1.87
       },
       {
         "nom": "Boulgour",
@@ -10467,7 +10590,8 @@
       "Cuis le boulgour dans deux fois son volume d'eau bouillante salée.",
       "Ajoute la tomate en dés et l'ail aux boulettes, laisse compoter 8 min.",
       "Sers les boulettes sur le boulgour."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kafta%20shish%20kebab%20and%20grilled%20vegetables%20on%20salad%20-%20Cambridge%2C%20MA.jpg?width=640"
   },
   {
     "id": "poulet-yassa",
@@ -10553,7 +10677,8 @@
       "Remets le poulet avec la marinade, couvre et mijote 20 min.",
       "Cuis le riz à part.",
       "Sers le poulet et ses oignons sur le riz."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Poulet%20Yassa.JPG?width=640"
   },
   {
     "id": "biryani-poulet",
@@ -10570,7 +10695,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 2.28,
+    "prixParPersonne": 2.45,
     "kcal": 640,
     "macros": {
       "proteines": 34,
@@ -10591,7 +10716,7 @@
         "qteParPersonne": 110,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 1.21
+        "prixParPersonne": 1.375
       },
       {
         "nom": "Oignon",
@@ -10650,7 +10775,8 @@
       "Couvre et laisse cuire 15 min à feu doux sans remuer.",
       "Laisse reposer 5 min hors du feu.",
       "Parsème de coriandre et sers."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20Biryani.jpg?width=640"
   },
   {
     "id": "chakchouka-oeufs",
@@ -10669,7 +10795,7 @@
     "equipement": [
       "plaque"
     ],
-    "prixParPersonne": 1.99,
+    "prixParPersonne": 2.19,
     "kcal": 520,
     "macros": {
       "proteines": 28,
@@ -10683,7 +10809,7 @@
         "qteParPersonne": 2,
         "unite": "u",
         "rayon": "Crèmerie",
-        "prixParPersonne": 0.6
+        "prixParPersonne": 0.8
       },
       {
         "nom": "Merguez",
@@ -10741,7 +10867,8 @@
       "Laisse mijoter 10 min pour obtenir une sauce épaisse.",
       "Casse les œufs sur la sauce, couvre et laisse pocher 5 min.",
       "Sers directement dans la poêle."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakshuka1.jpg?width=640"
   },
   {
     "id": "cabillaud-chermoula",
@@ -10762,7 +10889,7 @@
     "equipement": [
       "four"
     ],
-    "prixParPersonne": 3.66,
+    "prixParPersonne": 3.92,
     "kcal": 440,
     "macros": {
       "proteines": 34,
@@ -10776,7 +10903,7 @@
         "qteParPersonne": 130,
         "unite": "g",
         "rayon": "Boucherie/Poisson",
-        "prixParPersonne": 2.6
+        "prixParPersonne": 2.86
       },
       {
         "nom": "Coriandre",
@@ -10841,6 +10968,7 @@
       "Dispose les pommes de terre en rondelles dans un plat, sale, enfourne 15 min à 200°C.",
       "Pose le poisson sur les pommes de terre, enfourne encore 12 min.",
       "Nappe du reste de chermoula et sers."
-    ]
+    ],
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dos%20de%20cabillaud%20r%C3%B4ti%20(avril%202022).JPG?width=640"
   }
 ]

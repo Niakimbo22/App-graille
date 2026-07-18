@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import type { Recipe } from "@/lib/types";
-import { gradientFor } from "@/lib/gradient";
 import { euros } from "@/lib/format";
 import { recetteDeSaison } from "@/lib/saison";
 import TagPill from "./TagPill";
+import RecipePhoto from "./RecipePhoto";
 
 interface Props {
   recipe: Recipe;
@@ -24,8 +24,7 @@ export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }:
           {jour}
         </div>
       )}
-      <div className="relative flex items-center justify-center py-7 text-6xl" style={{ background: gradientFor(recipe.id) }}>
-        {recipe.emoji}
+      <RecipePhoto recipe={recipe} className="h-36" emojiClassName="text-6xl">
         {recipe.origine === "monde" && (
           <span className="absolute right-2 top-2 rounded-full bg-white/85 px-2 py-0.5 text-xs font-bold text-forest shadow-soft">
             🌍 du monde
@@ -36,7 +35,7 @@ export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }:
             🌱 de saison
           </span>
         )}
-      </div>
+      </RecipePhoto>
       <div className="p-4">
         <h3 className="text-lg font-bold leading-snug text-forest">{recipe.nom}</h3>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-black/60">

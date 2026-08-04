@@ -7,9 +7,9 @@ import { estDeSaison } from "@/lib/saison";
 import { besoinHalal } from "@/lib/planner";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
-import { majLisible } from "@/lib/prices";
 import { encodePlan, shareUrl, shoppingListShareText } from "@/lib/share";
 import PillButton from "@/components/PillButton";
+import PriceNote from "@/components/PriceNote";
 import ShareButton from "@/components/ShareButton";
 
 export default function ListePage() {
@@ -32,7 +32,7 @@ export default function ListePage() {
   }
 
   const coef = coefMagasin(plan.magasin);
-  const { parRayon, total, articles } = buildShoppingList(
+  const { parRayon, total, placard, articles } = buildShoppingList(
     plan.items.map((i) => i.recipeId),
     plan.personnes,
     coef
@@ -42,7 +42,7 @@ export default function ListePage() {
   const halal = state.funnel.regimes.includes("halal");
 
   return (
-    <main className="safe-top mx-auto w-full max-w-md px-5 pb-32">
+    <main className="safe-top mx-auto w-full max-w-md px-5 pb-40">
       <div className="mb-5 flex items-center gap-3">
         <button
           onClick={() => router.push("/plan")}
@@ -60,7 +60,7 @@ export default function ListePage() {
           variant="icon"
           className="bg-white"
           title="Ma liste de courses — Miam"
-          text={shoppingListShareText(parRayon, total)}
+          text={shoppingListShareText(parRayon, total, placard)}
           url={shareUrl("/partage/", { d: encodePlan(plan) })}
         />
       </div>
@@ -101,6 +101,11 @@ export default function ListePage() {
                       {!checked && halalReminder && (
                         <span className="rounded-full bg-forest/10 px-1.5 py-0.5 text-[10px] font-bold text-forest">🕌 halal</span>
                       )}
+                      {!checked && a.placard && (
+                        <span className="rounded-full bg-black/[0.06] px-1.5 py-0.5 text-[10px] font-bold text-black/45">
+                          📦 placard
+                        </span>
+                      )}
                     </span>
                     <span className={`text-sm ${checked ? "text-black/25" : "text-black/55"}`}>
                       {formatQte(a.qte, 1, a.unite)}
@@ -116,15 +121,21 @@ export default function ListePage() {
         ))}
       </div>
 
+      {/* Pourquoi ce total peut bouger */}
+      <PriceNote total={total} placard={placard} magasin={plan.magasin} className="mt-5" />
+      <p className="mt-3 px-1 text-xs leading-snug text-black/45">
+        les prix sont ceux du <strong>paquet entier</strong> : une botte de persil, un pot de
+        thym ou un paquet de pâtes se paie en entier même si la recette n&apos;en prend que
+        quelques grammes. Les lignes 📦 placard sont celles que tu as souvent déjà chez toi.
+      </p>
+
       {/* Total */}
       <div className="safe-bottom fixed inset-x-0 bottom-0 mx-auto max-w-md border-t border-black/5 bg-white/95 px-5 pt-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <span className="text-base font-semibold text-black/60">total estimé</span>
-          <span className="text-2xl font-extrabold text-forest">{euros(total)}</span>
+          <span className="text-2xl font-extrabold text-forest">≈ {euros(total)}</span>
         </div>
-        <p className="pt-1 text-[11px] leading-tight text-black/35">
-          prix moyens supermarché France · maj {majLisible()} · ajustés pour {plan.magasin}
-        </p>
+        <PriceNote total={total} placard={placard} variant="ligne" className="pt-1" />
       </div>
     </main>
   );

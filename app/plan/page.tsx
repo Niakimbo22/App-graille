@@ -9,10 +9,10 @@ import { generatePlan } from "@/lib/planner";
 import { buildShoppingList } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros } from "@/lib/format";
-import { majLisible } from "@/lib/prices";
 import { encodePlan, planShareText, shareUrl } from "@/lib/share";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
+import PriceNote from "@/components/PriceNote";
 import ShareButton from "@/components/ShareButton";
 import SaisonPanel from "@/components/SaisonPanel";
 
@@ -39,7 +39,7 @@ export default function PlanPage() {
   }
 
   const coef = coefMagasin(plan.magasin);
-  const { articles, total } = buildShoppingList(
+  const { articles, total, placard } = buildShoppingList(
     plan.items.map((i) => i.recipeId),
     plan.personnes,
     coef
@@ -108,7 +108,7 @@ export default function PlanPage() {
           <div>
             <p className="text-sm text-black/50">coût estimé</p>
             <p className={`text-3xl font-extrabold ${depasse ? "text-orange-500" : "text-forest"}`}>
-              {euros(total)}
+              ≈ {euros(total)}
             </p>
           </div>
           <p className="pb-1 text-sm font-semibold text-black/50">budget {euros(plan.budget)}</p>
@@ -124,9 +124,7 @@ export default function PlanPage() {
             budget un peu juste — on a gardé les recettes les moins chères.
           </p>
         )}
-        <p className="mt-3 text-[11px] leading-tight text-black/35">
-          prix moyens supermarché France · maj {majLisible()} · ajustés pour {plan.magasin}
-        </p>
+        <PriceNote total={total} placard={placard} magasin={plan.magasin} className="mt-3" />
       </section>
 
       {/* Liste de courses */}
@@ -172,7 +170,7 @@ export default function PlanPage() {
         </PillButton>
         <ShareButton
           title="Mon plan de la semaine — Miam"
-          text={planShareText(recipesForShare, plan.personnes, total, plan.magasin)}
+          text={planShareText(recipesForShare, plan.personnes, total, plan.magasin, placard)}
           url={partageLien}
           label="partager ma semaine"
         />

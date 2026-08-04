@@ -3,6 +3,9 @@
 import { createContext, useContext, useEffect, useRef, useState, ReactNode } from "react";
 import type { Plan } from "@/lib/types";
 import { genId, memePlan, nomSemaine, type Profil, type SemaineFavorite } from "@/lib/profiles";
+import { rechiffrerPlan } from "@/lib/planner";
+import { RECIPES } from "@/lib/recipes";
+import { coefMagasin } from "@/lib/stores";
 
 const STORAGE_KEY = "miam-profils";
 
@@ -40,6 +43,10 @@ function sanitize(parsed: Partial<ProfilsState>): ProfilsState {
     p.avatar = typeof p.avatar === "string" ? p.avatar : "🦊";
     p.semaines = Array.isArray(p.semaines) ? p.semaines : [];
     p.plats = Array.isArray(p.plats) ? p.plats.filter((x) => typeof x === "string") : [];
+    // les semaines gardées peuvent dater d'une ancienne table de prix
+    for (const s of p.semaines) {
+      if (s?.plan) s.plan = rechiffrerPlan(RECIPES, s.plan, coefMagasin(s.plan.magasin));
+    }
   }
   const actifId = profils.some((p) => p.id === parsed.actifId) ? (parsed.actifId as string) : profils[0]?.id ?? null;
   return { profils, actifId };

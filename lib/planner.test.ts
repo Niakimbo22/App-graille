@@ -1,7 +1,9 @@
 // Tests de l'algorithme de sélection. Lancer avec: npm test
 import recipesData from "../data/recipes.json";
 import type { Recipe, FunnelState } from "./types";
-import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory, isHalal, besoinHalal } from "./planner";
+import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory, isHalal, besoinHalal, prixTotalRecette } from "./planner";
+import { buildShoppingList } from "./shopping";
+import { fourchette } from "./fourchette";
 import { estDeSaison, saisonnaliteRecette, produitPour } from "./saison";
 
 const recipes = recipesData as Recipe[];
@@ -78,9 +80,44 @@ console.log("Cas 4 — budget très serré (15€, 4 personnes)");
   const res = generatePlan({ recipes, funnel, coef: 1.0, seed: 3 });
   assert(res.items.length === 5, "5 recettes malgré le budget serré");
   assert(res.budgetDepasse, "le vrai total dépasse le budget (signalé)");
-  // vérifie qu'on a bien privilégié des recettes peu chères
-  const moyenne = res.coutEstime / 5;
-  assert(moyenne < 12, `coût moyen par repas raisonnable (${moyenne.toFixed(2)}€)`);
+  // vérifie qu'on a bien privilégié des recettes peu chères : le panier serré
+  // doit rester nettement sous un plan sans contrainte de budget
+  const libre = generatePlan({ recipes, funnel: baseFunnel({ budget: 250, personnes: 4 }), coef: 1.0, seed: 3 });
+  assert(
+    res.coutEstime < libre.coutEstime,
+    `panier contraint (${res.coutEstime}€) moins cher que le panier libre (${libre.coutEstime}€)`
+  );
+}
+
+// --- Cas 4 bis: le coût annoncé est bien celui de la liste de courses ---
+console.log("Cas 4 bis — coût = vrai panier (paquets entiers)");
+{
+  const funnel = baseFunnel({ personnes: 2 });
+  const res = generatePlan({ recipes, funnel, coef: 1.0, seed: 21 });
+  const panier = buildShoppingList(res.items.map((i) => i.recipeId), 2, 1.0);
+  assert(
+    Math.abs(res.coutEstime - panier.total) < 0.01,
+    `coutEstime (${res.coutEstime}€) = total de la liste (${panier.total}€)`
+  );
+  // la répartition par recette retombe sur le total, aux arrondis près
+  const somme = Math.round(res.items.reduce((s, i) => s + i.prixTotal, 0) * 100) / 100;
+  assert(Math.abs(somme - panier.total) < 0.01, `somme des parts (${somme}€) = total du panier`);
+  // un paquet entier coûte forcément plus que les seuls grammes utilisés
+  const parts = res.items.reduce(
+    (s, i) => s + prixTotalRecette(recipes.find((r) => r.id === i.recipeId)!, 2, 1.0),
+    0
+  );
+  assert(panier.total > parts, `panier réel (${panier.total}€) > somme des grammages (${Math.round(parts * 100) / 100}€)`);
+  assert(panier.placard > 0, `le placard est isolé (${panier.placard}€)`);
+}
+
+// --- Cas 4 ter: fourchette de prix cohérente ---
+console.log("Cas 4 ter — fourchette");
+{
+  const f = fourchette(60, 15);
+  assert(f.bas < 60 && f.haut > 60, `fourchette ${f.bas}–${f.haut} € encadre 60 €`);
+  assert(f.bas >= 60 - 15 - 5, "le bas ne retire pas plus que le placard + la marge");
+  assert(fourchette(0, 0).bas === 0, "panier vide → fourchette à 0");
 }
 
 // --- Cas 5: sans-gluten exclut bien le gluten ---

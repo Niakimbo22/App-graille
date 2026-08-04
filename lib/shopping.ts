@@ -1,7 +1,7 @@
 import type { Recipe, Rayon } from "./types";
 import { getRecipe } from "./recipes";
 import { round2 } from "./format";
-import { condFor, priceFor } from "./prices";
+import { condFor, estPlacard, priceFor } from "./prices";
 
 export interface ShoppingArticle {
   key: string;
@@ -10,6 +10,17 @@ export interface ShoppingArticle {
   rayon: Rayon;
   qte: number;
   prix: number;
+  /** produit de placard (épices, huile, farine…) : tu l'as sûrement déjà */
+  placard: boolean;
+}
+
+export interface ShoppingList {
+  articles: ShoppingArticle[];
+  parRayon: { rayon: Rayon; articles: ShoppingArticle[] }[];
+  /** total du ticket de caisse, tout compris */
+  total: number;
+  /** part du total qui vient du placard (à déduire si tu l'as déjà) */
+  placard: number;
 }
 
 export const RAYON_ORDER: Rayon[] = [
@@ -40,6 +51,7 @@ function pluralise(label: string, n: number): string {
   if (n <= 1) return label;
   if (label.endsWith("s") || label.endsWith("x")) return label;
   if (label === "morceau") return "morceaux";
+  if (label === "boîte de 6") return "boîtes de 6";
   return label + "s";
 }
 
@@ -48,19 +60,35 @@ const PIECE_UNITS = new Set(["u", "tranches", "cube"]);
 
 /**
  * Agrège les ingrédients du plan par rayon, et facture au conditionnement RÉEL :
- * on arrondit chaque produit à ce qu'on achète en magasin (1 concombre entier,
- * 1 botte de persil, 1 citron…) plutôt qu'au prorata des grammes utilisés.
+ * on arrondit chaque produit à ce qu'on achète en magasin (1 botte de persil,
+ * 1 pot de thym, 1 boîte de 6 œufs, 1 paquet de pâtes…) plutôt qu'au prorata
+ * des grammes utilisés. C'est ce qui fait l'écart entre « la somme des
+ * ingrédients » et le vrai ticket de caisse.
+ *
+ * Restent au prorata les produits qu'on achète vraiment au poids voulu :
+ * viande et poisson en barquette à poids variable, fromage à la coupe, et
+ * légumes vendus en vrac (oignon, carotte, pomme de terre, tomate, ail…).
  */
 export function buildShoppingList(
   recipeIds: string[],
   personnes: number,
   coef: number
-): { articles: ShoppingArticle[]; parRayon: { rayon: Rayon; articles: ShoppingArticle[] }[]; total: number } {
+): ShoppingList {
+  const recipes = recipeIds
+    .map((id) => getRecipe(id))
+    .filter((r): r is Recipe => r !== undefined);
+  return buildShoppingListFor(recipes, personnes, coef);
+}
+
+/** Même chose, à partir des recettes elles-mêmes (utile hors du catalogue global). */
+export function buildShoppingListFor(
+  recipes: Recipe[],
+  personnes: number,
+  coef: number
+): ShoppingList {
   // 1) agrège les QUANTITÉS par (rayon, nom, unité)
   const agg = new Map<string, { nom: string; unite: string; rayon: Rayon; qte: number }>();
-  for (const id of recipeIds) {
-    const recipe: Recipe | undefined = getRecipe(id);
-    if (!recipe) continue;
+  for (const recipe of recipes) {
     for (const ing of recipe.ingredients) {
       const key = `${ing.rayon}::${ing.nom.toLowerCase()}::${ing.unite}`;
       const qte = ing.qteParPersonne * personnes;
@@ -78,38 +106,47 @@ export function buildShoppingList(
     let uniteAff: string;
     let prix: number;
 
-    if (cond && (a.unite === "g" || a.unite === "ml")) {
-      // produit frais vendu à la pièce/botte/barquette → arrondi au pack
-      const nb = Math.max(1, Math.ceil(a.qte / cond.pas));
+    if (cond) {
+      // vendu en paquet fixe (botte, pot, boîte, sachet…) → on paie le paquet
+      // entier, quelle que soit l'unité de la recette (g, ml, pièce, pincée…).
+      const nb = Math.max(1, Math.ceil(round2(a.qte) / cond.pas));
       qteAff = nb;
       uniteAff = pluralise(cond.label, nb);
       prix = round2(nb * cond.prix * coef);
     } else if (PIECE_UNITS.has(a.unite)) {
-      // compté à la pièce (œuf, citron, tortilla…) → arrondi à l'unité entière
+      // compté à la pièce et vendu en vrac (citron, avocat…) → unité entière
       const nb = Math.max(1, Math.ceil(round2(a.qte)));
-      const pu = cond ? cond.prix : priceFor(a.nom, a.unite);
       qteAff = nb;
-      uniteAff = a.unite === "u" ? (nb > 1 ? "u" : "u") : pluralise(a.unite, nb);
-      prix = round2(nb * pu * coef);
+      uniteAff = a.unite === "u" ? "u" : pluralise(a.unite, nb);
+      prix = round2(nb * priceFor(a.nom, a.unite) * coef);
     } else {
-      // vrac / placard (farine, riz, huile, épices…) → prorata de la quantité utilisée
-      const pu = priceFor(a.nom, a.unite);
+      // vendu au poids choisi (viande, fromage à la coupe, légumes en vrac)
       qteAff = round2(a.qte);
       uniteAff = a.unite;
-      prix = round2(a.qte * pu * coef);
+      prix = round2(a.qte * priceFor(a.nom, a.unite) * coef);
     }
 
-    articles.push({ key, nom: a.nom, unite: uniteAff, rayon: a.rayon, qte: qteAff, prix });
+    articles.push({
+      key,
+      nom: a.nom,
+      unite: uniteAff,
+      rayon: a.rayon,
+      qte: qteAff,
+      prix,
+      placard: estPlacard(a.nom),
+    });
   }
 
   const total = round2(articles.reduce((s, x) => s + x.prix, 0));
+  const placard = round2(articles.reduce((s, x) => s + (x.placard ? x.prix : 0), 0));
 
   const parRayon = RAYON_ORDER.map((rayon) => ({
     rayon,
     articles: articles
       .filter((x) => x.rayon === rayon)
-      .sort((x, y) => x.nom.localeCompare(y.nom, "fr")),
+      // le placard en fin de rayon : ce sont les lignes qu'on saute le plus souvent
+      .sort((x, y) => Number(x.placard) - Number(y.placard) || x.nom.localeCompare(y.nom, "fr")),
   })).filter((g) => g.articles.length > 0);
 
-  return { articles, parRayon, total };
+  return { articles, parRayon, total, placard };
 }

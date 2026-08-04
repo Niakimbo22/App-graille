@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { RECIPES, getRecipe } from "@/lib/recipes";
-import { swapRecipe } from "@/lib/planner";
+import { coutPanier, swapRecipe } from "@/lib/planner";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
@@ -12,6 +12,7 @@ import { besoinHalal } from "@/lib/planner";
 import { recipeShareText, shareUrl } from "@/lib/share";
 import TagPill from "@/components/TagPill";
 import PillButton from "@/components/PillButton";
+import PriceNote from "@/components/PriceNote";
 import ShareButton from "@/components/ShareButton";
 import FavoriteHeart from "@/components/FavoriteHeart";
 import RecipePhoto from "@/components/RecipePhoto";
@@ -39,15 +40,22 @@ export default function RecipeDetailClient({ id }: { id: string }) {
   const macros = recipe.macros;
   const macroTotal = macros.proteines + macros.glucides + macros.lipides || 1;
 
+  // Prix affiché : la part de liste de courses imputée à ce plat quand il fait
+  // partie du plan (les paquets partagés avec les autres dîners sont répartis).
+  // Hors plan, c'est le panier de ce seul plat : tout est acheté rien que pour lui.
+  const prixDuPlat =
+    indexInPlan >= 0 && plan
+      ? plan.items[indexInPlan].prixTotal
+      : coutPanier([recipe], personnes, coef);
+  const prixParPers = Math.round((prixDuPlat / Math.max(1, personnes)) * 100) / 100;
+
   const handleSwap = () => {
     if (!plan || indexInPlan < 0) return;
     const usedIds = plan.items.map((i) => i.recipeId);
+    // le swap renvoie le plan entier ré-chiffré : changer un plat rebat le panier
     const swap = swapRecipe(RECIPES, state.funnel, coef, id, usedIds);
     if (!swap) return;
-    const items = [...plan.items];
-    items[indexInPlan] = swap;
-    const coutEstime = Math.round(items.reduce((s, i) => s + i.prixTotal, 0) * 100) / 100;
-    setPlan({ ...plan, items, coutEstime });
+    setPlan({ ...plan, items: swap.items, coutEstime: swap.coutEstime });
     router.replace(`/plan/${swap.recipeId}`);
   };
 
@@ -101,7 +109,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
               <p className="text-xs text-black/50">kcal</p>
             </div>
             <div className="rounded-2xl bg-black/5 py-2">
-              <p className="text-base font-extrabold text-forest">{euros(recipe.prixParPersonne)}</p>
+              <p className="text-base font-extrabold text-forest">≈ {euros(prixParPers)}</p>
               <p className="text-xs text-black/50">/ pers</p>
             </div>
             <div className="rounded-2xl bg-black/5 py-2">
@@ -109,6 +117,12 @@ export default function RecipeDetailClient({ id }: { id: string }) {
               <p className="text-xs text-black/50">min</p>
             </div>
           </div>
+          <PriceNote
+            total={prixDuPlat}
+            variant="ligne"
+            label={`≈ ${euros(prixDuPlat)} pour ${personnes} pers`}
+            className="mt-3 text-center"
+          />
         </div>
 
         {/* Macros */}

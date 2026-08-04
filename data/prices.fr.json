@@ -1,917 +1,1491 @@
 {
   "meta": {
     "devise": "EUR",
-    "maj": "2026-07",
+    "maj": "2026-08",
     "base": "Carrefour/Leclerc (coef 1.0)",
-    "note": "Prix moyens supermarché France, relevés à la main et révisables. Le coût affiché reste une estimation : × coefficient enseigne."
+    "note": "Prix moyens supermarché France, relevés à la main et révisables. Le coût affiché reste une estimation : × coefficient enseigne, et la facture réelle dépend des promos, des marques et de la région."
   },
   "prix": {
     "agneau haché": {
-      "prix": 17,
+      "prix": 19,
       "ref": "kg"
     },
     "bacon": {
-      "prix": 12,
+      "prix": 15,
       "ref": "kg"
     },
     "bœuf à mijoter": {
-      "prix": 15,
-      "ref": "kg"
-    },
-    "bœuf à pot-au-feu": {
-      "prix": 14,
-      "ref": "kg"
-    },
-    "bœuf émincé": {
       "prix": 17,
       "ref": "kg"
     },
+    "bœuf à pot-au-feu": {
+      "prix": 15.5,
+      "ref": "kg"
+    },
+    "bœuf émincé": {
+      "prix": 19,
+      "ref": "kg"
+    },
     "bœuf haché": {
-      "prix": 12.5,
+      "prix": 14.5,
       "ref": "kg"
     },
     "confit de canard effiloché": {
-      "prix": 22,
+      "prix": 25,
       "ref": "kg"
     },
     "côte de porc": {
-      "prix": 9,
+      "prix": 10.5,
       "ref": "kg"
     },
     "crevettes": {
-      "prix": 18,
+      "prix": 21,
       "ref": "kg"
     },
     "cuisse de poulet": {
-      "prix": 6,
+      "prix": 7.5,
       "ref": "kg"
     },
     "dorade": {
-      "prix": 14,
+      "prix": 17,
       "ref": "kg"
     },
     "dos de cabillaud": {
-      "prix": 22,
+      "prix": 26,
       "ref": "kg"
     },
     "émincé de poulet": {
-      "prix": 12.5,
-      "ref": "kg"
-    },
-    "escalope de poulet": {
-      "prix": 13,
-      "ref": "kg"
-    },
-    "filet de colin": {
-      "prix": 15,
-      "ref": "kg"
-    },
-    "filet de poisson blanc": {
-      "prix": 16,
-      "ref": "kg"
-    },
-    "filet de poulet": {
-      "prix": 12.5,
-      "ref": "kg"
-    },
-    "jambon": {
       "prix": 14,
       "ref": "kg"
     },
+    "escalope de poulet": {
+      "prix": 14.5,
+      "ref": "kg"
+    },
+    "filet de colin": {
+      "prix": 17,
+      "ref": "kg"
+    },
+    "filet de poisson blanc": {
+      "prix": 18,
+      "ref": "kg"
+    },
+    "filet de poulet": {
+      "prix": 14,
+      "ref": "kg"
+    },
+    "jambon": {
+      "prix": 16,
+      "ref": "kg"
+    },
     "lardons": {
-      "prix": 9,
+      "prix": 11,
       "ref": "kg"
     },
     "lardons fumés": {
-      "prix": 10,
+      "prix": 11.5,
       "ref": "kg"
     },
     "merguez": {
-      "prix": 10,
+      "prix": 12,
       "ref": "kg",
       "poids": 60
     },
     "moules": {
-      "prix": 5,
+      "prix": 6,
       "ref": "kg"
     },
     "pavé de saumon": {
-      "prix": 24,
+      "prix": 28,
       "ref": "kg"
     },
     "sardines": {
-      "prix": 8,
-      "ref": "kg"
-    },
-    "saumon fumé": {
-      "prix": 35,
-      "ref": "kg"
-    },
-    "sauté de porc": {
-      "prix": 9,
-      "ref": "kg"
-    },
-    "sauté de veau": {
-      "prix": 20,
-      "ref": "kg"
-    },
-    "saucisse de toulouse": {
       "prix": 10,
       "ref": "kg"
     },
+    "saumon fumé": {
+      "prix": 40,
+      "ref": "kg"
+    },
+    "sauté de porc": {
+      "prix": 11,
+      "ref": "kg"
+    },
+    "sauté de veau": {
+      "prix": 23,
+      "ref": "kg"
+    },
+    "saucisse de toulouse": {
+      "prix": 12,
+      "ref": "kg"
+    },
     "steak de thon": {
-      "prix": 22,
+      "prix": 26,
       "ref": "kg"
     },
     "ail": {
-      "prix": 8,
+      "prix": 10,
       "ref": "kg"
     },
     "aneth": {
-      "prix": 30,
+      "prix": 45,
       "ref": "kg",
       "cond": [
         20,
-        0.9,
+        1.3,
         "botte"
       ]
     },
     "aubergine": {
-      "prix": 3,
+      "prix": 3.6,
       "ref": "kg",
       "poids": 250,
       "cond": [
         250,
-        0.85,
+        0.9,
         "pièce"
       ]
     },
     "avocat": {
-      "prix": 0.8,
+      "prix": 1.2,
       "ref": "u"
     },
     "basilic": {
-      "prix": 30,
+      "prix": 55,
       "ref": "kg",
       "cond": [
         25,
-        1.2,
+        1.49,
         "pot"
       ]
     },
     "brocoli": {
-      "prix": 3,
+      "prix": 3.5,
       "ref": "kg",
       "cond": [
         500,
-        1.6,
+        1.75,
         "pièce"
       ]
     },
     "carotte": {
-      "prix": 1.2,
+      "prix": 1.6,
       "ref": "kg"
     },
     "céleri": {
-      "prix": 2.5,
+      "prix": 3,
       "ref": "kg",
       "cond": [
         400,
-        1.3,
+        1.4,
         "pièce"
       ]
     },
     "champignons": {
-      "prix": 4,
+      "prix": 5.5,
       "ref": "kg",
       "cond": [
         250,
-        1.4,
+        1.6,
         "barquette"
       ]
     },
     "champignons de paris": {
-      "prix": 4,
+      "prix": 5.5,
       "ref": "kg",
       "cond": [
         250,
-        1.4,
+        1.6,
         "barquette"
       ]
     },
     "chou": {
-      "prix": 1.5,
-      "ref": "kg",
-      "cond": [
-        800,
-        1.6,
-        "pièce"
-      ]
-    },
-    "chou chinois": {
-      "prix": 2.5,
-      "ref": "kg",
-      "cond": [
-        600,
-        1.8,
-        "pièce"
-      ]
-    },
-    "chou rouge": {
       "prix": 2,
       "ref": "kg",
       "cond": [
         800,
-        2,
-        "pièce"
-      ]
-    },
-    "chou-fleur": {
-      "prix": 2.5,
-      "ref": "kg",
-      "cond": [
-        700,
         1.9,
         "pièce"
       ]
     },
+    "chou chinois": {
+      "prix": 3.2,
+      "ref": "kg",
+      "cond": [
+        600,
+        2.1,
+        "pièce"
+      ]
+    },
+    "chou rouge": {
+      "prix": 2.6,
+      "ref": "kg",
+      "cond": [
+        800,
+        2.3,
+        "pièce"
+      ]
+    },
+    "chou-fleur": {
+      "prix": 3.2,
+      "ref": "kg",
+      "cond": [
+        700,
+        2.4,
+        "pièce"
+      ]
+    },
     "citron": {
-      "prix": 0.4,
+      "prix": 0.55,
       "ref": "u"
     },
     "citron vert": {
-      "prix": 0.5,
+      "prix": 0.65,
       "ref": "u"
     },
     "citronnelle": {
-      "prix": 25,
+      "prix": 40,
       "ref": "kg",
       "cond": [
         20,
-        1.2,
+        1.5,
         "sachet"
       ]
     },
     "concombre": {
-      "prix": 2,
+      "prix": 2.4,
       "ref": "kg",
       "cond": [
         400,
-        0.9,
+        1.1,
         "pièce"
       ]
     },
     "coriandre": {
-      "prix": 30,
+      "prix": 45,
       "ref": "kg",
       "cond": [
         30,
-        0.9,
+        1.2,
         "botte"
       ]
     },
     "courge butternut": {
-      "prix": 2,
+      "prix": 2.6,
       "ref": "kg",
       "cond": [
         900,
-        2.2,
+        2.6,
         "pièce"
       ]
     },
     "courgette": {
-      "prix": 2.2,
+      "prix": 2.9,
       "ref": "kg",
       "cond": [
         200,
-        0.6,
-        "pièce"
-      ]
-    },
-    "échalote": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "endives": {
-      "prix": 0.5,
-      "ref": "u"
-    },
-    "épinards": {
-      "prix": 4,
-      "ref": "kg",
-      "cond": [
-        150,
-        1.5,
-        "sachet"
-      ]
-    },
-    "épinards frais": {
-      "prix": 6,
-      "ref": "kg",
-      "cond": [
-        150,
-        1.5,
-        "sachet"
-      ]
-    },
-    "gingembre": {
-      "prix": 8,
-      "ref": "kg",
-      "cond": [
-        80,
-        0.6,
-        "morceau"
-      ]
-    },
-    "menthe": {
-      "prix": 30,
-      "ref": "kg",
-      "cond": [
-        25,
-        0.9,
-        "botte"
-      ]
-    },
-    "navet": {
-      "prix": 1.8,
-      "ref": "kg",
-      "cond": [
-        150,
-        0.4,
-        "pièce"
-      ]
-    },
-    "oignon": {
-      "prix": 1.2,
-      "ref": "kg"
-    },
-    "oignon nouveau": {
-      "prix": 6,
-      "ref": "kg",
-      "cond": [
-        100,
-        0.8,
-        "botte"
-      ]
-    },
-    "oignon rouge": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "pak choï": {
-      "prix": 5,
-      "ref": "kg",
-      "cond": [
-        200,
-        1.2,
-        "pièce"
-      ]
-    },
-    "persil": {
-      "prix": 20,
-      "ref": "kg",
-      "cond": [
-        30,
-        0.8,
-        "botte"
-      ]
-    },
-    "poireau": {
-      "prix": 2.5,
-      "ref": "kg",
-      "cond": [
-        150,
-        0.6,
-        "pièce"
-      ]
-    },
-    "poivron": {
-      "prix": 3.5,
-      "ref": "kg",
-      "poids": 150,
-      "cond": [
-        150,
         0.75,
         "pièce"
       ]
     },
-    "pomme de terre": {
-      "prix": 1.2,
+    "échalote": {
+      "prix": 4.5,
       "ref": "kg"
     },
-    "pommes de terre": {
-      "prix": 1.2,
-      "ref": "kg"
+    "endives": {
+      "prix": 0.65,
+      "ref": "u"
     },
-    "potiron": {
-      "prix": 2,
+    "épinards": {
+      "prix": 5.5,
       "ref": "kg",
       "cond": [
-        1000,
-        2.5,
-        "part"
-      ]
-    },
-    "roquette": {
-      "prix": 12,
-      "ref": "kg",
-      "cond": [
-        100,
-        1.4,
-        "sachet"
-      ]
-    },
-    "salade": {
-      "prix": 4,
-      "ref": "kg",
-      "cond": [
-        200,
-        0.95,
-        "pièce"
-      ]
-    },
-    "salade romaine": {
-      "prix": 4,
-      "ref": "kg",
-      "cond": [
-        300,
-        1.2,
-        "pièce"
-      ]
-    },
-    "tomate": {
-      "prix": 2.5,
-      "ref": "kg"
-    },
-    "tomates cerises": {
-      "prix": 6,
-      "ref": "kg",
-      "cond": [
-        250,
-        1.6,
-        "barquette"
-      ]
-    },
-    "béchamel": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "beurre": {
-      "prix": 11,
-      "ref": "kg"
-    },
-    "bûche de chèvre": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "cheddar": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "chèvre frais": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "crème fraîche": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "emmental": {
-      "prix": 11,
-      "ref": "kg"
-    },
-    "feta": {
-      "prix": 11,
-      "ref": "kg"
-    },
-    "fromage râpé": {
-      "prix": 10,
-      "ref": "kg"
-    },
-    "gorgonzola": {
-      "prix": 16,
-      "ref": "kg"
-    },
-    "gruyère": {
-      "prix": 14,
-      "ref": "kg"
-    },
-    "gruyère râpé": {
-      "prix": 13,
-      "ref": "kg"
-    },
-    "halloumi": {
-      "prix": 16,
-      "ref": "kg"
-    },
-    "lait": {
-      "prix": 1.3,
-      "ref": "L"
-    },
-    "mozzarella": {
-      "prix": 10,
-      "ref": "kg"
-    },
-    "œuf": {
-      "prix": 0.4,
-      "ref": "u"
-    },
-    "parmesan": {
-      "prix": 25,
-      "ref": "kg"
-    },
-    "parmesan râpé": {
-      "prix": 28,
-      "ref": "kg"
-    },
-    "ravioles": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "sauce blanche": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "yaourt": {
-      "prix": 2.5,
-      "ref": "kg"
-    },
-    "anchois": {
-      "prix": 30,
-      "ref": "kg"
-    },
-    "bouillon": {
-      "prix": 0.12,
-      "ref": "u"
-    },
-    "bouillon de légumes": {
-      "prix": 0.12,
-      "ref": "u"
-    },
-    "bouillon de volaille": {
-      "prix": 0.12,
-      "ref": "u"
-    },
-    "boulgour": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "câpres": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "chapelure": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "coquillettes": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "cumin": {
-      "prix": 40,
-      "ref": "kg"
-    },
-    "curry": {
-      "prix": 25,
-      "ref": "kg"
-    },
-    "épices ras el hanout": {
-      "prix": 40,
-      "ref": "kg"
-    },
-    "farine": {
-      "prix": 1,
-      "ref": "kg"
-    },
-    "feuilles de lasagne": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "gnocchi": {
-      "prix": 3.5,
-      "ref": "kg"
-    },
-    "haricots noirs": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "haricots rouges": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "herbes de provence": {
-      "prix": 0.02,
-      "ref": "u"
-    },
-    "houmous": {
-      "prix": 8,
-      "ref": "kg"
-    },
-    "huile": {
-      "prix": 2,
-      "ref": "L"
-    },
-    "huile d'olive": {
-      "prix": 8,
-      "ref": "L"
-    },
-    "huile de sésame": {
-      "prix": 15,
-      "ref": "L"
-    },
-    "ketchup": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "kimchi": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "lait de coco": {
-      "prix": 4,
-      "ref": "L"
-    },
-    "lentilles corail": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "lentilles vertes": {
-      "prix": 3.5,
-      "ref": "kg"
-    },
-    "levure": {
-      "prix": 15,
-      "ref": "kg"
-    },
-    "macaroni": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "maïs": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "maïzena": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "moutarde": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "muscade": {
-      "prix": 0.03,
-      "ref": "u"
-    },
-    "nouilles": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "nouilles chinoises": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "nouilles de riz": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "nouilles soba": {
-      "prix": 6,
-      "ref": "kg"
-    },
-    "olives noires": {
-      "prix": 8,
-      "ref": "kg"
-    },
-    "orecchiette": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "paprika": {
-      "prix": 25,
-      "ref": "kg"
-    },
-    "penne": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "piment": {
-      "prix": 0.02,
-      "ref": "u"
-    },
-    "piment d'espelette": {
-      "prix": 0.05,
-      "ref": "u"
-    },
-    "piment séché": {
-      "prix": 0.03,
-      "ref": "u"
-    },
-    "pois chiches": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "polenta": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "quinoa": {
-      "prix": 6,
-      "ref": "kg"
-    },
-    "rigatoni": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "riz": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "riz arborio": {
-      "prix": 4,
-      "ref": "kg"
-    },
-    "riz basmati": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "sauce césar": {
-      "prix": 5,
-      "ref": "kg"
-    },
-    "sauce soja": {
-      "prix": 6,
-      "ref": "L"
-    },
-    "sauce tomate": {
-      "prix": 2.5,
-      "ref": "kg"
-    },
-    "sel": {
-      "prix": 0.005,
-      "ref": "u"
-    },
-    "semoule": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "sésame": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "spaghetti": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "tagliatelles": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "tahini": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "thon en boîte": {
-      "prix": 12,
-      "ref": "kg"
-    },
-    "thym": {
-      "prix": 0.02,
-      "ref": "u"
-    },
-    "tofu ferme": {
-      "prix": 8,
-      "ref": "kg"
-    },
-    "tomates concassées": {
-      "prix": 2,
-      "ref": "kg"
-    },
-    "vermicelles": {
-      "prix": 3,
-      "ref": "kg"
-    },
-    "vin blanc": {
-      "prix": 6,
-      "ref": "L"
-    },
-    "vin rouge": {
-      "prix": 6,
-      "ref": "L"
-    },
-    "vinaigrette": {
-      "prix": 4,
-      "ref": "L"
-    },
-    "beurre de cacahuète": {
-      "prix": 8,
-      "ref": "kg"
-    },
-    "cacahuètes": {
-      "prix": 10,
-      "ref": "kg"
-    },
-    "graines de courge": {
-      "prix": 12,
-      "ref": "kg",
-      "cond": [
-        100,
+        150,
         1.8,
         "sachet"
       ]
     },
-    "miel": {
-      "prix": 12,
+    "épinards frais": {
+      "prix": 8,
+      "ref": "kg",
+      "cond": [
+        150,
+        1.8,
+        "sachet"
+      ]
+    },
+    "gingembre": {
+      "prix": 10,
+      "ref": "kg",
+      "cond": [
+        80,
+        0.8,
+        "morceau"
+      ]
+    },
+    "menthe": {
+      "prix": 45,
+      "ref": "kg",
+      "cond": [
+        25,
+        1.2,
+        "botte"
+      ]
+    },
+    "navet": {
+      "prix": 2.2,
+      "ref": "kg",
+      "cond": [
+        150,
+        0.5,
+        "pièce"
+      ]
+    },
+    "oignon": {
+      "prix": 1.6,
       "ref": "kg"
+    },
+    "oignon nouveau": {
+      "prix": 8,
+      "ref": "kg",
+      "cond": [
+        100,
+        1.1,
+        "botte"
+      ]
+    },
+    "oignon rouge": {
+      "prix": 2.6,
+      "ref": "kg"
+    },
+    "pak choï": {
+      "prix": 6,
+      "ref": "kg",
+      "cond": [
+        200,
+        1.4,
+        "pièce"
+      ]
+    },
+    "persil": {
+      "prix": 40,
+      "ref": "kg",
+      "cond": [
+        30,
+        1.2,
+        "botte"
+      ]
+    },
+    "poireau": {
+      "prix": 3,
+      "ref": "kg",
+      "cond": [
+        150,
+        0.7,
+        "pièce"
+      ]
+    },
+    "poivron": {
+      "prix": 4.5,
+      "ref": "kg",
+      "poids": 150,
+      "cond": [
+        150,
+        0.95,
+        "pièce"
+      ]
+    },
+    "pomme de terre": {
+      "prix": 1.4,
+      "ref": "kg"
+    },
+    "pommes de terre": {
+      "prix": 1.4,
+      "ref": "kg"
+    },
+    "potiron": {
+      "prix": 2.5,
+      "ref": "kg",
+      "cond": [
+        1000,
+        2.8,
+        "part"
+      ]
+    },
+    "roquette": {
+      "prix": 16,
+      "ref": "kg",
+      "cond": [
+        100,
+        1.7,
+        "sachet"
+      ]
+    },
+    "salade": {
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        200,
+        1.15,
+        "pièce"
+      ]
+    },
+    "salade romaine": {
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        300,
+        1.45,
+        "pièce"
+      ]
+    },
+    "tomate": {
+      "prix": 3.3,
+      "ref": "kg"
+    },
+    "tomates cerises": {
+      "prix": 7.5,
+      "ref": "kg",
+      "cond": [
+        250,
+        1.9,
+        "barquette"
+      ]
+    },
+    "béchamel": {
+      "prix": 3.8,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.9,
+        "brique"
+      ]
+    },
+    "beurre": {
+      "prix": 13,
+      "ref": "kg",
+      "cond": [
+        250,
+        3.25,
+        "plaquette"
+      ]
+    },
+    "bûche de chèvre": {
+      "prix": 14,
+      "ref": "kg",
+      "cond": [
+        180,
+        2.5,
+        "bûche"
+      ]
+    },
+    "cheddar": {
+      "prix": 13.5,
+      "ref": "kg"
+    },
+    "chèvre frais": {
+      "prix": 14,
+      "ref": "kg",
+      "cond": [
+        150,
+        2.1,
+        "pot"
+      ]
+    },
+    "crème fraîche": {
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        200,
+        1,
+        "pot"
+      ]
+    },
+    "emmental": {
+      "prix": 12.5,
+      "ref": "kg"
+    },
+    "feta": {
+      "prix": 13,
+      "ref": "kg",
+      "cond": [
+        200,
+        2.6,
+        "paquet"
+      ]
+    },
+    "fromage râpé": {
+      "prix": 11.5,
+      "ref": "kg",
+      "cond": [
+        200,
+        2.3,
+        "sachet"
+      ]
+    },
+    "gorgonzola": {
+      "prix": 18,
+      "ref": "kg"
+    },
+    "gruyère": {
+      "prix": 15,
+      "ref": "kg"
+    },
+    "gruyère râpé": {
+      "prix": 14,
+      "ref": "kg",
+      "cond": [
+        200,
+        2.8,
+        "sachet"
+      ]
+    },
+    "halloumi": {
+      "prix": 19,
+      "ref": "kg",
+      "cond": [
+        225,
+        4.3,
+        "paquet"
+      ]
+    },
+    "lait": {
+      "prix": 1.25,
+      "ref": "L",
+      "cond": [
+        1000,
+        1.25,
+        "brique"
+      ]
+    },
+    "mozzarella": {
+      "prix": 11,
+      "ref": "kg",
+      "cond": [
+        125,
+        1.4,
+        "boule"
+      ]
+    },
+    "œuf": {
+      "prix": 0.42,
+      "ref": "u",
+      "cond": [
+        6,
+        2.5,
+        "boîte de 6"
+      ]
+    },
+    "parmesan": {
+      "prix": 29,
+      "ref": "kg"
+    },
+    "parmesan râpé": {
+      "prix": 32,
+      "ref": "kg",
+      "cond": [
+        100,
+        3.2,
+        "sachet"
+      ]
+    },
+    "ravioles": {
+      "prix": 14,
+      "ref": "kg",
+      "cond": [
+        180,
+        2.5,
+        "sachet"
+      ]
+    },
+    "sauce blanche": {
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        300,
+        1.5,
+        "flacon"
+      ]
+    },
+    "yaourt": {
+      "prix": 3.2,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.6,
+        "pack"
+      ]
+    },
+    "anchois": {
+      "prix": 36,
+      "ref": "kg",
+      "cond": [
+        50,
+        1.8,
+        "boîte"
+      ]
+    },
+    "bouillon": {
+      "prix": 0.15,
+      "ref": "u",
+      "cond": [
+        8,
+        1.2,
+        "boîte"
+      ],
+      "placard": true
+    },
+    "bouillon de légumes": {
+      "prix": 0.15,
+      "ref": "u",
+      "cond": [
+        8,
+        1.2,
+        "boîte"
+      ],
+      "placard": true
+    },
+    "bouillon de volaille": {
+      "prix": 0.15,
+      "ref": "u",
+      "cond": [
+        8,
+        1.2,
+        "boîte"
+      ],
+      "placard": true
+    },
+    "boulgour": {
+      "prix": 3.5,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.75,
+        "paquet"
+      ]
+    },
+    "câpres": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        100,
+        1.5,
+        "bocal"
+      ]
+    },
+    "chapelure": {
+      "prix": 3.5,
+      "ref": "kg",
+      "cond": [
+        250,
+        0.9,
+        "paquet"
+      ],
+      "placard": true
+    },
+    "coquillettes": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "cumin": {
+      "prix": 45,
+      "ref": "kg",
+      "cond": [
+        40,
+        1.8,
+        "pot"
+      ],
+      "placard": true
+    },
+    "curry": {
+      "prix": 35,
+      "ref": "kg",
+      "cond": [
+        40,
+        1.4,
+        "pot"
+      ],
+      "placard": true
+    },
+    "épices ras el hanout": {
+      "prix": 45,
+      "ref": "kg",
+      "cond": [
+        40,
+        1.8,
+        "pot"
+      ],
+      "placard": true
+    },
+    "farine": {
+      "prix": 1.3,
+      "ref": "kg",
+      "cond": [
+        1000,
+        1.3,
+        "paquet"
+      ],
+      "placard": true
+    },
+    "feuilles de lasagne": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.8,
+        "paquet"
+      ]
+    },
+    "gnocchi": {
+      "prix": 4.2,
+      "ref": "kg",
+      "cond": [
+        500,
+        2.1,
+        "sachet"
+      ]
+    },
+    "haricots noirs": {
+      "prix": 4.9,
+      "ref": "kg",
+      "cond": [
+        265,
+        1.3,
+        "boîte"
+      ]
+    },
+    "haricots rouges": {
+      "prix": 4.9,
+      "ref": "kg",
+      "cond": [
+        265,
+        1.3,
+        "boîte"
+      ]
+    },
+    "herbes de provence": {
+      "prix": 0.03,
+      "ref": "u",
+      "cond": [
+        60,
+        1.6,
+        "pot"
+      ],
+      "placard": true
+    },
+    "houmous": {
+      "prix": 10,
+      "ref": "kg",
+      "cond": [
+        175,
+        1.75,
+        "pot"
+      ]
+    },
+    "huile": {
+      "prix": 2.6,
+      "ref": "L",
+      "cond": [
+        1000,
+        2.6,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "huile d'olive": {
+      "prix": 11,
+      "ref": "L",
+      "cond": [
+        750,
+        8.25,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "huile de sésame": {
+      "prix": 18,
+      "ref": "L",
+      "cond": [
+        250,
+        4.5,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "ketchup": {
+      "prix": 3.8,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.9,
+        "flacon"
+      ],
+      "placard": true
+    },
+    "kimchi": {
+      "prix": 14,
+      "ref": "kg",
+      "cond": [
+        300,
+        4.2,
+        "pot"
+      ]
+    },
+    "lait de coco": {
+      "prix": 4.5,
+      "ref": "L",
+      "cond": [
+        400,
+        1.8,
+        "boîte"
+      ]
+    },
+    "lentilles corail": {
+      "prix": 4.5,
+      "ref": "kg",
+      "cond": [
+        500,
+        2.25,
+        "paquet"
+      ]
+    },
+    "lentilles vertes": {
+      "prix": 4,
+      "ref": "kg",
+      "cond": [
+        500,
+        2,
+        "paquet"
+      ]
+    },
+    "levure": {
+      "prix": 18,
+      "ref": "kg",
+      "cond": [
+        55,
+        1,
+        "étui"
+      ],
+      "placard": true
+    },
+    "macaroni": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "maïs": {
+      "prix": 3.7,
+      "ref": "kg",
+      "cond": [
+        285,
+        1.05,
+        "boîte"
+      ]
+    },
+    "maïzena": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        400,
+        1.45,
+        "paquet"
+      ],
+      "placard": true
+    },
+    "moutarde": {
+      "prix": 6,
+      "ref": "kg",
+      "cond": [
+        370,
+        2.2,
+        "pot"
+      ],
+      "placard": true
+    },
+    "muscade": {
+      "prix": 0.04,
+      "ref": "u",
+      "cond": [
+        80,
+        2.2,
+        "pot"
+      ],
+      "placard": true
+    },
+    "nouilles": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.8,
+        "paquet"
+      ]
+    },
+    "nouilles chinoises": {
+      "prix": 4.8,
+      "ref": "kg",
+      "cond": [
+        250,
+        1.2,
+        "paquet"
+      ]
+    },
+    "nouilles de riz": {
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        250,
+        1.25,
+        "paquet"
+      ]
+    },
+    "nouilles soba": {
+      "prix": 7.5,
+      "ref": "kg",
+      "cond": [
+        250,
+        1.9,
+        "paquet"
+      ]
+    },
+    "olives noires": {
+      "prix": 10,
+      "ref": "kg",
+      "cond": [
+        200,
+        2,
+        "bocal"
+      ]
+    },
+    "orecchiette": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.8,
+        "paquet"
+      ]
+    },
+    "paprika": {
+      "prix": 30,
+      "ref": "kg",
+      "cond": [
+        45,
+        1.35,
+        "pot"
+      ],
+      "placard": true
+    },
+    "penne": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "piment": {
+      "prix": 0.03,
+      "ref": "u",
+      "cond": [
+        60,
+        1.8,
+        "pot"
+      ],
+      "placard": true
+    },
+    "piment d'espelette": {
+      "prix": 0.08,
+      "ref": "u",
+      "cond": [
+        40,
+        3.2,
+        "pot"
+      ],
+      "placard": true
+    },
+    "piment séché": {
+      "prix": 0.04,
+      "ref": "u",
+      "cond": [
+        50,
+        2,
+        "pot"
+      ],
+      "placard": true
+    },
+    "pois chiches": {
+      "prix": 4.5,
+      "ref": "kg",
+      "cond": [
+        265,
+        1.2,
+        "boîte"
+      ]
+    },
+    "polenta": {
+      "prix": 3.5,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.75,
+        "paquet"
+      ]
+    },
+    "quinoa": {
+      "prix": 7,
+      "ref": "kg",
+      "cond": [
+        500,
+        3.5,
+        "paquet"
+      ]
+    },
+    "rigatoni": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "riz": {
+      "prix": 2.5,
+      "ref": "kg",
+      "cond": [
+        1000,
+        2.5,
+        "paquet"
+      ]
+    },
+    "riz arborio": {
+      "prix": 4.8,
+      "ref": "kg",
+      "cond": [
+        500,
+        2.4,
+        "paquet"
+      ]
+    },
+    "riz basmati": {
+      "prix": 3.8,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.9,
+        "paquet"
+      ]
+    },
+    "sauce césar": {
+      "prix": 6.5,
+      "ref": "kg",
+      "cond": [
+        300,
+        1.95,
+        "flacon"
+      ],
+      "placard": true
+    },
+    "sauce soja": {
+      "prix": 8,
+      "ref": "L",
+      "cond": [
+        250,
+        2,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "sauce tomate": {
+      "prix": 3.2,
+      "ref": "kg",
+      "cond": [
+        400,
+        1.3,
+        "bocal"
+      ]
+    },
+    "sel": {
+      "prix": 0.01,
+      "ref": "u",
+      "cond": [
+        200,
+        0.9,
+        "paquet"
+      ],
+      "placard": true
+    },
+    "semoule": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "sésame": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        100,
+        1.5,
+        "sachet"
+      ],
+      "placard": true
+    },
+    "spaghetti": {
+      "prix": 2.4,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.2,
+        "paquet"
+      ]
+    },
+    "tagliatelles": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.8,
+        "paquet"
+      ]
+    },
+    "tahini": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        300,
+        4.5,
+        "pot"
+      ],
+      "placard": true
+    },
+    "thon en boîte": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        112,
+        1.7,
+        "boîte"
+      ]
+    },
+    "thym": {
+      "prix": 0.04,
+      "ref": "u",
+      "cond": [
+        50,
+        1.55,
+        "pot"
+      ],
+      "placard": true
+    },
+    "tofu ferme": {
+      "prix": 10,
+      "ref": "kg",
+      "cond": [
+        250,
+        2.5,
+        "paquet"
+      ]
+    },
+    "tomates concassées": {
+      "prix": 2.6,
+      "ref": "kg",
+      "cond": [
+        400,
+        1.05,
+        "boîte"
+      ]
+    },
+    "vermicelles": {
+      "prix": 3.6,
+      "ref": "kg",
+      "cond": [
+        500,
+        1.8,
+        "paquet"
+      ]
+    },
+    "vin blanc": {
+      "prix": 7,
+      "ref": "L",
+      "cond": [
+        750,
+        5.25,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "vin rouge": {
+      "prix": 7,
+      "ref": "L",
+      "cond": [
+        750,
+        5.25,
+        "bouteille"
+      ],
+      "placard": true
+    },
+    "vinaigrette": {
+      "prix": 5,
+      "ref": "L",
+      "cond": [
+        500,
+        2.5,
+        "flacon"
+      ],
+      "placard": true
+    },
+    "beurre de cacahuète": {
+      "prix": 10,
+      "ref": "kg",
+      "cond": [
+        350,
+        3.5,
+        "pot"
+      ],
+      "placard": true
+    },
+    "cacahuètes": {
+      "prix": 12,
+      "ref": "kg",
+      "cond": [
+        200,
+        2.4,
+        "sachet"
+      ]
+    },
+    "graines de courge": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        100,
+        1.5,
+        "sachet"
+      ]
+    },
+    "miel": {
+      "prix": 15,
+      "ref": "kg",
+      "cond": [
+        250,
+        3.75,
+        "pot"
+      ],
+      "placard": true
     },
     "noisettes": {
-      "prix": 20,
-      "ref": "kg"
+      "prix": 24,
+      "ref": "kg",
+      "cond": [
+        125,
+        3,
+        "sachet"
+      ]
     },
     "noix": {
-      "prix": 14,
-      "ref": "kg"
+      "prix": 17,
+      "ref": "kg",
+      "cond": [
+        200,
+        3.4,
+        "sachet"
+      ]
     },
     "noix de cajou": {
-      "prix": 20,
-      "ref": "kg"
+      "prix": 24,
+      "ref": "kg",
+      "cond": [
+        200,
+        4.8,
+        "sachet"
+      ]
     },
     "pignons": {
-      "prix": 60,
-      "ref": "kg"
+      "prix": 75,
+      "ref": "kg",
+      "cond": [
+        50,
+        3.75,
+        "sachet"
+      ]
     },
     "pignons de pin": {
-      "prix": 60,
-      "ref": "kg"
+      "prix": 75,
+      "ref": "kg",
+      "cond": [
+        50,
+        3.75,
+        "sachet"
+      ]
     },
     "sirop d'érable": {
-      "prix": 18,
-      "ref": "L"
+      "prix": 22,
+      "ref": "L",
+      "cond": [
+        250,
+        5.5,
+        "bouteille"
+      ],
+      "placard": true
     },
     "sucre": {
-      "prix": 1.2,
-      "ref": "kg"
+      "prix": 1.5,
+      "ref": "kg",
+      "cond": [
+        1000,
+        1.5,
+        "paquet"
+      ],
+      "placard": true
     },
     "cordon bleu": {
-      "prix": 0.9,
-      "ref": "u"
+      "prix": 1.15,
+      "ref": "u",
+      "cond": [
+        4,
+        4.6,
+        "boîte"
+      ]
     },
     "falafels": {
-      "prix": 0.4,
-      "ref": "u"
+      "prix": 0.35,
+      "ref": "u",
+      "cond": [
+        10,
+        3.5,
+        "sachet"
+      ]
     },
     "frites": {
-      "prix": 2,
-      "ref": "kg"
+      "prix": 2.5,
+      "ref": "kg",
+      "cond": [
+        1000,
+        2.5,
+        "sachet"
+      ]
     },
     "petits pois": {
-      "prix": 2.5,
-      "ref": "kg"
+      "prix": 3,
+      "ref": "kg",
+      "cond": [
+        750,
+        2.25,
+        "sachet"
+      ]
     },
     "croûtons": {
-      "prix": 6,
-      "ref": "kg"
+      "prix": 7.5,
+      "ref": "kg",
+      "cond": [
+        100,
+        0.75,
+        "sachet"
+      ]
     },
     "galette de sarrasin": {
-      "prix": 0.6,
-      "ref": "u"
+      "prix": 0.75,
+      "ref": "u",
+      "cond": [
+        6,
+        4.5,
+        "paquet"
+      ]
     },
     "pain": {
-      "prix": 3,
-      "ref": "kg"
+      "prix": 3.8,
+      "ref": "kg",
+      "cond": [
+        250,
+        0.95,
+        "baguette"
+      ]
     },
     "pain burger": {
-      "prix": 0.5,
-      "ref": "u"
+      "prix": 0.65,
+      "ref": "u",
+      "cond": [
+        4,
+        2.6,
+        "paquet"
+      ]
     },
     "pain de mie": {
-      "prix": 0.08,
-      "ref": "u"
+      "prix": 0.1,
+      "ref": "u",
+      "cond": [
+        20,
+        2,
+        "paquet"
+      ]
     },
     "pain pita": {
-      "prix": 0.6,
-      "ref": "u"
+      "prix": 0.75,
+      "ref": "u",
+      "cond": [
+        6,
+        4.5,
+        "paquet"
+      ]
     },
     "pâte à pizza": {
-      "prix": 4,
-      "ref": "kg"
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        260,
+        1.3,
+        "rouleau"
+      ]
     },
     "pâte brisée": {
-      "prix": 4,
-      "ref": "kg"
+      "prix": 5,
+      "ref": "kg",
+      "cond": [
+        230,
+        1.15,
+        "rouleau"
+      ]
     },
     "pâte feuilletée": {
-      "prix": 5,
-      "ref": "kg"
+      "prix": 6,
+      "ref": "kg",
+      "cond": [
+        230,
+        1.4,
+        "rouleau"
+      ]
     },
     "tortilla": {
-      "prix": 0.4,
-      "ref": "u"
+      "prix": 0.5,
+      "ref": "u",
+      "cond": [
+        8,
+        4,
+        "paquet"
+      ]
     },
     "tortillas": {
-      "prix": 0.4,
-      "ref": "u"
+      "prix": 0.5,
+      "ref": "u",
+      "cond": [
+        8,
+        4,
+        "paquet"
+      ]
     }
   }
 }

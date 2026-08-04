@@ -81,11 +81,41 @@ public/
    Une envie autorise aussi la même protéine à revenir d'un soir à l'autre (diversité relâchée).
 3. **Sélection** — 5 recettes par tirage pondéré par le score (RNG déterministe `mulberry32`,
    seedé pour que « régénérer » varie), avec diversité (pas deux fois la même protéine de suite),
-   en respectant `Σ(prixParPersonne × personnes × coefMagasin) ≤ budget`.
-4. **Budget trop serré** — on privilégie les recettes les moins chères et on affiche le vrai total.
+   en respectant le **coût réel du panier** (voir ci-dessous) `≤ budget`.
+4. **Budget trop serré** — on garde à chaque tour la recette qui alourdit le moins le panier,
+   et on affiche le vrai total.
 
-Prix affichés = `prixParPersonne × personnes × coefMagasin`, arrondis à 2 décimales.
-Coefficients magasin : Lidl/Aldi `0.85`, la plupart `1.0`, Grand Frais/Franprix `1.25`.
+## 💶 Comment le prix est calculé (`lib/prices.ts`, `lib/shopping.ts`)
+
+Le montant affiché vise le **ticket de caisse**, pas la somme des grammages utilisés.
+C'est la principale correction apportée en 08/2026 : l'app annonçait des paniers très
+en dessous de la réalité.
+
+1. **Table de prix** (`data/prices.fr.json`, générée par `scripts/price-fr.mjs`) — prix
+   moyens supermarché France, révisés en 08/2026 à partir de l'Observatoire Familles
+   Rurales (légumes +10% sur un an, courgette +32%, tomate +31%), de l'INSEE et de
+   relevés d'enseignes. Chaque entrée porte un `prix` pour une unité de référence
+   (`kg` / `L` / `u`).
+2. **Conditionnement** (`cond: [pas, prix, label]`) — ce qu'on achète *vraiment* :
+   une botte de persil, un pot de thym, une boîte de 6 œufs, un paquet de pâtes de
+   500 g. La liste de courses arrondit au paquet entier, quelle que soit l'unité de la
+   recette (g, ml, pièce, pincée). **5 g de persil coûtent une botte, pas 5 g.**
+   Restent au prorata les produits vendus au poids choisi : viande et poisson en
+   barquette à poids variable, fromage à la coupe, légumes en vrac.
+3. **Placard** (`placard: true`) — épices, huile, farine, condiments. Facturés au pot
+   entier comme le reste (c'est ce qu'on paie la première fois), signalés 📦 dans la
+   liste, et retirés du bas de la fourchette.
+4. **Coefficient enseigne** — Lidl/Aldi `0.85`, la plupart `1.0`, Grand Frais/Franprix `1.25`.
+5. **Répartition** (`repartirPanier`) — le total du panier est réparti entre les recettes
+   au prorata de leur part d'ingrédients : un paquet de riz partagé par deux dîners
+   n'est pas imputé au premier. La somme des prix des cartes retombe donc sur le total.
+6. **Fourchette** (`lib/fourchette.ts`) — le prix affiché est une estimation, jamais un
+   montant ferme : `−8%` sur le panier hors placard, `+18%` sur le total. Le composant
+   `<PriceNote>` l'affiche **partout où un prix apparaît** (plan, liste, détail recette,
+   plan partagé, landing) avec l'explication de l'écart.
+
+Les plans déjà enregistrés (localStorage, semaines gardées en favori) sont re-chiffrés à
+l'hydratation par `rechiffrerPlan()`, sinon les cartes garderaient d'anciens montants.
 
 ## 🌱 Fruits & légumes de saison (`lib/saison.ts`)
 

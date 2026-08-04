@@ -40,9 +40,8 @@ export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }:
         <h3 className="text-lg font-bold leading-snug text-forest">{recipe.nom}</h3>
         <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-black/60">
           {prixTotal != null && (
-            <span className="font-bold text-forest">
-              {euros(prixTotal)}
-              {recipe.prixEstime && <span className="font-normal text-black/40"> ≈</span>}
+            <span className="font-bold text-forest" title="part estimée de la liste de courses">
+              ≈ {euros(prixTotal)}
             </span>
           )}
           <span>⏱ {recipe.tempsMin} min</span>

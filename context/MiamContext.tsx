@@ -2,6 +2,9 @@
 
 import { createContext, useContext, useEffect, useRef, useState, ReactNode } from "react";
 import type { MiamState, FunnelState, Plan, Regime, Tag, Equipement, ProteinPref } from "@/lib/types";
+import { rechiffrerPlan } from "@/lib/planner";
+import { RECIPES } from "@/lib/recipes";
+import { coefMagasin } from "@/lib/stores";
 
 const STORAGE_KEY = "miam-state";
 
@@ -51,9 +54,11 @@ export function MiamProvider({ children }: { children: ReactNode }) {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const parsed = JSON.parse(raw) as MiamState;
+        const plan = parsed.plan ?? null;
         setState({
           funnel: { ...defaultFunnel, ...parsed.funnel },
-          plan: parsed.plan ?? null,
+          // un plan enregistré peut dater d'une ancienne table de prix
+          plan: plan ? rechiffrerPlan(RECIPES, plan, coefMagasin(plan.magasin)) : null,
           cochees: parsed.cochees ?? [],
         });
       }

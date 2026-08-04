@@ -1,6 +1,7 @@
-import type { Recipe, FunnelState, Regime, ProteinPref } from "./types";
+import type { Recipe, FunnelState, Regime, ProteinPref, Plan } from "./types";
 import { round2 } from "./format";
 import { saisonnaliteRecette } from "./saison";
+import { buildShoppingListFor } from "./shopping";
 
 export interface PlanInput {
   recipes: Recipe[];
@@ -12,11 +13,13 @@ export interface PlanInput {
 
 export interface PlannedItem {
   recipeId: string;
+  /** part de la liste de courses imputée à cette recette (voir `repartirPanier`) */
   prixTotal: number;
 }
 
 export interface PlanResult {
   items: PlannedItem[];
+  /** coût du panier réel : paquets entiers, pas somme des grammages utilisés */
   coutEstime: number;
   seed: number;
   /** vrai si le budget n'a pas permis de tenir les 5 repas */
@@ -182,9 +185,64 @@ function poids(score: number): number {
   return Math.max(0.25, score + 1);
 }
 
-/** Prix total d'une recette pour le nombre de personnes, coef magasin inclus. */
+/**
+ * Part d'ingrédients d'une recette : somme des grammages utilisés, au prorata.
+ * Ce n'est PAS ce qu'on paie en caisse (on achète des paquets entiers, souvent
+ * partagés entre plusieurs recettes) — c'est la clé de répartition du panier.
+ */
 export function prixTotalRecette(recipe: Recipe, personnes: number, coef: number): number {
   return round2(recipe.prixParPersonne * personnes * coef);
+}
+
+/** Coût réel du panier pour ces recettes : conditionnements arrondis, coef inclus. */
+export function coutPanier(recipes: Recipe[], personnes: number, coef: number): number {
+  return buildShoppingListFor(recipes, personnes, coef).total;
+}
+
+/**
+ * Répartit le coût réel du panier entre les recettes, au prorata de leur part
+ * d'ingrédients. Un paquet de pâtes ou un pot de cumin sert souvent à plusieurs
+ * dîners : plutôt que d'imputer le paquet entier au premier, chaque recette
+ * porte sa quote-part. La somme des `prixTotal` retombe donc sur le total de la
+ * liste de courses (au centime d'arrondi près, absorbé par la dernière ligne).
+ */
+export function repartirPanier(
+  recipes: Recipe[],
+  personnes: number,
+  coef: number
+): { items: PlannedItem[]; total: number } {
+  const total = coutPanier(recipes, personnes, coef);
+  const parts = recipes.map((r) => prixTotalRecette(r, personnes, coef));
+  const sommeParts = parts.reduce((s, p) => s + p, 0);
+
+  let reste = total;
+  const items = recipes.map((recipe, i) => {
+    const dernier = i === recipes.length - 1;
+    const part = sommeParts > 0 ? parts[i] / sommeParts : 1 / recipes.length;
+    const prixTotal = dernier ? round2(reste) : round2(total * part);
+    reste = round2(reste - prixTotal);
+    return { recipeId: recipe.id, prixTotal };
+  });
+
+  return { items, total };
+}
+
+/**
+ * Recalcule les prix d'un plan déjà enregistré (localStorage, semaine gardée en
+ * favori). Les plans sauvegardés avant une révision de la table de prix — ou
+ * avant le passage au chiffrage au paquet entier — portent des montants
+ * périmés : sans ça, les cartes afficheraient l'ancien prix et le total le
+ * nouveau. Les recettes disparues du catalogue sont retirées.
+ */
+export function rechiffrerPlan(recipes: Recipe[], plan: Plan, coef: number): Plan {
+  const byId = new Map(recipes.map((r) => [r.id, r]));
+  const presentes = plan.items
+    .map((i) => byId.get(i.recipeId))
+    .filter((r): r is Recipe => r !== undefined);
+  if (presentes.length === 0) return plan;
+
+  const { items, total } = repartirPanier(presentes, plan.personnes, coef);
+  return { ...plan, items, coutEstime: total };
 }
 
 function weightedPick<T>(items: { item: T; weight: number }[], rng: () => number): T | null {
@@ -221,9 +279,14 @@ export function generatePlan(input: PlanInput): PlanResult {
 
   const prefs = funnel.preferences ?? [];
   const chosen: typeof candidates = [];
-  let budgetLeft = funnel.budget;
   let lastProt: string | null = null;
   const remaining = [...candidates];
+
+  // Coût réel du panier si on ajoutait cette recette aux déjà choisies. On
+  // raisonne sur le panier entier et non sur la somme des recettes : deux plats
+  // qui partagent un paquet de riz ne le font payer qu'une fois.
+  const coutAvec = (c: (typeof candidates)[number]) =>
+    coutPanier([...chosen.map((x) => x.recipe), c.recipe], funnel.personnes, coef);
 
   while (chosen.length < nbRepas && remaining.length > 0) {
     // diversité: éviter la même protéine deux fois de suite — sauf si c'est
@@ -233,38 +296,48 @@ export function generatePlan(input: PlanInput): PlanResult {
     );
     if (pool.length === 0) pool = remaining;
 
-    // recettes tenant dans le budget restant
-    const inBudget = pool.filter((c) => c.prix <= budgetLeft);
+    // coût du panier pour chaque candidat de ce tour (calculé une seule fois)
+    const chiffre = pool.map((c) => ({ c, cout: coutAvec(c) }));
+    const inBudget = chiffre.filter((x) => x.cout <= funnel.budget);
 
     let pick: (typeof candidates)[number] | null;
     if (inBudget.length > 0) {
       // tirage pondéré par le score (poids minimal pour garder de l'aléatoire)
       pick = weightedPick(
-        inBudget.map((c) => ({ item: c, weight: poids(c.score) })),
+        inBudget.map((x) => ({ item: x.c, weight: poids(x.c.score) })),
         rng
       );
     } else {
-      // budget trop serré: on prend la moins chère disponible
-      pick = pool.reduce((min, c) => (c.prix < min.prix ? c : min), pool[0]);
+      // budget trop serré: celle qui alourdit le moins le panier
+      pick = chiffre.reduce((min, x) => (x.cout < min.cout ? x : min), chiffre[0]).c;
     }
 
     if (!pick) break;
     chosen.push(pick);
-    budgetLeft = round2(budgetLeft - pick.prix);
     lastProt = pick.prot;
     remaining.splice(remaining.indexOf(pick), 1);
   }
 
-  const coutEstime = round2(chosen.reduce((s, c) => s + c.prix, 0));
+  const { items, total } = repartirPanier(
+    chosen.map((c) => c.recipe),
+    funnel.personnes,
+    coef
+  );
+
   return {
-    items: chosen.map((c) => ({ recipeId: c.recipe.id, prixTotal: c.prix })),
-    coutEstime,
+    items,
+    coutEstime: total,
     seed,
-    budgetDepasse: coutEstime > funnel.budget,
+    budgetDepasse: total > funnel.budget,
   };
 }
 
-/** Trouve une recette de remplacement compatible et non déjà utilisée. */
+/**
+ * Trouve une recette de remplacement compatible et non déjà utilisée, et renvoie
+ * le plan entier ré-chiffré : changer un plat modifie le panier commun (un
+ * paquet de riz qui n'est plus partagé, un pot d'épices devenu inutile), donc
+ * toutes les parts bougent, pas seulement celle qu'on remplace.
+ */
 export function swapRecipe(
   recipes: Recipe[],
   funnel: FunnelState,
@@ -272,7 +345,7 @@ export function swapRecipe(
   currentId: string,
   usedIds: string[],
   seed?: number
-): { recipeId: string; prixTotal: number } | null {
+): { recipeId: string; items: PlannedItem[]; coutEstime: number } | null {
   const rng = mulberry32(seed ?? Math.floor(Math.random() * 1_000_000));
   const used = new Set(usedIds);
   const options = filterRecipes(recipes, funnel).filter((r) => r.id !== currentId && !used.has(r.id));
@@ -280,5 +353,12 @@ export function swapRecipe(
   const weighted = options.map((r) => ({ item: r, weight: poids(scoreRecipe(r, funnel)) }));
   const pick = weightedPick(weighted, rng);
   if (!pick) return null;
-  return { recipeId: pick.id, prixTotal: prixTotalRecette(pick, funnel.personnes, coef) };
+
+  const byId = new Map(recipes.map((r) => [r.id, r]));
+  const nouvelles = usedIds
+    .map((id) => (id === currentId ? pick : byId.get(id)))
+    .filter((r): r is Recipe => r !== undefined);
+
+  const { items, total } = repartirPanier(nouvelles, funnel.personnes, coef);
+  return { recipeId: pick.id, items, coutEstime: total };
 }

@@ -1,6 +1,7 @@
 import type { Plan, Recipe, Rayon } from "./types";
 import type { ShoppingArticle } from "./shopping";
 import { euros, formatQte } from "./format";
+import { fourchette, fourchetteLisible } from "./fourchette";
 
 // ── Encodage d'un plan dans une URL (aucun backend : tout tient dans le lien) ──
 
@@ -62,7 +63,7 @@ export function shareUrl(path: string, params?: Record<string, string>): string 
 export function recipeShareText(recipe: Recipe, personnes: number): string {
   return [
     `${recipe.emoji} ${recipe.nom}`,
-    `${recipe.tempsMin} min · ${euros(recipe.prixParPersonne)}/pers`,
+    `${recipe.tempsMin} min · ~${euros(recipe.prixParPersonne)}/pers d'ingrédients (estimation)`,
     "",
     `Ingrédients (${personnes} pers) :`,
     ...recipe.ingredients.map((i) => `• ${formatQte(i.qteParPersonne, personnes, i.unite)} ${i.nom}`),
@@ -78,7 +79,8 @@ export function planShareText(
   items: { recipe: Recipe }[],
   personnes: number,
   total: number,
-  magasin: string
+  magasin: string,
+  placard = 0
 ): string {
   return [
     "🥗 Mon plan de la semaine — Miam",
@@ -86,21 +88,26 @@ export function planShareText(
     "",
     ...items.map((it, i) => `${i + 1}. ${it.recipe.emoji} ${it.recipe.nom}`),
     "",
-    `Total estimé : ${euros(total)}`,
+    `Total estimé : ~${euros(total)}`,
+    `(prix indicatifs — ${fourchetteLisible(fourchette(total, placard))} selon le magasin et les promos)`,
   ].join("\n");
 }
 
 export function shoppingListShareText(
   parRayon: { rayon: Rayon; articles: ShoppingArticle[] }[],
-  total: number
+  total: number,
+  placard = 0
 ): string {
   const lines = ["🛒 Ma liste de courses — Miam", ""];
   for (const g of parRayon) {
     lines.push(`${g.rayon} :`);
-    for (const a of g.articles) lines.push(`• ${formatQte(a.qte, 1, a.unite)} ${a.nom}`);
+    for (const a of g.articles) {
+      lines.push(`• ${formatQte(a.qte, 1, a.unite)} ${a.nom}${a.placard ? " (placard)" : ""}`);
+    }
     lines.push("");
   }
-  lines.push(`Total : ${euros(total)}`);
+  lines.push(`Total : ~${euros(total)}`);
+  lines.push(`(prix indicatifs — ${fourchetteLisible(fourchette(total, placard))})`);
   return lines.join("\n");
 }
 

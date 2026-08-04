@@ -50,11 +50,14 @@ export default function Landing() {
             <RecipePhoto recipe={r} className="h-16" emojiClassName="text-3xl" />
             <div className="p-2">
               <p className="line-clamp-2 text-xs font-semibold leading-tight text-forest">{r.nom}</p>
-              <p className="mt-1 text-xs font-bold text-leaf">{euros(r.prixParPersonne)}/pers</p>
+              <p className="mt-1 text-xs font-bold text-leaf">≈ {euros(r.prixParPersonne)}/pers</p>
             </div>
           </div>
         ))}
       </section>
+      <p className="mt-2 text-center text-[11px] leading-tight text-black/40">
+        prix indicatifs : moyennes supermarché France, à ±20% près selon ton magasin et les promos
+      </p>
 
       {/* Comment ça marche */}
       <section className="mt-10">

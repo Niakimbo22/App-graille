@@ -14,7 +14,7 @@ export default function MagasinPage() {
   return (
     <OnboardingLayout
       step={1}
-      total={8}
+      total={9}
       title="où fais-tu tes courses ?"
       subtitle="on adapte les prix à ton enseigne"
       onContinue={() => router.push("/onboarding/budget")}

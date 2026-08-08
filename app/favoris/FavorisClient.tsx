@@ -8,6 +8,7 @@ import { useProfil } from "@/context/ProfilContext";
 import { getRecipe } from "@/lib/recipes";
 import { AVATARS, type SemaineFavorite } from "@/lib/profiles";
 import { memePlan } from "@/lib/profiles";
+import { modeInfo } from "@/lib/repas";
 import { appShareText, shareUrl } from "@/lib/share";
 import RecipeCard from "@/components/RecipeCard";
 import FavoriteHeart from "@/components/FavoriteHeart";
@@ -229,7 +230,10 @@ export default function FavorisClient() {
                         <div className="min-w-0">
                           <p className="text-base font-extrabold text-forest">{s.nom}</p>
                           <p className="text-sm text-black/50">
-                            {s.plan.items.length} dîners · {s.plan.personnes} pers · {s.plan.magasin}
+                            {s.plan.items.length} plats · {s.plan.personnes} pers · {s.plan.magasin}
+                          </p>
+                          <p className="text-xs font-semibold text-leaf">
+                            {modeInfo(s.plan.modeRepas).emoji} {modeInfo(s.plan.modeRepas).resume}
                           </p>
                         </div>
                         <button

@@ -1,13 +1,18 @@
-import type { Plan, Recipe, Rayon } from "./types";
+import type { ModeRepas, Plan, Recipe, Rayon } from "./types";
 import type { ShoppingArticle } from "./shopping";
 import { euros, formatQte } from "./format";
+import { joursPourPlats, modeInfo } from "./repas";
 
 // ── Encodage d'un plan dans une URL (aucun backend : tout tient dans le lien) ──
+
+const MODES: ModeRepas[] = ["diner", "restes", "double"];
 
 export interface SharedPlan {
   ids: string[];
   personnes: number;
   magasin: string;
+  /** mode de journée du plan partagé ; "diner" pour les anciens liens */
+  mode: ModeRepas;
 }
 
 function toBase64Url(json: string): string {
@@ -32,6 +37,7 @@ export function encodePlan(plan: Plan): string {
     ids: plan.items.map((i) => i.recipeId),
     personnes: plan.personnes,
     magasin: plan.magasin,
+    mode: plan.modeRepas ?? "diner",
   };
   return toBase64Url(JSON.stringify(payload));
 }
@@ -43,7 +49,9 @@ export function decodePlan(data: string): SharedPlan | null {
     if (!Array.isArray(parsed.ids) || parsed.ids.some((x: unknown) => typeof x !== "string")) return null;
     if (typeof parsed.personnes !== "number" || parsed.personnes < 1 || parsed.personnes > 12) return null;
     if (typeof parsed.magasin !== "string") return null;
-    return { ids: parsed.ids.slice(0, 14), personnes: parsed.personnes, magasin: parsed.magasin };
+    // liens antérieurs au mode de journée : dîner seul
+    const mode: ModeRepas = MODES.includes(parsed.mode) ? parsed.mode : "diner";
+    return { ids: parsed.ids.slice(0, 14), personnes: parsed.personnes, magasin: parsed.magasin, mode };
   } catch {
     return null;
   }
@@ -78,11 +86,15 @@ export function planShareText(
   items: { recipe: Recipe }[],
   personnes: number,
   total: number,
-  magasin: string
+  magasin: string,
+  mode: ModeRepas = "diner"
 ): string {
+  const info = modeInfo(mode);
+  const jours = joursPourPlats(items.length, mode);
   return [
     "🥗 Mon plan de la semaine — Miam",
-    `${items.length} dîners · ${personnes} pers · ${magasin}`,
+    `${items.length} plats · ${jours} jour${jours > 1 ? "s" : ""} · ${personnes} pers · ${magasin}`,
+    `${info.emoji} ${info.resume}`,
     "",
     ...items.map((it, i) => `${i + 1}. ${it.recipe.emoji} ${it.recipe.nom}`),
     "",

@@ -1,8 +1,10 @@
 // Tests de l'algorithme de sélection. Lancer avec: npm test
 import recipesData from "../data/recipes.json";
 import type { Recipe, FunnelState } from "./types";
-import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory, isHalal, besoinHalal } from "./planner";
+import { generatePlan, filterRecipes, satisfiesRegime, hasAddedSugar, isLowGI, proteinCategory, isHalal, besoinHalal, prixTotalRecette } from "./planner";
 import { estDeSaison, saisonnaliteRecette, produitPour } from "./saison";
+import { creneauxPlan, facteurPortions, platsPourJours, portionsAcheter, seConserveBien } from "./repas";
+import { buildShoppingList } from "./shopping";
 
 const recipes = recipesData as Recipe[];
 
@@ -27,6 +29,7 @@ function baseFunnel(overrides: Partial<FunnelState> = {}): FunnelState {
     ambiances: [],
     personnes: 2,
     nbRepas: 5,
+    modeRepas: "diner",
     equipement: ["four", "plaque", "airfryer"],
     preferences: [],
     saison: false,
@@ -212,6 +215,109 @@ console.log("Cas 13 — halal ignore une envie de porc résiduelle");
     const r = recipes.find((x) => x.id === item.recipeId)!;
     assert(isHalal(r), `${r.id} reste halal malgré l'envie porc`);
   }
+}
+
+// --- Cas 14: mode « dîner + restes le midi » ---
+console.log("Cas 14 — mode restes (on cuisine en double)");
+{
+  assert(facteurPortions("restes") === 2 && facteurPortions("diner") === 1, "le mode restes double les parts");
+  assert(portionsAcheter(2, "restes") === 4, "2 personnes en mode restes → 4 parts");
+  assert(platsPourJours(5, "restes") === 5, "5 jours en mode restes → 5 plats (cuisinés en double)");
+
+  const solo = baseFunnel({ budget: 300 });
+  const restes = baseFunnel({ budget: 300, modeRepas: "restes" });
+  const b = generatePlan({ recipes, funnel: restes, coef: 1, seed: 77 });
+  assert(b.items.length === 5, "5 plats pour 5 jours");
+  // chaque plat est facturé pour 4 parts et non 2
+  const prixDouble = b.items.every((it) => {
+    const r = recipes.find((x) => x.id === it.recipeId)!;
+    return Math.abs(it.prixTotal - prixTotalRecette(r, 4, 1)) < 0.01;
+  });
+  assert(prixDouble, `chaque plat est compté pour ${portionsAcheter(2, "restes")} parts`);
+
+  // la liste de courses est bien calculée sur les parts doublées
+  const ids = b.items.map((i) => i.recipeId);
+  const simple = buildShoppingList(ids, 2, 1);
+  const double = buildShoppingList(ids, portionsAcheter(2, "restes"), 1);
+  assert(double.total > simple.total, `liste plus fournie (${double.total}€ vs ${simple.total}€)`);
+
+  // et on privilégie les plats qui se réchauffent bien
+  let gardablesSolo = 0;
+  let gardablesRestes = 0;
+  for (let seed = 1; seed <= 40; seed++) {
+    for (const it of generatePlan({ recipes, funnel: solo, coef: 1, seed }).items) {
+      if (seConserveBien(recipes.find((r) => r.id === it.recipeId)!)) gardablesSolo++;
+    }
+    for (const it of generatePlan({ recipes, funnel: restes, coef: 1, seed }).items) {
+      if (seConserveBien(recipes.find((r) => r.id === it.recipeId)!)) gardablesRestes++;
+    }
+  }
+  assert(
+    gardablesRestes > gardablesSolo,
+    `plus de plats qui se gardent en mode restes (${gardablesRestes} vs ${gardablesSolo})`
+  );
+  // vérifs unitaires de l'heuristique
+  const chili = recipes.find((r) => r.id === "chili-con-carne");
+  if (chili) assert(seConserveBien(chili), "le chili se garde très bien");
+  const nuggets = recipes.find((r) => r.id === "nuggets-maison-frites");
+  if (nuggets) assert(!seConserveBien(nuggets), "les nuggets-frites ne se gardent pas");
+}
+
+// --- Cas 15: mode « midi et soir » (deux plats différents par jour) ---
+console.log("Cas 15 — mode midi et soir");
+{
+  assert(platsPourJours(5, "double") === 10, "5 jours × 2 repas = 10 plats");
+  assert(portionsAcheter(2, "double") === 2, "les parts par plat ne changent pas");
+
+  const funnel = baseFunnel({ modeRepas: "double", budget: 300 });
+  const res = generatePlan({ recipes, funnel, coef: 1, seed: 33 });
+  assert(res.items.length === 10, "10 plats composés");
+  assert(new Set(res.items.map((i) => i.recipeId)).size === 10, "10 plats différents (aucun doublon)");
+
+  const creneaux = creneauxPlan(res.items.length, "double");
+  assert(creneaux[0].jour === "lundi" && creneaux[0].creneau === "midi", "1er plat = lundi midi");
+  assert(creneaux[1].jour === "lundi" && creneaux[1].creneau === "soir", "2e plat = lundi soir");
+  assert(creneaux[2].jour === "mardi", "3e plat = mardi");
+
+  // le midi doit être plus rapide en moyenne que le soir
+  let midi = 0;
+  let soir = 0;
+  let n = 0;
+  for (let seed = 1; seed <= 40; seed++) {
+    const plan = generatePlan({ recipes, funnel, coef: 1, seed });
+    plan.items.forEach((it, i) => {
+      const r = recipes.find((x) => x.id === it.recipeId)!;
+      if (i % 2 === 0) midi += r.tempsMin;
+      else soir += r.tempsMin;
+      if (i % 2 === 0) n++;
+    });
+  }
+  assert(midi / n < soir / n, `midi plus rapide que le soir (${(midi / n).toFixed(1)} min vs ${(soir / n).toFixed(1)} min)`);
+}
+
+// --- Cas 16: créneaux du mode dîner et repli sur les anciens plans ---
+console.log("Cas 16 — créneaux et compatibilité");
+{
+  const c = creneauxPlan(3, "diner");
+  assert(c.length === 3 && c.every((x) => x.creneau === "diner"), "mode dîner : 1 créneau par jour");
+  assert(c[0].moment === "dîner" && c[1].jour === "mardi", "libellés jour/moment corrects");
+  const r = creneauxPlan(2, "restes");
+  assert(r[0].moment.includes("midi"), "mode restes : le libellé rappelle la boîte du midi");
+  // plan enregistré avant l'ajout du mode : on retombe sur "dîner"
+  assert(facteurPortions(undefined) === 1 && platsPourJours(5, undefined) === 5, "mode absent = dîner seul");
+}
+
+// --- Cas 17: assez de recettes pour tenir 7 jours en midi et soir ---
+console.log("Cas 17 — 14 plats sans doublon");
+{
+  const funnel = baseFunnel({ modeRepas: "double", nbRepas: 7, budget: 400 });
+  const res = generatePlan({ recipes, funnel, coef: 1, seed: 8 });
+  assert(res.items.length === 14, "14 plats composés");
+  assert(new Set(res.items.map((i) => i.recipeId)).size === 14, "aucun doublon sur 14 plats");
+  // même en végétarien, la base doit suivre
+  const vege = baseFunnel({ modeRepas: "double", nbRepas: 7, budget: 400, regimes: ["vegetarien"] });
+  const resVege = generatePlan({ recipes, funnel: vege, coef: 1, seed: 8 });
+  assert(resVege.items.length === 14, "14 plats végétariens différents");
 }
 
 console.log(`\n${passed} assertions OK, ${failed} échecs`);

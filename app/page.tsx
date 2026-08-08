@@ -15,7 +15,7 @@ const EXEMPLES = ["poulet-curry-coco", "buddha-bowl-pois-chiches", "saumon-teriy
 
 const ETAPES = [
   { n: 1, titre: "ton budget", texte: "dis-nous combien tu veux mettre cette semaine et où tu fais tes courses." },
-  { n: 2, titre: "miam prépare", texte: "on compose 5 dîners équilibrés adaptés à tes goûts et ton budget." },
+  { n: 2, titre: "miam prépare", texte: "on compose tes repas équilibrés : dîners seuls, restes pour le midi, ou midi et soir." },
   { n: 3, titre: "liste prête", texte: "ta liste de courses triée par rayon t'attend, y'a plus qu'à cuisiner." },
 ];
 
@@ -38,8 +38,8 @@ export default function Landing() {
           ton plan de repas de la semaine, en 2 minutes
         </h1>
         <p className="mt-4 text-base text-black/55">
-          réponds à quelques questions, miam compose 5 dîners selon ton budget et te sort la liste de
-          courses. gratuit, sans compte.
+          réponds à quelques questions, miam compose tes dîners — et tes midis si tu veux — selon
+          ton budget, et te sort la liste de courses. gratuit, sans compte.
         </p>
       </section>
 

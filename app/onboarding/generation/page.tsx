@@ -20,23 +20,15 @@ export default function GenerationPage() {
   const started = useRef(false);
 
   useEffect(() => {
-    if (!hydrated || started.current) return;
-    started.current = true;
+    if (!hydrated) return;
+    // le plan n'est généré qu'une fois ; la checklist et la redirection, elles,
+    // sont reposées à chaque passage de l'effet (StrictMode le joue deux fois en dev
+    // et le nettoyage annulerait sinon la redirection).
+    if (!started.current) {
+      started.current = true;
+      genererPlan();
+    }
 
-    // génère et enregistre le plan
-    const coef = coefMagasin(state.funnel.magasin);
-    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef, nbRepas: state.funnel.nbRepas });
-    setPlan({
-      items: result.items,
-      magasin: state.funnel.magasin ?? "Carrefour",
-      personnes: state.funnel.personnes,
-      budget: state.funnel.budget,
-      coutEstime: result.coutEstime,
-      seed: result.seed,
-    });
-    resetCochees();
-
-    // checklist animée
     const timers: ReturnType<typeof setTimeout>[] = [];
     STEPS.forEach((_, i) => {
       timers.push(setTimeout(() => setDone(i + 1), (i + 1) * 1200));
@@ -45,6 +37,22 @@ export default function GenerationPage() {
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hydrated]);
+
+  function genererPlan() {
+    const coef = coefMagasin(state.funnel.magasin);
+    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef });
+    setPlan({
+      items: result.items,
+      magasin: state.funnel.magasin ?? "Carrefour",
+      personnes: state.funnel.personnes,
+      budget: state.funnel.budget,
+      coutEstime: result.coutEstime,
+      seed: result.seed,
+      modeRepas: state.funnel.modeRepas,
+      nbJours: state.funnel.nbRepas,
+    });
+    resetCochees();
+  }
 
   return (
     <main className="safe-top safe-bottom mx-auto flex min-h-[100dvh] w-full max-w-md flex-col items-center justify-center px-8 text-center">

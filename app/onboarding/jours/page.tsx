@@ -27,10 +27,10 @@ export default function JoursPage() {
   return (
     <OnboardingLayout
       step={7}
-      total={8}
-      title="combien de dîners ?"
-      subtitle="on prépare autant de repas et la liste qui va avec"
-      onContinue={() => router.push("/onboarding/equipement")}
+      total={9}
+      title="combien de jours ?"
+      subtitle="on couvre autant de journées, et la liste qui va avec"
+      onContinue={() => router.push("/onboarding/repas")}
     >
       <div className="flex items-center justify-center gap-6">
         <Btn label="−" onClick={() => set(n - 1)} disabled={n <= MIN} />
@@ -38,7 +38,7 @@ export default function JoursPage() {
           <span className="bg-gradient-to-br from-leaf to-forest bg-clip-text text-8xl font-extrabold text-transparent">
             {n}
           </span>
-          <p className="mt-1 text-base text-black/50">{n > 1 ? "dîners" : "dîner"}</p>
+          <p className="mt-1 text-base text-black/50">{n > 1 ? "jours" : "jour"}</p>
         </div>
         <Btn label="+" onClick={() => set(n + 1)} disabled={n >= MAX} />
       </div>

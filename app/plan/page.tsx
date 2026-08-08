@@ -11,12 +11,11 @@ import { coefMagasin } from "@/lib/stores";
 import { euros } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
 import { encodePlan, planShareText, shareUrl } from "@/lib/share";
+import { creneauxPlan, joursPourPlats, modeInfo, portionsAcheter } from "@/lib/repas";
 import RecipeCard from "@/components/RecipeCard";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
 import SaisonPanel from "@/components/SaisonPanel";
-
-const JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 
 export default function PlanPage() {
   const { state, setPlan, resetCochees, hydrated } = useMiam();
@@ -38,10 +37,17 @@ export default function PlanPage() {
     );
   }
 
+  const mode = plan.modeRepas ?? "diner";
+  const info = modeInfo(mode);
+  // en mode restes, chaque plat est cuisiné en double : on achète pour 2× les parts
+  const portions = portionsAcheter(plan.personnes, mode);
+  const creneaux = creneauxPlan(plan.items.length, mode);
+  const nbJours = plan.nbJours ?? joursPourPlats(plan.items.length, mode);
+
   const coef = coefMagasin(plan.magasin);
   const { articles, total } = buildShoppingList(
     plan.items.map((i) => i.recipeId),
-    plan.personnes,
+    portions,
     coef
   );
 
@@ -50,7 +56,7 @@ export default function PlanPage() {
   const depasse = total > plan.budget;
 
   const regenerer = () => {
-    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef, nbRepas: state.funnel.nbRepas });
+    const result = generatePlan({ recipes: RECIPES, funnel: state.funnel, coef });
     setPlan({
       items: result.items,
       magasin: plan.magasin,
@@ -58,6 +64,8 @@ export default function PlanPage() {
       budget: plan.budget,
       coutEstime: result.coutEstime,
       seed: result.seed,
+      modeRepas: state.funnel.modeRepas,
+      nbJours: state.funnel.nbRepas,
     });
     resetCochees();
   };
@@ -100,7 +108,23 @@ export default function PlanPage() {
       <section className="rounded-3xl bg-gradient-to-br from-leaf to-forest p-6 text-center text-white shadow-soft">
         <p className="text-sm font-bold uppercase tracking-widest opacity-90">ta semaine est prête</p>
         <h1 className="mt-1 text-3xl font-extrabold lowercase">bon appétit ! 🎉</h1>
+        <p className="mt-2 text-sm font-semibold opacity-90">
+          {info.emoji} {plan.items.length} plat{plan.items.length > 1 ? "s" : ""} · {nbJours} jour
+          {nbJours > 1 ? "s" : ""} · {info.resume}
+        </p>
       </section>
+
+      {mode === "restes" && (
+        <p className="mt-3 rounded-3xl bg-white p-4 text-center text-sm font-semibold text-forest shadow-soft">
+          🥡 chaque plat est cuisiné pour {portions} parts : {plan.personnes} le soir,{" "}
+          {plan.personnes} en boîte pour le midi. les quantités et la liste sont déjà doublées.
+        </p>
+      )}
+      {mode === "double" && (
+        <p className="mt-3 rounded-3xl bg-white p-4 text-center text-sm font-semibold text-forest shadow-soft">
+          🍽️ deux plats différents par jour : le plus rapide et le plus léger passe au midi.
+        </p>
+      )}
 
       {/* Coût estimé */}
       <section className="mt-4 rounded-3xl bg-white p-5 shadow-soft">
@@ -154,9 +178,10 @@ export default function PlanPage() {
             <RecipeCard
               key={item.recipeId}
               recipe={recipe}
-              jour={JOURS[i]}
+              jour={creneaux[i]?.jour}
+              moment={creneaux[i]?.moment}
               prixTotal={item.prixTotal}
-              personnes={plan.personnes}
+              personnes={portions}
               href={`/plan/${recipe.id}`}
             />
           );
@@ -172,7 +197,7 @@ export default function PlanPage() {
         </PillButton>
         <ShareButton
           title="Mon plan de la semaine — Miam"
-          text={planShareText(recipesForShare, plan.personnes, total, plan.magasin)}
+          text={planShareText(recipesForShare, plan.personnes, total, plan.magasin, mode)}
           url={partageLien}
           label="partager ma semaine"
         />

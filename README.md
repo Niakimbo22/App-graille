@@ -1,8 +1,9 @@
 # 🥗 Miam — planificateur de repas de la semaine
 
 Clone fonctionnel et **100% gratuit** d'un meal planner à la [Romi](https://tryromi.com).
-Réponds à quelques questions (magasin, budget, régime, ambiance, personnes, équipement),
-Miam compose **5 dîners** adaptés et génère la **liste de courses triée par rayon**.
+Réponds à quelques questions (magasin, budget, régime, ambiance, personnes, repas, équipement),
+Miam compose ta semaine — **dîners seuls, dîners cuisinés en double pour le midi, ou deux plats
+différents par jour** — et génère la **liste de courses triée par rayon**.
 
 - ✅ Aucun compte, aucun paywall
 - ✅ Aucune API externe au runtime — base de recettes statique + `localStorage`
@@ -28,12 +29,13 @@ npm run gen        # régénère data/recipes.json depuis scripts/gen-recipes.mj
 ## 🧭 Le parcours
 
 `/` landing → `/onboarding/*` (funnel plein écran, une question par écran :
-magasin → budget → régimes → ambiance → **envies** → personnes → jours → équipement) →
-`/onboarding/generation` (écran de génération animé) → `/plan` (les 5 recettes + coût) →
+magasin → budget → régimes → ambiance → **envies** → personnes → jours → **repas** → équipement) →
+`/onboarding/generation` (écran de génération animé) → `/plan` (les recettes + coût) →
 `/plan/[id]` (détail recette + swap) → `/liste` (liste de courses par rayon, cases cochables).
 
 L'étape **envies** permet de demander « un peu plus de poulet / viande rouge / poisson /
 porc / végétal / œufs » et d'activer les **fruits & légumes de saison**.
+L'étape **repas** choisit ce qu'il faut couvrir dans une journée (voir « Midi et soir » ci-dessous).
 
 L'état (réponses, plan courant, articles cochés) est persisté dans `localStorage`
 sous la clé `miam-state`. Au retour, la landing propose **« reprendre ma semaine »**.
@@ -45,10 +47,10 @@ app/
   layout.tsx                 # shell + police Inter + MiamProvider + métadonnées PWA
   page.tsx                   # landing (hero, "comment ça marche", exemples, CTA)
   onboarding/
-    magasin/ budget/ regimes/ ambiance/ envies/ personnes/ jours/ equipement/
+    magasin/ budget/ regimes/ ambiance/ envies/ personnes/ jours/ repas/ equipement/
     generation/              # génère le plan + checklist animée puis redirige
   plan/
-    page.tsx                 # résultats : bandeau, coût, liste, 5 cards, régénérer
+    page.tsx                 # résultats : bandeau, coût, liste, cards jour + créneau, régénérer
     [id]/page.tsx            # détail recette : macros, allergènes, ingrédients, étapes, swap
   liste/page.tsx             # liste de courses agrégée, groupée par rayon
 components/
@@ -57,12 +59,13 @@ context/
   MiamContext.tsx            # état global + persistance localStorage
 lib/
   planner.ts                 # algorithme de sélection (pur, testé)
-  planner.test.ts            # 13 cas de test
+  planner.test.ts            # 17 cas de test
+  repas.ts                   # modes de journée (dîner / restes / midi et soir), créneaux, portions
   saison.ts                  # calendrier fruits & légumes de saison (France)
   shopping.ts                # agrégation de la liste de courses par rayon
   recipes.ts / stores.ts / tags.ts / gradient.ts / format.ts / types.ts
 data/
-  recipes.json               # 100+ recettes (généré)
+  recipes.json               # 150+ recettes (généré)
 scripts/
   gen-recipes.mjs            # source des recettes → data/recipes.json
 public/
@@ -79,13 +82,34 @@ public/
    **envie** cochée (poulet, viande rouge, poisson…), et — si l'option **saison** est
    activée — `+3` pour une recette pleinement de saison, `−2` par ingrédient hors saison.
    Une envie autorise aussi la même protéine à revenir d'un soir à l'autre (diversité relâchée).
-3. **Sélection** — 5 recettes par tirage pondéré par le score (RNG déterministe `mulberry32`,
-   seedé pour que « régénérer » varie), avec diversité (pas deux fois la même protéine de suite),
-   en respectant `Σ(prixParPersonne × personnes × coefMagasin) ≤ budget`.
-4. **Budget trop serré** — on privilégie les recettes les moins chères et on affiche le vrai total.
+3. **Bonus de créneau** — en mode restes, `+3` pour un plat qui se réchauffe bien
+   (`seConserveBien`, `lib/repas.ts`) ; le midi du mode « midi et soir », `+2` si
+   `tempsMin ≤ 25` et `+1` si `kcal ≤ 600`.
+4. **Sélection** — un plat par créneau par tirage pondéré par le score (RNG déterministe
+   `mulberry32`, seedé pour que « régénérer » varie), avec diversité (pas deux fois la même
+   protéine de suite), en respectant `Σ(prixParPersonne × parts × coefMagasin) ≤ budget`.
+5. **Budget trop serré** — on privilégie les recettes les moins chères et on affiche le vrai total.
 
-Prix affichés = `prixParPersonne × personnes × coefMagasin`, arrondis à 2 décimales.
+Prix affichés = `prixParPersonne × parts × coefMagasin`, arrondis à 2 décimales
+(`parts` = `personnes`, doublé en mode restes).
 Coefficients magasin : Lidl/Aldi `0.85`, la plupart `1.0`, Grand Frais/Franprix `1.25`.
+
+## 🍱 Midi et soir (`lib/repas.ts`)
+
+L'étape **repas** du funnel choisit ce qu'une journée doit couvrir :
+
+| mode | plats composés | parts achetées | effet sur l'algo |
+|---|---|---|---|
+| `diner` | 1 par jour | `personnes` | comportement historique |
+| `restes` | 1 par jour | `personnes × 2` | bonus aux plats qui se réchauffent, quantités et liste doublées |
+| `double` | 2 par jour (midi + soir) | `personnes` | deux plats différents, le plus rapide/léger passe au midi |
+
+`creneauxPlan(nbPlats, mode)` associe à chaque plat son jour et son créneau
+(« dîner », « dîner + boîte du midi », « midi », « soir ») : c'est ce qui pilote l'en-tête
+des cards, le libellé du détail recette et le bonus de score par créneau.
+`portionsAcheter(personnes, mode)` est la seule source des quantités affichées et facturées
+(détail recette, liste de courses, prix du plan). Les plans enregistrés avant cette étape
+n'ont pas de `modeRepas` : on retombe sur `diner`, rien ne bouge pour eux.
 
 ## 🌱 Fruits & légumes de saison (`lib/saison.ts`)
 
@@ -117,7 +141,10 @@ décrites dans `scripts/gen-recipes.mjs`, où le prix par personne d'une recette
    - `rayon` ∈ `Fruits & Légumes, Boucherie/Poisson, Crèmerie, Épicerie salée, Épicerie sucrée, Surgelés, Boulangerie`
 2. Lance `npm run gen` — le script valide (prix, nombre d'ingrédients/étapes, ids uniques)
    et réécrit `data/recipes.json`.
-3. `npm test` pour vérifier que l'algorithme tourne toujours.
+3. `node scripts/price-fr.mjs` recalcule les prix depuis la table d'ingrédients
+   (un ingrédient inconnu fait échouer le script) et `node scripts/add-photos.mjs`
+   réassocie les photos Wikimedia — une recette sans photo retombe sur son emoji.
+4. `npm test` pour vérifier que l'algorithme tourne toujours.
 
 ## 🎨 Design
 

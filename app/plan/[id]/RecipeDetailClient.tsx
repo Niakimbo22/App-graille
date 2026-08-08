@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { RECIPES, getRecipe } from "@/lib/recipes";
 import { swapRecipe } from "@/lib/planner";
+import { creneauxPlan, modeInfo, portionsAcheter } from "@/lib/repas";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { rayonEmoji } from "@/lib/shopping";
@@ -33,8 +34,12 @@ export default function RecipeDetailClient({ id }: { id: string }) {
 
   const plan = state.plan;
   const personnes = plan?.personnes ?? state.funnel.personnes;
+  const mode = plan?.modeRepas ?? state.funnel.modeRepas ?? "diner";
+  // mode restes : on cuisine le double pour emporter la part du midi
+  const portions = portionsAcheter(personnes, mode);
   const coef = coefMagasin(plan?.magasin ?? state.funnel.magasin);
   const indexInPlan = plan ? plan.items.findIndex((i) => i.recipeId === id) : -1;
+  const creneau = plan && indexInPlan >= 0 ? creneauxPlan(plan.items.length, mode)[indexInPlan] : null;
 
   const macros = recipe.macros;
   const macroTotal = macros.proteines + macros.glucides + macros.lipides || 1;
@@ -42,7 +47,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
   const handleSwap = () => {
     if (!plan || indexInPlan < 0) return;
     const usedIds = plan.items.map((i) => i.recipeId);
-    const swap = swapRecipe(RECIPES, state.funnel, coef, id, usedIds);
+    const swap = swapRecipe(RECIPES, state.funnel, coef, id, usedIds, undefined, creneau?.creneau);
     if (!swap) return;
     const items = [...plan.items];
     items[indexInPlan] = swap;
@@ -82,7 +87,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
           variant="icon"
           className="absolute right-5 top-[max(1.25rem,env(safe-area-inset-top))]"
           title={recipe.nom}
-          text={recipeShareText(recipe, personnes)}
+          text={recipeShareText(recipe, portions)}
           url={shareUrl(`/plan/${recipe.id}/`)}
         />
       </RecipePhoto>
@@ -90,6 +95,11 @@ export default function RecipeDetailClient({ id }: { id: string }) {
       <div className="px-5">
         <div className="-mt-6 rounded-3xl bg-white p-5 shadow-soft">
           <h1 className="text-2xl font-extrabold text-forest">{recipe.nom}</h1>
+          {creneau && (
+            <p className="mt-1 text-sm font-semibold text-leaf">
+              {modeInfo(mode).emoji} {creneau.jour} · {creneau.moment}
+            </p>
+          )}
           <div className="mt-3 flex flex-wrap gap-1.5">
             {recipe.tags.map((t) => (
               <TagPill key={t} tag={t} />
@@ -133,7 +143,10 @@ export default function RecipeDetailClient({ id }: { id: string }) {
         <section className="mt-4 rounded-3xl bg-white p-5 shadow-soft">
           <div className="mb-3 flex items-center justify-between">
             <h2 className="text-lg font-bold lowercase text-forest">ingrédients</h2>
-            <span className="text-sm text-black/50">pour {personnes} {personnes > 1 ? "pers." : "pers."}</span>
+            <span className="text-sm text-black/50">
+              pour {portions} {portions > 1 ? "parts" : "part"}
+              {mode === "restes" && " (dîner + midi)"}
+            </span>
           </div>
           <ul className="divide-y divide-black/5">
             {recipe.ingredients.map((ing) => {
@@ -158,7 +171,7 @@ export default function RecipeDetailClient({ id }: { id: string }) {
                     )}
                   </span>
                   <span className="text-sm font-semibold text-black/60">
-                    {formatQte(ing.qteParPersonne, personnes, ing.unite)}
+                    {formatQte(ing.qteParPersonne, portions, ing.unite)}
                   </span>
                 </li>
               );
@@ -179,6 +192,12 @@ export default function RecipeDetailClient({ id }: { id: string }) {
               </li>
             ))}
           </ol>
+          {mode === "restes" && (
+            <p className="mt-4 rounded-2xl bg-leaf/10 p-3 text-sm font-semibold text-forest">
+              🥡 les quantités sont déjà doublées : mets la moitié en boîte tout de suite, elle
+              sera prête pour le midi.
+            </p>
+          )}
         </section>
       </div>
 

@@ -5,6 +5,7 @@ import { useMiam } from "@/context/MiamContext";
 import { getRecipe } from "@/lib/recipes";
 import { decodePlan } from "@/lib/share";
 import { prixTotalRecette } from "@/lib/planner";
+import { creneauxPlan, joursPourPlats, modeInfo, portionsAcheter } from "@/lib/repas";
 import { buildShoppingList } from "@/lib/shopping";
 import { coefMagasin } from "@/lib/stores";
 import { euros } from "@/lib/format";
@@ -45,21 +46,28 @@ export default function PartageClient() {
   }
 
   const coef = coefMagasin(shared.magasin);
+  const info = modeInfo(shared.mode);
+  // mode restes : chaque plat est cuisiné en double, la liste suit
+  const portions = portionsAcheter(shared.personnes, shared.mode);
+  const creneaux = creneauxPlan(recipes.length, shared.mode);
+  const jours = joursPourPlats(recipes.length, shared.mode);
   const { total, articles } = buildShoppingList(
     recipes.map((r) => r.id),
-    shared.personnes,
+    portions,
     coef
   );
 
   const importer = () => {
-    setFunnel({ magasin: shared.magasin, personnes: shared.personnes });
+    setFunnel({ magasin: shared.magasin, personnes: shared.personnes, modeRepas: shared.mode, nbRepas: jours });
     setPlan({
-      items: recipes.map((r) => ({ recipeId: r.id, prixTotal: prixTotalRecette(r, shared.personnes, coef) })),
+      items: recipes.map((r) => ({ recipeId: r.id, prixTotal: prixTotalRecette(r, portions, coef) })),
       magasin: shared.magasin,
       personnes: shared.personnes,
       budget: total,
       coutEstime: total,
       seed: Math.floor(Math.random() * 1_000_000),
+      modeRepas: shared.mode,
+      nbJours: jours,
     });
     resetCochees();
     router.push("/plan");
@@ -70,9 +78,12 @@ export default function PartageClient() {
       <section className="mt-4 rounded-3xl bg-gradient-to-br from-leaf to-forest p-6 text-center text-white shadow-soft">
         <p className="text-sm font-bold uppercase tracking-widest opacity-90">plan partagé</p>
         <h1 className="mt-1 text-2xl font-extrabold lowercase">
-          {recipes.length} dîners · {shared.personnes} pers
+          {recipes.length} plats · {shared.personnes} pers
         </h1>
         <p className="mt-1 text-sm opacity-90">🛒 {shared.magasin}</p>
+        <p className="mt-1 text-sm opacity-90">
+          {info.emoji} {jours} jour{jours > 1 ? "s" : ""} · {info.resume}
+        </p>
       </section>
 
       <section className="mt-4 rounded-3xl bg-white p-5 text-center shadow-soft">
@@ -87,12 +98,14 @@ export default function PartageClient() {
       )}
 
       <section className="mt-6 space-y-4">
-        {recipes.map((recipe) => (
+        {recipes.map((recipe, i) => (
           <RecipeCard
             key={recipe.id}
             recipe={recipe}
-            prixTotal={prixTotalRecette(recipe, shared.personnes, coef)}
-            personnes={shared.personnes}
+            jour={creneaux[i]?.jour}
+            moment={creneaux[i]?.moment}
+            prixTotal={prixTotalRecette(recipe, portions, coef)}
+            personnes={portions}
             href={`/plan/${recipe.id}`}
           />
         ))}

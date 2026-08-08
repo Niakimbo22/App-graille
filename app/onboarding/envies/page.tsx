@@ -31,7 +31,7 @@ export default function EnviesPage() {
   return (
     <OnboardingLayout
       step={5}
-      total={8}
+      total={9}
       title="tes envies cette semaine ?"
       subtitle="on en mettra un peu plus au menu · plusieurs choix possibles"
       onContinue={() => router.push("/onboarding/personnes")}

@@ -10,18 +10,25 @@ import RecipePhoto from "./RecipePhoto";
 interface Props {
   recipe: Recipe;
   jour?: string;
+  /** créneau du plat : « midi », « soir », « dîner + boîte du midi »… */
+  moment?: string;
   prixTotal?: number;
   personnes?: number;
   href?: string;
 }
 
-export default function RecipeCard({ recipe, jour, prixTotal, personnes, href }: Props) {
+export default function RecipeCard({ recipe, jour, moment, prixTotal, personnes, href }: Props) {
   const deSaison = recetteDeSaison(recipe);
   const body = (
     <div className="overflow-hidden rounded-3xl bg-white shadow-soft transition active:scale-[0.99]">
       {jour && (
-        <div className="bg-forest px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">
-          {jour}
+        <div className="flex items-center justify-between gap-2 bg-forest px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">
+          <span>{jour}</span>
+          {moment && (
+            <span className="rounded-full bg-white/15 px-2 py-0.5 text-xs normal-case tracking-normal">
+              {moment}
+            </span>
+          )}
         </div>
       )}
       <RecipePhoto recipe={recipe} className="h-36" emojiClassName="text-6xl">

@@ -1,13 +1,15 @@
-import type { Recipe, FunnelState, Regime, ProteinPref } from "./types";
+import type { Recipe, FunnelState, Regime, ProteinPref, ModeRepas } from "./types";
 import { round2 } from "./format";
 import { saisonnaliteRecette } from "./saison";
+import { creneauxPlan, platsPourJours, portionsAcheter, seConserveBien, type Creneau } from "./repas";
 
 export interface PlanInput {
   recipes: Recipe[];
   funnel: FunnelState;
   coef: number;
   seed?: number;
-  nbRepas?: number;
+  /** nombre de plats à composer ; par défaut déduit des jours et du mode de repas */
+  nbPlats?: number;
 }
 
 export interface PlannedItem {
@@ -21,6 +23,27 @@ export interface PlanResult {
   seed: number;
   /** vrai si le budget n'a pas permis de tenir les 5 repas */
   budgetDepasse: boolean;
+}
+
+// Bonus « restes » : un plat qui se réchauffe bien quand on cuisine pour deux repas.
+const BONUS_RESTES = 3;
+// Bonus midi (mode « midi et soir ») : on veut du rapide et du léger à la pause déj.
+const BONUS_MIDI_RAPIDE = 2;
+const BONUS_MIDI_LEGER = 1;
+// Au-delà, un plat n'est plus vraiment « léger » pour un midi.
+const KCAL_LEGER = 600;
+
+/**
+ * Bonus lié au créneau du plat : en mode restes on privilégie ce qui se garde,
+ * et le midi on privilégie ce qui est rapide et léger.
+ */
+export function scoreCreneau(recipe: Recipe, creneau: Creneau, mode: ModeRepas | undefined): number {
+  if (mode === "restes") return seConserveBien(recipe) ? BONUS_RESTES : 0;
+  if (creneau !== "midi") return 0;
+  let score = 0;
+  if (recipe.tempsMin <= 25) score += BONUS_MIDI_RAPIDE;
+  if (recipe.kcal <= KCAL_LEGER) score += BONUS_MIDI_LEGER;
+  return score;
 }
 
 /** RNG déterministe (mulberry32) pour rendre les plans reproductibles et régénérables. */
@@ -182,9 +205,9 @@ function poids(score: number): number {
   return Math.max(0.25, score + 1);
 }
 
-/** Prix total d'une recette pour le nombre de personnes, coef magasin inclus. */
-export function prixTotalRecette(recipe: Recipe, personnes: number, coef: number): number {
-  return round2(recipe.prixParPersonne * personnes * coef);
+/** Prix total d'une recette pour un nombre de parts (personnes × mode), coef magasin inclus. */
+export function prixTotalRecette(recipe: Recipe, portions: number, coef: number): number {
+  return round2(recipe.prixParPersonne * portions * coef);
 }
 
 function weightedPick<T>(items: { item: T; weight: number }[], rng: () => number): T | null {
@@ -204,18 +227,24 @@ function weightedPick<T>(items: { item: T; weight: number }[], rng: () => number
  * - filtre par régimes / équipement
  * - score par ambiances
  * - tirage pondéré par le score (part d'aléatoire via le seed) avec diversité de protéines
+ * - tient compte du mode de journée : nombre de plats (2/jour en « midi et soir »),
+ *   parts à acheter (× 2 en mode restes) et bonus par créneau
  * - respecte le budget ; si trop serré, privilégie les moins chères et renvoie le vrai total
  */
 export function generatePlan(input: PlanInput): PlanResult {
-  const nbRepas = input.nbRepas ?? 5;
+  const { funnel, coef } = input;
+  const mode = funnel.modeRepas ?? "diner";
+  const nbPlats = input.nbPlats ?? platsPourJours(funnel.nbRepas ?? 5, mode);
   const seed = input.seed ?? Math.floor(Math.random() * 1_000_000);
   const rng = mulberry32(seed);
-  const { funnel, coef } = input;
+  // en mode restes on cuisine (et on achète) le double de parts
+  const portions = portionsAcheter(funnel.personnes, mode);
+  const creneaux = creneauxPlan(nbPlats, mode);
 
   const candidates = filterRecipes(input.recipes, funnel).map((recipe) => ({
     recipe,
     score: scoreRecipe(recipe, funnel),
-    prix: prixTotalRecette(recipe, funnel.personnes, coef),
+    prix: prixTotalRecette(recipe, portions, coef),
     prot: proteinCategory(recipe),
   }));
 
@@ -225,7 +254,9 @@ export function generatePlan(input: PlanInput): PlanResult {
   let lastProt: string | null = null;
   const remaining = [...candidates];
 
-  while (chosen.length < nbRepas && remaining.length > 0) {
+  while (chosen.length < nbPlats && remaining.length > 0) {
+    const creneau = creneaux[chosen.length].creneau;
+
     // diversité: éviter la même protéine deux fois de suite — sauf si c'est
     // une envie assumée (ex: "plus de poulet"), auquel cas on l'autorise à revenir.
     let pool = remaining.filter(
@@ -238,9 +269,13 @@ export function generatePlan(input: PlanInput): PlanResult {
 
     let pick: (typeof candidates)[number] | null;
     if (inBudget.length > 0) {
-      // tirage pondéré par le score (poids minimal pour garder de l'aléatoire)
+      // tirage pondéré par le score (poids minimal pour garder de l'aléatoire),
+      // ajusté selon le créneau du plat (midi léger, plat qui se réchauffe…)
       pick = weightedPick(
-        inBudget.map((c) => ({ item: c, weight: poids(c.score) })),
+        inBudget.map((c) => ({
+          item: c,
+          weight: poids(c.score + scoreCreneau(c.recipe, creneau, mode)),
+        })),
         rng
       );
     } else {
@@ -271,14 +306,20 @@ export function swapRecipe(
   coef: number,
   currentId: string,
   usedIds: string[],
-  seed?: number
+  seed?: number,
+  creneau: Creneau = "diner"
 ): { recipeId: string; prixTotal: number } | null {
   const rng = mulberry32(seed ?? Math.floor(Math.random() * 1_000_000));
   const used = new Set(usedIds);
   const options = filterRecipes(recipes, funnel).filter((r) => r.id !== currentId && !used.has(r.id));
   if (options.length === 0) return null;
-  const weighted = options.map((r) => ({ item: r, weight: poids(scoreRecipe(r, funnel)) }));
+  const mode = funnel.modeRepas ?? "diner";
+  const portions = portionsAcheter(funnel.personnes, mode);
+  const weighted = options.map((r) => ({
+    item: r,
+    weight: poids(scoreRecipe(r, funnel) + scoreCreneau(r, creneau, mode)),
+  }));
   const pick = weightedPick(weighted, rng);
   if (!pick) return null;
-  return { recipeId: pick.id, prixTotal: prixTotalRecette(pick, funnel.personnes, coef) };
+  return { recipeId: pick.id, prixTotal: prixTotalRecette(pick, portions, coef) };
 }

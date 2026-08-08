@@ -18,6 +18,14 @@ export type Regime =
 export type Equipement = "four" | "plaque" | "airfryer";
 
 /**
+ * Ce qu'il faut couvrir dans une journée :
+ * - "diner"  : un plat le soir (défaut historique) ;
+ * - "restes" : un plat le soir cuisiné en double, la part du midi part en boîte ;
+ * - "double" : deux plats différents dans la journée (midi + soir).
+ */
+export type ModeRepas = "diner" | "restes" | "double";
+
+/**
  * Envies de protéines : catégories que l'utilisateur veut manger *davantage*.
  * Les clés correspondent aux catégories renvoyées par `proteinCategory()`
  * pour se brancher directement sur l'algorithme de sélection.
@@ -78,8 +86,10 @@ export interface FunnelState {
   regimes: Regime[];
   ambiances: Tag[];
   personnes: number;
-  /** nombre de dîners (jours) à planifier. Défaut: 5 */
+  /** nombre de jours à couvrir. Défaut: 5 */
   nbRepas: number;
+  /** ce qu'on couvre dans la journée : dîner seul, dîner + restes, ou midi et soir. Défaut: "diner" */
+  modeRepas: ModeRepas;
   equipement: Equipement[];
   /** envies de protéines à privilégier (ex: manger plus de poulet). Défaut: [] */
   preferences: ProteinPref[];
@@ -103,6 +113,10 @@ export interface Plan {
   coutEstime: number;
   /** graine du tirage, utile pour "régénérer" */
   seed: number;
+  /** mode de la journée au moment de la génération. Absent = ancien plan → "diner" */
+  modeRepas?: ModeRepas;
+  /** nombre de jours couverts (en mode "double", 2 plats par jour) */
+  nbJours?: number;
 }
 
 export interface MiamState {

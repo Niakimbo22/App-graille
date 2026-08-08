@@ -20,8 +20,8 @@ export default function EquipementPage() {
 
   return (
     <OnboardingLayout
-      step={8}
-      total={8}
+      step={9}
+      total={9}
       title="ton équipement ?"
       subtitle="on ne propose que des recettes que tu peux cuisiner"
       onContinue={() => router.push("/onboarding/generation")}

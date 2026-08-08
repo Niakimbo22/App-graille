@@ -5,6 +5,7 @@ import { useMiam } from "@/context/MiamContext";
 import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
 import { estDeSaison } from "@/lib/saison";
 import { besoinHalal } from "@/lib/planner";
+import { modeInfo, portionsAcheter } from "@/lib/repas";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
 import { majLisible } from "@/lib/prices";
@@ -31,10 +32,14 @@ export default function ListePage() {
     );
   }
 
+  const mode = plan.modeRepas ?? "diner";
+  // mode restes : les quantités sont doublées, on cuisine pour le soir et le midi
+  const portions = portionsAcheter(plan.personnes, mode);
+
   const coef = coefMagasin(plan.magasin);
   const { parRayon, total, articles } = buildShoppingList(
     plan.items.map((i) => i.recipeId),
-    plan.personnes,
+    portions,
     coef
   );
 
@@ -55,6 +60,14 @@ export default function ListePage() {
           <p className="text-sm text-black/50">
             {nbCochees}/{articles.length} · {plan.magasin}
           </p>
+          {mode !== "diner" && (
+            <p className="text-xs font-semibold text-leaf">
+              {modeInfo(mode).emoji}{" "}
+              {mode === "restes"
+                ? `quantités doublées · ${portions} parts par plat`
+                : `midi et soir · ${plan.items.length} plats`}
+            </p>
+          )}
         </div>
         <ShareButton
           variant="icon"

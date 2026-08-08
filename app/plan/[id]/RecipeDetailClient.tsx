@@ -7,7 +7,7 @@ import { swapRecipe } from "@/lib/planner";
 import { creneauxPlan, modeInfo, portionsAcheter } from "@/lib/repas";
 import { coefMagasin } from "@/lib/stores";
 import { euros, formatQte } from "@/lib/format";
-import { rayonEmoji } from "@/lib/shopping";
+import { ingredientEmoji } from "@/lib/ingredients";
 import { estDeSaison } from "@/lib/saison";
 import { besoinHalal } from "@/lib/planner";
 import { recipeShareText, shareUrl } from "@/lib/share";
@@ -157,7 +157,9 @@ export default function RecipeDetailClient({ id }: { id: string }) {
                 besoinHalal(ing.nom);
               return (
                 <li key={ing.nom} className="flex items-center gap-3 py-2.5">
-                  <span className="text-lg">{rayonEmoji(ing.rayon as Rayon)}</span>
+                  <span className="text-lg" aria-hidden>
+                    {ingredientEmoji(ing.nom, ing.rayon as Rayon)}
+                  </span>
                   <span className="flex flex-1 flex-wrap items-center gap-x-2 text-sm font-medium text-forest">
                     {ing.nom}
                     {saison === true && (

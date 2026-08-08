@@ -61,6 +61,7 @@ lib/
   planner.ts                 # algorithme de sélection (pur, testé)
   planner.test.ts            # 17 cas de test
   repas.ts                   # modes de journée (dîner / restes / midi et soir), créneaux, portions
+  ingredients.ts             # un emoji par ingrédient (liste de courses, détail recette)
   saison.ts                  # calendrier fruits & légumes de saison (France)
   shopping.ts                # agrégation de la liste de courses par rayon
   recipes.ts / stores.ts / tags.ts / gradient.ts / format.ts / types.ts
@@ -142,9 +143,26 @@ décrites dans `scripts/gen-recipes.mjs`, où le prix par personne d'une recette
 2. Lance `npm run gen` — le script valide (prix, nombre d'ingrédients/étapes, ids uniques)
    et réécrit `data/recipes.json`.
 3. `node scripts/price-fr.mjs` recalcule les prix depuis la table d'ingrédients
-   (un ingrédient inconnu fait échouer le script) et `node scripts/add-photos.mjs`
-   réassocie les photos Wikimedia — une recette sans photo retombe sur son emoji.
-4. `npm test` pour vérifier que l'algorithme tourne toujours.
+   (un ingrédient inconnu fait échouer le script).
+4. `node scripts/add-photos.mjs` réassocie les photos (voir ci-dessous).
+5. `npm test` pour vérifier que l'algorithme tourne toujours.
+
+## 📸 Les images
+
+- **Photos de plats** : `scripts/add-photos.mjs` associe à chaque recette un fichier
+  Wikimedia Commons et écrit l'URL `Special:FilePath/<fichier>?width=640` dans
+  `data/recipes.json`. Les 156 recettes en ont une. Le script affiche la couverture,
+  les entrées orphelines et **les images partagées par plusieurs recettes** — deux plats
+  d'une même semaine ne devraient pas afficher la même photo.
+- **Repli** : `RecipePhoto` garde l'emoji + dégradé tant que la photo n'est pas chargée,
+  et pour toujours si elle échoue (hors ligne, lien cassé, fichier renommé sur Commons).
+  Une photo manquante ou morte ne casse donc jamais l'écran.
+- **Netteté** : `srcSet` propose la miniature en 640 et 1280 px ; chaque appelant passe
+  la largeur réelle via `sizes` (`56px` pour une vignette de favori, `33vw` sur la landing)
+  pour ne pas télécharger une grande image dans un petit cadre.
+- **Emojis d'ingrédients** : `lib/ingredients.ts` donne un emoji aux 188 ingrédients de la
+  base (liste de courses et détail recette). Un ingrédient inconnu retombe sur un mot-clé
+  puis sur l'emoji de son rayon : jamais de trou dans la liste.
 
 ## 🎨 Design
 

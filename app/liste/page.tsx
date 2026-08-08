@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useMiam } from "@/context/MiamContext";
 import { buildShoppingList, rayonEmoji } from "@/lib/shopping";
 import { estDeSaison } from "@/lib/saison";
+import { ingredientEmoji } from "@/lib/ingredients";
 import { besoinHalal } from "@/lib/planner";
 import { modeInfo, portionsAcheter } from "@/lib/repas";
 import { coefMagasin } from "@/lib/stores";
@@ -102,6 +103,9 @@ export default function ListePage() {
                       }`}
                     >
                       {checked ? "✓" : ""}
+                    </span>
+                    <span className={`text-lg transition ${checked ? "opacity-30 grayscale" : ""}`} aria-hidden>
+                      {ingredientEmoji(a.nom, groupe.rayon)}
                     </span>
                     <span className={`flex flex-1 flex-wrap items-center gap-x-2 text-sm font-medium ${checked ? "text-black/35 line-through" : "text-forest"}`}>
                       {a.nom}

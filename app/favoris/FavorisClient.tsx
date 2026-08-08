@@ -11,6 +11,7 @@ import { memePlan } from "@/lib/profiles";
 import { modeInfo } from "@/lib/repas";
 import { appShareText, shareUrl } from "@/lib/share";
 import RecipeCard from "@/components/RecipeCard";
+import RecipePhoto from "@/components/RecipePhoto";
 import FavoriteHeart from "@/components/FavoriteHeart";
 import PillButton from "@/components/PillButton";
 import ShareButton from "@/components/ShareButton";
@@ -245,11 +246,16 @@ export default function FavorisClient() {
                           🗑️
                         </button>
                       </div>
-                      <div className="mt-2 flex flex-wrap gap-1.5 text-2xl">
+                      <div className="mt-3 flex gap-1.5 overflow-x-auto pb-1">
                         {recettes.map((r) => (
-                          <span key={r.id} title={r.nom}>
-                            {r.emoji}
-                          </span>
+                          <Link
+                            key={r.id}
+                            href={`/plan/${r.id}`}
+                            title={r.nom}
+                            className="shrink-0 overflow-hidden rounded-xl"
+                          >
+                            <RecipePhoto recipe={r} className="h-14 w-14" emojiClassName="text-2xl" sizes="56px" />
+                          </Link>
                         ))}
                       </div>
                       <div className="mt-3">

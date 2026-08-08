@@ -11,7 +11,14 @@ import ShareButton from "@/components/ShareButton";
 import InstallAppButton from "@/components/InstallAppButton";
 import { appShareText, shareUrl } from "@/lib/share";
 
-const EXEMPLES = ["poulet-curry-coco", "buddha-bowl-pois-chiches", "saumon-teriyaki-four"];
+const EXEMPLES = [
+  "poulet-curry-coco",
+  "buddha-bowl-pois-chiches",
+  "saumon-teriyaki-four",
+  "lasagnes-bolognaise",
+  "taboule-pois-chiches-menthe",
+  "soupe-poulet-nouilles-gingembre",
+];
 
 const ETAPES = [
   { n: 1, titre: "ton budget", texte: "dis-nous combien tu veux mettre cette semaine et où tu fais tes courses." },
@@ -47,7 +54,7 @@ export default function Landing() {
       <section className="mt-8 grid grid-cols-3 gap-3">
         {exemples.map((r) => (
           <div key={r.id} className="overflow-hidden rounded-2xl bg-white shadow-soft">
-            <RecipePhoto recipe={r} className="h-16" emojiClassName="text-3xl" />
+            <RecipePhoto recipe={r} className="h-20" emojiClassName="text-3xl" sizes="33vw" />
             <div className="p-2">
               <p className="line-clamp-2 text-xs font-semibold leading-tight text-forest">{r.nom}</p>
               <p className="mt-1 text-xs font-bold text-leaf">{euros(r.prixParPersonne)}/pers</p>
